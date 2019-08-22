@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteAttributes.html",
-          "hash": "a98UcvQbythnFD2J3fQH5w=="
+          "hash": "fB299UzSfzbmo1PRL3Hcug=="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteInAppMessagingManager.html",
-          "hash": "jYSQrqkGzuDp3oYeuDfhDw=="
+          "hash": "OGjKtEeMq683nTmNTdPZAA=="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteLogLevel.html",
-          "hash": "ijJtrdTfrdxLDy4/h86irw=="
+          "hash": "RSSzNkuRB2RbLYCQgFk2+A=="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteLogger.html",
-          "hash": "gCn+Jdz3dG0npXti7cVnGA=="
+          "hash": "SukC4WtR2s3xBX3zE5Qdlg=="
         }
       },
       "is_incremental": true,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html",
-          "hash": "gvNzrSddO4WYB2KrYi/J9Q=="
+          "hash": "ycU6TleUTCi1+TirX3+sEg=="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteTracker.html",
-          "hash": "4EMSe9MYbYzacSqPxVg+OA=="
+          "hash": "SOL8q9i6i3MwqSKuyItS7w=="
         }
       },
       "is_incremental": true,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteTrackerConfig.html",
-          "hash": "RZiW6Zrk5/Kg1pkienez5g=="
+          "hash": "tkTJIQXST7YtU5e6H1u0vw=="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteTrackerConfigBuilder.html",
-          "hash": "K2f+GmklK1DoJVxaBV4NFA=="
+          "hash": "iLHitEGVF0f0lmw5laHzrA=="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteTrackerJsUtil.html",
-          "hash": "Y+tRkfPMMXF6jXn0azOokw=="
+          "hash": "mmueQGFJPAjPHwWzjdX9uw=="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteVariable.html",
-          "hash": "CgYpmNdtkpU+ep0AroWk/w=="
+          "hash": "+vLXxW5Fs6nvn3WdXIlG0w=="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.KarteVariables.html",
-          "hash": "2Oiomx43rsFKc+zF+/A82Q=="
+          "hash": "PNiTbS9xU9YBdfe2Aw+8fQ=="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.html",
-          "hash": "PeGWRjVDLvC0BndcNH+S+A=="
+          "hash": "V6ry0hfEoy0Psi826QkOWg=="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "l7w4TtRYSRhNRW8SUfwJKw=="
+          "hash": "63bSOOcM3Rke5svbdrNqmA=="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "pcxP6DIpyVcGMc/ZDDIHkg=="
+          "hash": "OflACjDSJuglX6FY8KMGLg=="
         }
       },
       "is_incremental": true,
@@ -196,15 +196,26 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/karte_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/karte_logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "YG19tf0mb9paYZhXWVa6OA=="
+          "hash": "d3XI6ZRn3m3Sf3DD9HJ8VQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -229,6 +240,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -246,7 +264,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         }
       }
     },
