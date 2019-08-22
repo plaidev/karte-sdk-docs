@@ -1,0 +1,588 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class KarteTracker
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class KarteTracker
+   ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Io.Karte.Tracker.KarteTracker">
+  
+  
+  <h1 id="Io_Karte_Tracker_KarteTracker" data-uid="Io.Karte.Tracker.KarteTracker" class="text-break">Class KarteTracker
+  </h1>
+  <div class="markdown level0 summary"><p>KarteTrackerクラスは、主にイベントのトラッキング機能を提供します。</p>
+<p>KARTEにイベントを送信する場合、本クラスが提供する各種トラッキングメソッドを利用して行います。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">KarteTracker</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Io.Karte.Tracker.html">Io.Karte.Tracker</a></h6>
+  <h5 id="Io_Karte_Tracker_KarteTracker_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class KarteTracker</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_DisableIOSAdvertisingTracking_" data-uid="Io.Karte.Tracker.KarteTracker.DisableIOSAdvertisingTracking*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_DisableIOSAdvertisingTracking" data-uid="Io.Karte.Tracker.KarteTracker.DisableIOSAdvertisingTracking">DisableIOSAdvertisingTracking()</h4>
+  <div class="markdown level1 summary"><p>IDFAの送信を無効にします。</p>
+<p>※このメソッドはiOSでのみ有効です。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisableIOSAdvertisingTracking()</code></pre>
+  </div>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_EnableIOSAdvertisingTracking_" data-uid="Io.Karte.Tracker.KarteTracker.EnableIOSAdvertisingTracking*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_EnableIOSAdvertisingTracking_System_String_" data-uid="Io.Karte.Tracker.KarteTracker.EnableIOSAdvertisingTracking(System.String)">EnableIOSAdvertisingTracking(String)</h4>
+  <div class="markdown level1 summary"><p>IDFAの送信を有効にします。</p>
+<p>※このメソッドはiOSでのみ有効です。</p>
+<p>AndroidでAAIDを送信する場合はトラッカー初期化時にenabledTrackingAndroidAaidを有効にしてください。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnableIOSAdvertisingTracking(string idfa)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">idfa</span></td>
+        <td><p>IDFA</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_GetAppKey_" data-uid="Io.Karte.Tracker.KarteTracker.GetAppKey*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_GetAppKey" data-uid="Io.Karte.Tracker.KarteTracker.GetAppKey">GetAppKey()</h4>
+  <div class="markdown level1 summary"><p>アプリケーションキーを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAppKey()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>トラッカーの初期化時に指定したアプリケーションキーを返します。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_GetConfig_" data-uid="Io.Karte.Tracker.KarteTracker.GetConfig*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_GetConfig" data-uid="Io.Karte.Tracker.KarteTracker.GetConfig">GetConfig()</h4>
+  <div class="markdown level1 summary"><p>トラッカーの初期化時に指定した設定情報を管理している KarteTrackerConfig オブジェクトを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KarteTrackerConfig GetConfig()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Io.Karte.Tracker.KarteTrackerConfig.html">KarteTrackerConfig</a></td>
+        <td><p>KarteTrackerConfig オブジェクトを返します。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_GetVisitorId_" data-uid="Io.Karte.Tracker.KarteTracker.GetVisitorId*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_GetVisitorId" data-uid="Io.Karte.Tracker.KarteTracker.GetVisitorId">GetVisitorId()</h4>
+  <div class="markdown level1 summary"><p>ビジターIDを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetVisitorId()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>ビジターIDを返します。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_Identify_" data-uid="Io.Karte.Tracker.KarteTracker.Identify*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_Identify_JObject_" data-uid="Io.Karte.Tracker.KarteTracker.Identify(JObject)">Identify(JObject)</h4>
+  <div class="markdown level1 summary"><p>Identifyイベント（ユーザー情報）を送信します。</p>
+<p>KARTEではユーザー情報もユーザー情報イベントとして、他のイベントと同じ形式で扱います。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Identify(JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>ユーザーに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_OptIn_" data-uid="Io.Karte.Tracker.KarteTracker.OptIn*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_OptIn" data-uid="Io.Karte.Tracker.KarteTracker.OptIn">OptIn()</h4>
+  <div class="markdown level1 summary"><p>オプトアウト状態を解除します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OptIn()</code></pre>
+  </div>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_OptOut_" data-uid="Io.Karte.Tracker.KarteTracker.OptOut*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_OptOut" data-uid="Io.Karte.Tracker.KarteTracker.OptOut">OptOut()</h4>
+  <div class="markdown level1 summary"><p>オプトアウト処理を行います。</p>
+<p>オプトアウト実行後、計測をはじめとしたSDKの内部処理は全て無効化されます。</p>
+<p>optInを実行することでオプトアウト状態を解除できます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OptOut()</code></pre>
+  </div>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_RegisterFCMToken_" data-uid="Io.Karte.Tracker.KarteTracker.RegisterFCMToken*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_RegisterFCMToken_System_String_" data-uid="Io.Karte.Tracker.KarteTracker.RegisterFCMToken(System.String)">RegisterFCMToken(String)</h4>
+  <div class="markdown level1 summary"><p>FCMトークンをKARTEに登録します。</p>
+<p>なお登録時に plugin_native_app_identify イベントを発行します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterFCMToken(string token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>FCMトークン</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_RenewVisitorId_" data-uid="Io.Karte.Tracker.KarteTracker.RenewVisitorId*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_RenewVisitorId" data-uid="Io.Karte.Tracker.KarteTracker.RenewVisitorId">RenewVisitorId()</h4>
+  <div class="markdown level1 summary"><p>ビジターIDの再生成処理を行います。</p>
+<p>なお内部では、以下の処理が行われます。
+<ul><li>プッシュ通知の配信許可フラグ (plugin_native_app_identity.subscribe) を 非許可 (false) に変更</li><li>端末に保存されている設定値の削除</li><li>visitor_id の再発行</li><li>新たに生成された visitor に対してFCMトークンを紐付け</li></ul>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RenewVisitorId()</code></pre>
+  </div>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_Setup_" data-uid="Io.Karte.Tracker.KarteTracker.Setup*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_Setup_System_String_" data-uid="Io.Karte.Tracker.KarteTracker.Setup(System.String)">Setup(String)</h4>
+  <div class="markdown level1 summary"><p>トラッカーの初期化を行います。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Setup(string appKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">appKey</span></td>
+        <td><p>アプリケーションキー</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_Setup_" data-uid="Io.Karte.Tracker.KarteTracker.Setup*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_Setup_System_String_Io_Karte_Tracker_KarteTrackerConfig_" data-uid="Io.Karte.Tracker.KarteTracker.Setup(System.String,Io.Karte.Tracker.KarteTrackerConfig)">Setup(String, KarteTrackerConfig)</h4>
+  <div class="markdown level1 summary"><p>設定を指定してトラッカーの初期化を行います。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Setup(string appKey, KarteTrackerConfig config)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">appKey</span></td>
+        <td><p>アプリケーションキー</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Io.Karte.Tracker.KarteTrackerConfig.html">KarteTrackerConfig</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>設定</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_Track_" data-uid="Io.Karte.Tracker.KarteTracker.Track*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_Track_System_String_JObject_" data-uid="Io.Karte.Tracker.KarteTracker.Track(System.String,JObject)">Track(String, JObject)</h4>
+  <div class="markdown level1 summary"><p>イベントを送信します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Track(string eventName, JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td><p>イベント名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>イベントに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_View_" data-uid="Io.Karte.Tracker.KarteTracker.View*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_View_System_String_" data-uid="Io.Karte.Tracker.KarteTracker.View(System.String)">View(String)</h4>
+  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void View(string viewName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">viewName</span></td>
+        <td><p>画面名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_View_" data-uid="Io.Karte.Tracker.KarteTracker.View*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_View_System_String_JObject_" data-uid="Io.Karte.Tracker.KarteTracker.View(System.String,JObject)">View(String, JObject)</h4>
+  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void View(string viewName, JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">viewName</span></td>
+        <td><p>画面名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>イベントに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_View_" data-uid="Io.Karte.Tracker.KarteTracker.View*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_View_System_String_System_String_" data-uid="Io.Karte.Tracker.KarteTracker.View(System.String,System.String)">View(String, String)</h4>
+  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void View(string viewName, string title)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">viewName</span></td>
+        <td><p>画面名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>画面タイトル</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Io_Karte_Tracker_KarteTracker_View_" data-uid="Io.Karte.Tracker.KarteTracker.View*"></a>
+  <h4 id="Io_Karte_Tracker_KarteTracker_View_System_String_System_String_JObject_" data-uid="Io.Karte.Tracker.KarteTracker.View(System.String,System.String,JObject)">View(String, String, JObject)</h4>
+  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void View(string viewName, string title, JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">viewName</span></td>
+        <td><p>画面名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>画面タイトル</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>イベントに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
