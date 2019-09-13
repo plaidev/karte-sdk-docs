@@ -123,6 +123,32 @@ references:
   isSpec: "True"
   fullName: Io.Karte.Tracker.KarteInAppMessagingManager.isPresenting
   nameWithType: KarteInAppMessagingManager.isPresenting
+- uid: Io.Karte.Tracker.KarteInAppMessagingManager.suppress
+  name: suppress()
+  href: api/Io.Karte.Tracker.KarteInAppMessagingManager.html#Io_Karte_Tracker_KarteInAppMessagingManager_suppress
+  commentId: M:Io.Karte.Tracker.KarteInAppMessagingManager.suppress
+  fullName: Io.Karte.Tracker.KarteInAppMessagingManager.suppress()
+  nameWithType: KarteInAppMessagingManager.suppress()
+- uid: Io.Karte.Tracker.KarteInAppMessagingManager.suppress*
+  name: suppress
+  href: api/Io.Karte.Tracker.KarteInAppMessagingManager.html#Io_Karte_Tracker_KarteInAppMessagingManager_suppress_
+  commentId: Overload:Io.Karte.Tracker.KarteInAppMessagingManager.suppress
+  isSpec: "True"
+  fullName: Io.Karte.Tracker.KarteInAppMessagingManager.suppress
+  nameWithType: KarteInAppMessagingManager.suppress
+- uid: Io.Karte.Tracker.KarteInAppMessagingManager.unsuppress
+  name: unsuppress()
+  href: api/Io.Karte.Tracker.KarteInAppMessagingManager.html#Io_Karte_Tracker_KarteInAppMessagingManager_unsuppress
+  commentId: M:Io.Karte.Tracker.KarteInAppMessagingManager.unsuppress
+  fullName: Io.Karte.Tracker.KarteInAppMessagingManager.unsuppress()
+  nameWithType: KarteInAppMessagingManager.unsuppress()
+- uid: Io.Karte.Tracker.KarteInAppMessagingManager.unsuppress*
+  name: unsuppress
+  href: api/Io.Karte.Tracker.KarteInAppMessagingManager.html#Io_Karte_Tracker_KarteInAppMessagingManager_unsuppress_
+  commentId: Overload:Io.Karte.Tracker.KarteInAppMessagingManager.unsuppress
+  isSpec: "True"
+  fullName: Io.Karte.Tracker.KarteInAppMessagingManager.unsuppress
+  nameWithType: KarteInAppMessagingManager.unsuppress
 - uid: Io.Karte.Tracker.KarteLogger
   name: KarteLogger
   href: api/Io.Karte.Tracker.KarteLogger.html
@@ -190,13 +216,13 @@ references:
   commentId: T:Io.Karte.Tracker.KarteRemoteNotificationHandler
   fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler
   nameWithType: KarteRemoteNotificationHandler
-- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(IDictionary{System.String,System.String})
+- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})
   name: CanHandleRemoteNotification(IDictionary<String, String>)
-  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_CanHandleRemoteNotification_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(IDictionary{System.String,System.String})
+  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_CanHandleRemoteNotification_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: CanHandleRemoteNotification(IDictionary(Of String, String))
-  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification(System.Collections.Generic.IDictionary(Of System.String, System.String))
   nameWithType: KarteRemoteNotificationHandler.CanHandleRemoteNotification(IDictionary<String, String>)
   nameWithType.vb: KarteRemoteNotificationHandler.CanHandleRemoteNotification(IDictionary(Of String, String))
 - uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification*
@@ -206,13 +232,13 @@ references:
   isSpec: "True"
   fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.CanHandleRemoteNotification
   nameWithType: KarteRemoteNotificationHandler.CanHandleRemoteNotification
-- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(IDictionary{System.String,System.String})
+- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
   name: ExtractKarteAttributes(IDictionary<String, String>)
-  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_ExtractKarteAttributes_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(IDictionary{System.String,System.String})
+  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_ExtractKarteAttributes_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: ExtractKarteAttributes(IDictionary(Of String, String))
-  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary(Of System.String, System.String))
   nameWithType: KarteRemoteNotificationHandler.ExtractKarteAttributes(IDictionary<String, String>)
   nameWithType.vb: KarteRemoteNotificationHandler.ExtractKarteAttributes(IDictionary(Of String, String))
 - uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes*
@@ -222,13 +248,13 @@ references:
   isSpec: "True"
   fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.ExtractKarteAttributes
   nameWithType: KarteRemoteNotificationHandler.ExtractKarteAttributes
-- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(IDictionary{System.String,System.String})
+- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})
   name: HandleRemoteNotification(IDictionary<String, String>)
-  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_HandleRemoteNotification_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(IDictionary{System.String,System.String})
+  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_HandleRemoteNotification_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: HandleRemoteNotification(IDictionary(Of String, String))
-  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary(Of System.String, System.String))
   nameWithType: KarteRemoteNotificationHandler.HandleRemoteNotification(IDictionary<String, String>)
   nameWithType.vb: KarteRemoteNotificationHandler.HandleRemoteNotification(IDictionary(Of String, String))
 - uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification*
@@ -238,13 +264,13 @@ references:
   isSpec: "True"
   fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.HandleRemoteNotification
   nameWithType: KarteRemoteNotificationHandler.HandleRemoteNotification
-- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary{System.String,System.String})
+- uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary{System.String,System.String})
   name: RetrieveURLFromUserInfo(IDictionary<String, String>)
-  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_RetrieveURLFromUserInfo_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary{System.String,System.String})
+  href: api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html#Io_Karte_Tracker_KarteRemoteNotificationHandler_RetrieveURLFromUserInfo_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: RetrieveURLFromUserInfo(IDictionary(Of String, String))
-  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary(Of System.String, System.String))
   nameWithType: KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary<String, String>)
   nameWithType.vb: KarteRemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary(Of String, String))
 - uid: Io.Karte.Tracker.KarteRemoteNotificationHandler.RetrieveURLFromUserInfo*
@@ -910,15 +936,15 @@ references:
   fullName.vb: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable(), System.String)
   nameWithType: KarteVariables.TrackWithVariables(KarteVariable[], String)
   nameWithType.vb: KarteVariables.TrackWithVariables(KarteVariable(), String)
-- uid: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[],System.String,Dictionary{System.String,System.String})
-  name: TrackWithVariables(KarteVariable[], String, Dictionary<String, String>)
-  href: api/Io.Karte.Tracker.KarteVariables.html#Io_Karte_Tracker_KarteVariables_TrackWithVariables_Io_Karte_Tracker_KarteVariable___System_String_Dictionary_System_String_System_String__
-  commentId: M:Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[],System.String,Dictionary{System.String,System.String})
-  name.vb: TrackWithVariables(KarteVariable(), String, Dictionary(Of String, String))
-  fullName: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[], System.String, Dictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable(), System.String, Dictionary(Of System.String, System.String))
-  nameWithType: KarteVariables.TrackWithVariables(KarteVariable[], String, Dictionary<String, String>)
-  nameWithType.vb: KarteVariables.TrackWithVariables(KarteVariable(), String, Dictionary(Of String, String))
+- uid: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[],System.String,JObject)
+  name: TrackWithVariables(KarteVariable[], String, JObject)
+  href: api/Io.Karte.Tracker.KarteVariables.html#Io_Karte_Tracker_KarteVariables_TrackWithVariables_Io_Karte_Tracker_KarteVariable___System_String_JObject_
+  commentId: M:Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[],System.String,JObject)
+  name.vb: TrackWithVariables(KarteVariable(), String, JObject)
+  fullName: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[], System.String, JObject)
+  fullName.vb: Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable(), System.String, JObject)
+  nameWithType: KarteVariables.TrackWithVariables(KarteVariable[], String, JObject)
+  nameWithType.vb: KarteVariables.TrackWithVariables(KarteVariable(), String, JObject)
 - uid: Io.Karte.Tracker.KarteVariables.TrackWithVariables*
   name: TrackWithVariables
   href: api/Io.Karte.Tracker.KarteVariables.html#Io_Karte_Tracker_KarteVariables_TrackWithVariables_
