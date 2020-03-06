@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RemoteNotification Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/RemoteNotification" class="dashAnchor"></a>
+    <a title="RemoteNotification Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">KarteRemoteNotification 2.0.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E0%2E0%2FKarteRemoteNotification%2Fdocsets%2FKarteRemoteNotification%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">KarteRemoteNotification Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        RemoteNotification Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/RemoteNotification.html">RemoteNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/KarteApp.html">KarteApp</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>RemoteNotification</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@objc(KRTRemoteNotification)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">RemoteNotification</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">RemoteNotification</span><span class="p">:</span> <span class="kt">Library</span></code></pre>
+
+                </div>
+              </div>
+            <p>リモート通知メッセージのパースおよびメッセージ中に含まれるディープリンクのハンドリングを行うためのクラスです。</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(py)url"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(py)url">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>通知メッセージ中に含まれる <code>URL</code> を返します。
+以下の場合は、nil を返します。</p>
+
+<ul>
+<li>KARTE以外から送信されたメッセージ</li>
+<li>メッセージ中に <code>URL</code> が含まれていない場合</li>
+<li>不正なURL</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(im)initWithUserInfo:"></a>
+                    <a name="//apple_ref/swift/Method/init(userInfo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(im)initWithUserInfo:">init(userInfo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>インスタンスを初期化します。
+なおリモート通知メッセージが KARTE から送信されたメッセージでない場合は、nil を返します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>リモート通知メッセージ</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(cm)_krt_load"></a>
+                    <a name="//apple_ref/swift/Method/_krt_load()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(cm)_krt_load">_krt_load()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ローダークラスが Objective-Cランライムに追加されたタイミングで呼び出されるメソッドです。
+本メソッドが呼び出されたタイミングで、<code>KarteApp</code> クラスに本クラスをライブラリとして登録します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">_krt_load</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(im)handle"></a>
+                    <a name="//apple_ref/swift/Method/handle()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(im)handle">handle()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>リモート通知メッセージに含まれるディープリンクを処理します。
+内部では、メッセージ中に含まれるURLを <code>UIApplication.open(_:options:completionHandler:)</code> に渡す処理を行っています。</p>
+
+<p><code>UIApplication.open(_:options:completionHandler:)</code> の呼び出しが行われた場合は <code>true</code> を返し、メッセージ中にURLが含まれない場合や <code>UIApplication.canOpenURL(_:)</code> の結果が <code>false</code> の場合は、<code>false</code> を返します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">handle</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP4nameSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP4nameSSvpZ">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP7versionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/version" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP7versionSSvpZ">version</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP8isPublicSbvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/isPublic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP8isPublicSbvpZ">isPublic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">isPublic</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/configure(app:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ">configure(app:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">configure</span><span class="p">(</span><span class="nv">app</span><span class="p">:</span> <span class="kt">KarteApp</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/unconfigure(app:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ">unconfigure(app:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">unconfigure</span><span class="p">(</span><span class="nv">app</span><span class="p">:</span> <span class="kt">KarteApp</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2020-03-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
