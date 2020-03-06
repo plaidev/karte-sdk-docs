@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>InAppMessaging Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/InAppMessaging" class="dashAnchor"></a>
+    <a title="InAppMessaging Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">KarteInAppMessaging 2.0.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E0%2E0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">KarteInAppMessaging Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        InAppMessaging Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/InAppMessaging.html">InAppMessaging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppMessagingDelegate.html">InAppMessagingDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>InAppMessaging</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@objc(KRTInAppMessaging)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">InAppMessaging</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">InAppMessaging</span><span class="p">:</span> <span class="kt">Library</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">InAppMessaging</span><span class="p">:</span> <span class="kt">ActionModule</span><span class="p">,</span> <span class="kt">UserModule</span></code></pre>
+
+                </div>
+              </div>
+            <p>アプリ内メッセージの管理を行うクラスです。</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(cpy)shared"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(cpy)shared">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>共有インスタンスを返します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">InAppMessaging</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(py)delegate"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージで発生するイベント等を委譲するためのデリゲートインスタンスを取得・設定します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/InAppMessagingDelegate.html">InAppMessagingDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(py)isPresenting"></a>
+                    <a name="//apple_ref/swift/Property/isPresenting" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(py)isPresenting">isPresenting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージの表示有無を返します。</p>
+
+<p>アプリ内メッセージが表示中の場合は <code>true</code> を返し、表示されていない場合は <code>false</code> を返します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isPresenting</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(cm)_krt_load"></a>
+                    <a name="//apple_ref/swift/Method/_krt_load()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(cm)_krt_load">_krt_load()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ローダークラスが Objective-Cランライムに追加されたタイミングで呼び出されるメソッドです。
+本メソッドが呼び出されたタイミングで、<code>KarteApp</code> クラスに本クラスをライブラリとして登録します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">_krt_load</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)isPresentingWithView:"></a>
+                    <a name="//apple_ref/swift/Method/isPresenting(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)isPresentingWithView:">isPresenting(view:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定したViewに関連するシーンにおけるアプリ内メッセージの表示有無を返します。</p>
+
+<p>iOS12以下では、<code><a href="../Classes/InAppMessaging.html#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(py)isPresenting">isPresenting</a></code> と同様の挙動になります。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isPresenting</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーンに関連するView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>アプリ内メッセージが表示中の場合は <code>true</code> を返し、表示されていない場合は <code>false</code> を返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismiss"></a>
+                    <a name="//apple_ref/swift/Method/dismiss()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismiss">dismiss()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>現在表示中の全てのアプリ内メッセージを非表示にします。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">dismiss</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismissWithView:"></a>
+                    <a name="//apple_ref/swift/Method/dismiss(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismissWithView:">dismiss(view:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定したViewに関連するシーンに表示されているアプリ内メッセージを非表示にします。</p>
+
+<p>iOS12以下では、 <code><a href="../Classes/InAppMessaging.html#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismiss">dismiss()</a></code> と同様の挙動になります。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">dismiss</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーンに関連するView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppress"></a>
+                    <a name="//apple_ref/swift/Method/suppress()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppress">suppress()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージの表示を抑制します。</p>
+
+<p>なお既に表示されているアプリ内メッセージは、メソッドの呼び出しと同時に非表示となります。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">suppress</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppressWithView:"></a>
+                    <a name="//apple_ref/swift/Method/suppress(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppressWithView:">suppress(view:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定したViewに関連するシーンにおけるアプリ内メッセージの表示を抑制します。</p>
+
+<p>なお既に表示されているアプリ内メッセージは、メソッドの呼び出しと同時に非表示となります。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">suppress</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーンに関連するView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppress"></a>
+                    <a name="//apple_ref/swift/Method/unsuppress()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppress">unsuppress()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージの表示抑制状態を解除します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">unsuppress</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppressWithView:"></a>
+                    <a name="//apple_ref/swift/Method/unsuppress(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppressWithView:">unsuppress(view:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定したViewに関連するシーンにおけるアプリ内メッセージの表示抑制状態を解除します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">unsuppress</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーンに関連するView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Notification"></a>
+                <a name="//apple_ref/swift/Section/Notification" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Notification"></a>
+                  <h3 class="section-name"><p>Notification</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP4nameSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP4nameSSvpZ">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP7versionSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/version" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP7versionSSvpZ">version</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP8isPublicSbvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/isPublic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP8isPublicSbvpZ">isPublic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">isPublic</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/configure(app:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ">configure(app:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">configure</span><span class="p">(</span><span class="nv">app</span><span class="p">:</span> <span class="kt">KarteApp</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/unconfigure(app:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ">unconfigure(app:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">unconfigure</span><span class="p">(</span><span class="nv">app</span><span class="p">:</span> <span class="kt">KarteApp</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore10ModuleBaseP4nameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore10ModuleBaseP4nameSSvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore12ActionModuleP5queueSo012OS_dispatch_E0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/queue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore12ActionModuleP5queueSo012OS_dispatch_E0CSgvp">queue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore12ActionModuleP7receive8response7requestyAA13TrackResponseV0I0V_AA0H7RequestVtF"></a>
+                    <a name="//apple_ref/swift/Method/receive(response:request:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore12ActionModuleP7receive8response7requestyAA13TrackResponseV0I0V_AA0H7RequestVtF">receive(response:request:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">receive</span><span class="p">(</span><span class="nv">response</span><span class="p">:</span> <span class="kt">TrackResponse</span><span class="o">.</span><span class="kt">Response</span><span class="p">,</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">TrackRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore12ActionModuleP5reset7sceneIdyAA05SceneG0V_tF"></a>
+                    <a name="//apple_ref/swift/Method/reset(sceneId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore12ActionModuleP5reset7sceneIdyAA05SceneG0V_tF">reset(sceneId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reset</span><span class="p">(</span><span class="nv">sceneId</span><span class="p">:</span> <span class="kt">SceneId</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore12ActionModuleP8resetAllyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetAll()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore12ActionModuleP8resetAllyyF">resetAll()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetAll</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore10UserModuleP5renew9visitorId8previousySS_SStF"></a>
+                    <a name="//apple_ref/swift/Method/renew(visitorId:previous:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore10UserModuleP5renew9visitorId8previousySS_SStF">renew(visitorId:previous:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">renew</span><span class="p">(</span><span class="n">visitorId</span> <span class="nv">current</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">previous</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2020-03-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

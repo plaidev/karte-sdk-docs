@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>InAppMessagingDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/InAppMessagingDelegate" class="dashAnchor"></a>
+    <a title="InAppMessagingDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">KarteInAppMessaging 2.0.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E0%2E0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">KarteInAppMessaging Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        InAppMessagingDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/InAppMessaging.html">InAppMessaging</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/InAppMessagingDelegate.html">InAppMessagingDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>InAppMessagingDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@objc(KRTInAppMessagingDelegate)</span>
+<span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">InAppMessagingDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>アプリ内メッセージで発生するイベントを委譲するためのタイプです。</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingWindowIsPresented(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:">inAppMessagingWindowIsPresented(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージ用のWindowが表示されたことを通知します。</p>
+
+<p>なお iOS13 または iPadOS で実行されている場合かつ <code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:onScene:">inAppMessagingWindowIsPresented(_:onScene:)</a></code> が実装されている場合は、本メソッドは呼び出されません。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:onScene:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingWindowIsPresented(_:onScene:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:onScene:">inAppMessagingWindowIsPresented(_:onScene:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージ用のWindowが表示されたことを通知します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーン</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingWindowIsDismissed(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:">inAppMessagingWindowIsDismissed(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージ用のWindowが非表示になったことを通知します。</p>
+
+<p>なお iOS13 または iPadOS で実行されている場合かつ <code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:onScene:">inAppMessagingWindowIsDismissed(_:onScene:)</a></code> が実装されている場合は、本メソッドは呼び出されません。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:onScene:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingWindowIsDismissed(_:onScene:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:onScene:">inAppMessagingWindowIsDismissed(_:onScene:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>アプリ内メッセージ用のWindowが非表示になったことを通知します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーン</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsPresented:campaignId:shortenId:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingIsPresented(_:campaignId:shortenId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsPresented:campaignId:shortenId:">inAppMessagingIsPresented(_:campaignId:shortenId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>接客サービスアクションが表示されたことを通知します。</p>
+
+<p>なお iOS13 または iPadOS で実行されている場合かつ <code>inAppMessagingIsPresented(_:onScene:campaignId:shortenId)</code> が実装されている場合は、本メソッドは呼び出されません。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>campaignId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスのキャンペーンID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shortenId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスアクションの短縮ID</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsPresented:campaignId:shortenId:onScene:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingIsPresented(_:campaignId:shortenId:onScene:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsPresented:campaignId:shortenId:onScene:">inAppMessagingIsPresented(_:campaignId:shortenId:onScene:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>接客サービスアクションが表示されたことを通知します。</p>
+
+                        <a href="../Protocols/InAppMessagingDelegate/inAppMessagingIsPresented%28_%3AcampaignId%3AshortenId%3AonScene%3A%29.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>campaignId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスのキャンペーンID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shortenId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスアクションの短縮ID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーン</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsDismissed:campaignId:shortenId:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingIsDismissed(_:campaignId:shortenId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsDismissed:campaignId:shortenId:">inAppMessagingIsDismissed(_:campaignId:shortenId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>接客サービスアクションが非表示になったことを通知します。</p>
+
+<p>なお iOS13 または iPadOS で実行されている場合かつ <code>inAppMessagingIsDismissed(_:onScene:campaignId:shortenId)</code> が実装されている場合は、本メソッドは呼び出されません。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>campaignId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスのキャンペーンID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shortenId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスアクションの短縮ID</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsDismissed:campaignId:shortenId:onScene:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessagingIsDismissed(_:campaignId:shortenId:onScene:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsDismissed:campaignId:shortenId:onScene:">inAppMessagingIsDismissed(_:campaignId:shortenId:onScene:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>接客サービスアクションが非表示になったことを通知します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>campaignId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスのキャンペーンID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shortenId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接客サービスアクションの短縮ID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーン</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessaging:shouldOpenURL:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessaging(_:shouldOpenURL:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessaging:shouldOpenURL:">inAppMessaging(_:shouldOpenURL:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>接客サービスアクション中のボタンがクリックされた際に、リンクをSDK側で自動的に処理するかどうか問い合わせます。</p>
+
+<p>なお iOS13 または iPadOS で実行されている場合かつ <code>inAppMessaging(_:onScene:shouldOpenURL:campaignId:shortenId)</code> が実装されている場合は、本メソッドは呼び出されません。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessaging</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">shouldOpenURL</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>url</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>リンクURL</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> を返した場合はSDK側でリンクを自動で開きます。<code>false</code> を返した場合はSDK側では何もしません。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessaging:shouldOpenURL:onScene:"></a>
+                    <a name="//apple_ref/swift/Method/inAppMessaging(_:shouldOpenURL:onScene:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessaging:shouldOpenURL:onScene:">inAppMessaging(_:shouldOpenURL:onScene:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>接客サービスアクション中のボタンがクリックされた際に、リンクをSDK側で自動的に処理するかどうか問い合わせます。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">@objc</span>
+<span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessaging</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">shouldOpenURL</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inAppMessaging</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>アプリ内メッセージインスタンス</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>url</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>リンクURL</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>シーン</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> を返した場合はSDK側でリンクを自動で開きます。<code>false</code> を返した場合はSDK側では何もしません。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2020-03-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
