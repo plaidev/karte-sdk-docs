@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Library - notifications</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">notifications</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.core.library</a>&nbsp;/&nbsp;<a href="./index.html">Library</a><br/>
+<br/>
+<h1>Library</h1>
+<code><span class="keyword">interface </span><span class="identifier">Library</span></code>
+<p>ライブラリを表すInterfaceです。</p>
+<p><strong>サブモジュールと連携するために用意している機能であり、通常利用で使用することはありません。</strong></p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="is-public.html">isPublic</a></h4>
+</td>
+<td>
+<p>公開モジュールであるかどうか</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">isPublic</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="name.html">name</a></h4>
+</td>
+<td>
+<p>ライブラリ名</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">name</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="version.html">version</a></h4>
+</td>
+<td>
+<p>バージョン</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">version</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="configure.html">configure</a></h4>
+</td>
+<td>
+<p>ライブラリを初期化します。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">configure</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.library.Library$configure(io.karte.android.KarteApp)/app">app</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android/-karte-app/index.html"><span class="identifier">KarteApp</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="unconfigure.html">unconfigure</a></h4>
+</td>
+<td>
+<p>ライブラリを破棄します。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">unconfigure</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.library.Library$unconfigure(io.karte.android.KarteApp)/app">app</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android/-karte-app/index.html"><span class="identifier">KarteApp</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../../io.karte.android.notifications/-notifications/index.html">Notifications</a></h4>
+</td>
+<td>
+<p>FCMトークンの登録やクリックイベントの送信を管理するクラスです。</p>
+<code><span class="keyword">class </span><span class="identifier">Notifications</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Library</span></a><span class="symbol">, </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html"><span class="identifier">ActivityLifecycleCallback</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,99 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>KarteAttributes - notifications</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">notifications</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.notifications</a>&nbsp;/&nbsp;<a href="./index.html">KarteAttributes</a><br/>
+<br/>
+<h1>KarteAttributes</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">KarteAttributes</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.tracking/-d-t-o/index.html"><span class="identifier">DTO</span></a><span class="symbol">&lt;</span><a href="./index.html"><span class="identifier">KarteAttributes</span></a><span class="symbol">&gt;</span></code>
+<p>KARTEが自動で処理するプッシュ通知のデータを取り扱うクラスです。</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<p>KARTEが自動で処理するプッシュ通知のデータを取り扱うクラスです。</p>
+<code><span class="identifier">KarteAttributes</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/title">title</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/body">body</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/sound">sound</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a>&nbsp;<span class="symbol">=</span>&nbsp;false<span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/channel">channel</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/link">link</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/type">type</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$<init>(kotlin.String, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String)/fileUrl">fileUrl</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="body.html">body</a></h4>
+</td>
+<td>
+<p>プッシュ通知の本文を返します。これはプッシュ通知アクションに指定した静的変数の<code>body</code>に対応しています。</p>
+<code><span class="keyword">var </span><span class="identifier">body</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="channel.html">channel</a></h4>
+</td>
+<td>
+<p>プッシュ通知のチャンネルIDを返します。これはプッシュ通知アクションに指定した静的変数の<code>android_channel_id</code>に対応しています。</p>
+<code><span class="keyword">var </span><span class="identifier">channel</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="file-url.html">fileUrl</a></h4>
+</td>
+<td>
+<p>プッシュ通知の画像を返します。これはプッシュ通知アクションに指定した静的変数の<code>attachment_url</code>に対応しています。</p>
+<code><span class="keyword">var </span><span class="identifier">fileUrl</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="link.html">link</a></h4>
+</td>
+<td>
+<p>プッシュ通知のクリックリンクを返します。これはプッシュ通知アクションに指定した静的変数の<code>url_android</code>に対応しています。</p>
+<code><span class="keyword">var </span><span class="identifier">link</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="sound.html">sound</a></h4>
+</td>
+<td>
+<p>プッシュ通知の通知音可否を返します。これはプッシュ通知アクションに指定した静的変数の<code>sound_for_android</code>に対応しています。</p>
+<code><span class="keyword">var </span><span class="identifier">sound</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="title.html">title</a></h4>
+</td>
+<td>
+<p>プッシュ通知のタイトルを返します。これはプッシュ通知アクションに指定した静的変数の<code>title</code>に対応しています。</p>
+<code><span class="keyword">var </span><span class="identifier">title</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="load.html">load</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">load</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.KarteAttributes$load(org.json.JSONObject)/jsonObject">jsonObject</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/org/json/JSONObject.html"><span class="identifier">JSONObject</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">KarteAttributes</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="to-string.html">toString</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">toString</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

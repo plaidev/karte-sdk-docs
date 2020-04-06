@@ -1,0 +1,25 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:io.karte.android.utilities$asString(java.io.InputStream)io.karte.android.utilities/java.io.-input-stream/as-string.html
+$dokka.location:io.karte.android.utilities$forEach(org.json.JSONArray, kotlin.Function1((kotlin.Any, kotlin.Unit)))io.karte.android.utilities/org.json.-j-s-o-n-array/for-each.html
+$dokka.location:io.karte.android.utilities$forEach(org.json.JSONObject, kotlin.Function2((kotlin.String, kotlin.Any, kotlin.Unit)))io.karte.android.utilities/org.json.-j-s-o-n-object/for-each.html
+$dokka.location:io.karte.android.utilities$format(kotlin.collections.Map((kotlin.String, kotlin.Any)))io.karte.android.utilities/kotlin.collections.-map/format.html
+$dokka.location:io.karte.android.utilities$format(org.json.JSONArray)io.karte.android.utilities/org.json.-j-s-o-n-array/format.html
+$dokka.location:io.karte.android.utilities$format(org.json.JSONObject)io.karte.android.utilities/org.json.-j-s-o-n-object/format.html
+$dokka.location:io.karte.android.utilities$getLowerClassName(kotlin.Any)io.karte.android.utilities/kotlin.-any/get-lower-class-name.html
+$dokka.location:io.karte.android.utilities$isAscii(kotlin.String)io.karte.android.utilities/kotlin.-string/is-ascii.html
+$dokka.location:io.karte.android.utilities$map(org.json.JSONArray, kotlin.Function1((kotlin.Any, )))io.karte.android.utilities/org.json.-j-s-o-n-array/map.html
+$dokka.location:io.karte.android.utilities$toList(org.json.JSONArray)io.karte.android.utilities/org.json.-j-s-o-n-array/to-list.html
+$dokka.location:io.karte.android.utilities$toMap(org.json.JSONObject)io.karte.android.utilities/org.json.-j-s-o-n-object/to-map.html
+$dokka.location:io.karte.android.utilities$toValues(org.json.JSONObject)io.karte.android.utilities/org.json.-j-s-o-n-object/to-values.html
+io.karte.android
+io.karte.android.core.config
+io.karte.android.core.library
+io.karte.android.core.logger
+io.karte.android.core.repository
+io.karte.android.core.usersync
+io.karte.android.notifications
+io.karte.android.tracking
+io.karte.android.tracking.client
+io.karte.android.utilities
+io.karte.android.utilities.http
