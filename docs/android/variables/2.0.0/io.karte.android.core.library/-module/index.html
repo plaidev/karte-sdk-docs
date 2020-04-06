@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Module - variables</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">variables</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.core.library</a>&nbsp;/&nbsp;<a href="./index.html">Module</a><br/>
+<br/>
+<h1>Module</h1>
+<code><span class="keyword">interface </span><span class="identifier">Module</span></code>
+<p>モジュールを表すInterfaceです。</p>
+<p><strong>サブモジュールと連携するために用意している機能であり、通常利用で使用することはありません。</strong></p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="name.html">name</a></h4>
+</td>
+<td>
+<p>モジュール名</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">name</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../-action-module/index.html">ActionModule</a></h4>
+</td>
+<td>
+<p>アクションに関連する処理をフックするためのモジュールタイプです。</p>
+<code><span class="keyword">interface </span><span class="identifier">ActionModule</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Module</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-deep-link-module/index.html">DeepLinkModule</a></h4>
+</td>
+<td>
+<p>ディープリンク処理をフックするためのモジュールタイプです。</p>
+<code><span class="keyword">interface </span><span class="identifier">DeepLinkModule</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Module</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-notification-module/index.html">NotificationModule</a></h4>
+</td>
+<td>
+<p>通知関連処理を委譲するためのモジュールタイプです。</p>
+<code><span class="keyword">interface </span><span class="identifier">NotificationModule</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Module</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-track-module/index.html">TrackModule</a></h4>
+</td>
+<td>
+<p>イベント送信処理に割り込むためのモジュールタイプです。</p>
+<code><span class="keyword">interface </span><span class="identifier">TrackModule</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Module</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-user-module/index.html">UserModule</a></h4>
+</td>
+<td>
+<p>ユーザー情報に関連する処理をフックするためのモジュールタイプです。</p>
+<code><span class="keyword">interface </span><span class="identifier">UserModule</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Module</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

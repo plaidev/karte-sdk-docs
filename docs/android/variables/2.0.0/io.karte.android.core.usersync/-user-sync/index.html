@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>UserSync - variables</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">variables</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.core.usersync</a>&nbsp;/&nbsp;<a href="./index.html">UserSync</a><br/>
+<br/>
+<h1>UserSync</h1>
+<code><span class="keyword">object </span><span class="identifier">UserSync</span></code>
+<p>WebView 連携するためのクラスです。</p>
+<p>WebページURLに連携用のクエリパラメータを付与した状態で、URLをWebViewで開くことでWebとAppのユーザーの紐付けが行われます。</p>
+<p>なお連携を行うためにはWebページに、KARTEのタグが埋め込まれている必要があります。</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="append-user-sync-query-parameter.html">appendUserSyncQueryParameter</a></h4>
+</td>
+<td>
+<p>指定されたURL文字列にWebView連携用のクエリパラメータを付与します。</p>
+<code><span class="keyword">fun </span><span class="identifier">appendUserSyncQueryParameter</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.usersync.UserSync$appendUserSyncQueryParameter(kotlin.String)/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>指定されたUriにWebView連携用のクエリパラメータを付与します。</p>
+<code><span class="keyword">fun </span><span class="identifier">appendUserSyncQueryParameter</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.usersync.UserSync$appendUserSyncQueryParameter(android.net.Uri)/uri">uri</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.html"><span class="identifier">Uri</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="set-user-sync-script.html">setUserSyncScript</a></h4>
+</td>
+<td>
+<p>WebViewに連携用のスクリプトを設定します。</p>
+<code><span class="keyword">fun </span><span class="identifier">setUserSyncScript</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.usersync.UserSync$setUserSyncScript(android.webkit.WebView)/webView">webView</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/webkit/WebView.html"><span class="identifier">WebView</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

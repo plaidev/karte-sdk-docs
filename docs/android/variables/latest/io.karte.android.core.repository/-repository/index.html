@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Repository - variables</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">variables</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.core.repository</a>&nbsp;/&nbsp;<a href="./index.html">Repository</a><br/>
+<br/>
+<h1>Repository</h1>
+<code><span class="keyword">interface </span><span class="identifier">Repository</span></code>
+<p>リポジトリに対するデータの読み書き等の操作を表現するインターフェースです。</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="get.html">get</a></h4>
+</td>
+<td>
+<p>リポジトリに存在するデータを取得します。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <span class="identifier">get</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.repository.Repository$get(kotlin.String, io.karte.android.core.repository.Repository.get.T)/key">key</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.core.repository.Repository$get(kotlin.String, io.karte.android.core.repository.Repository.get.T)/default">default</span><span class="symbol">:</span>&nbsp;<span class="identifier">T</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">T</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="put.html">put</a></h4>
+</td>
+<td>
+<p>リポジトリにデータを追加します。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <span class="identifier">put</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.repository.Repository$put(kotlin.String, io.karte.android.core.repository.Repository.put.T)/key">key</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.core.repository.Repository$put(kotlin.String, io.karte.android.core.repository.Repository.put.T)/value">value</span><span class="symbol">:</span>&nbsp;<span class="identifier">T</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="remove.html">remove</a></h4>
+</td>
+<td>
+<p>リポジトリから指定したデータを削除します。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">remove</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.repository.Repository$remove(kotlin.String)/key">key</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="remove-all.html">removeAll</a></h4>
+</td>
+<td>
+<p>リポジトリから全てのデータを削除します。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">removeAll</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

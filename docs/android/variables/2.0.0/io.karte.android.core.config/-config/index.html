@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Config - variables</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">variables</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.core.config</a>&nbsp;/&nbsp;<a href="./index.html">Config</a><br/>
+<br/>
+<h1>Config</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Config</span></code>
+<p>SDKの設定を保持するクラスです。</p>
+<ul><li>Kotlinでは<a href="build.html">Config.build</a>関数でインスタンスを生成します。</li>
+<li>Javaでは<a href="-builder/build.html">Config.Builder.build</a>関数でインスタンスを生成します。</li>
+</ul>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-builder/index.html">Builder</a></h4>
+</td>
+<td>
+<p><a href="./index.html">Config</a>クラスの生成を行うためのクラスです。</p>
+<code><span class="keyword">class </span><span class="identifier">Builder</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="base-url.html">baseUrl</a></h4>
+</td>
+<td>
+<p>ベースURLの取得・設定を行います。</p>
+<code><span class="keyword">val </span><span class="identifier">baseUrl</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="enabled-tracking-aaid.html">enabledTrackingAaid</a></h4>
+</td>
+<td>
+<p>AAID取得の利用有無の取得・設定を行います。</p>
+<code><span class="keyword">val </span><span class="identifier">enabledTrackingAaid</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-dry-run.html">isDryRun</a></h4>
+</td>
+<td>
+<p>ドライランの利用有無の取得・設定を行います。</p>
+<code><span class="keyword">val </span><span class="identifier">isDryRun</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-opt-out.html">isOptOut</a></h4>
+</td>
+<td>
+<p>オプトアウトの利用有無の取得・設定を行います。</p>
+<code><span class="keyword">val </span><span class="identifier">isOptOut</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="build.html">build</a></h4>
+</td>
+<td>
+<p><a href="./index.html">Config</a>クラスのインスタンスを生成します。</p>
+<code><span class="keyword">fun </span><span class="identifier">build</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.core.config.Config.Companion$build(kotlin.Function1((io.karte.android.core.config.Config.Builder, kotlin.Unit)))/f">f</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">Builder</span><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">Config</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
