@@ -1,0 +1,220 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>InAppMessaging - inappmessaging</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">inappmessaging</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.inappmessaging</a>&nbsp;/&nbsp;<a href="./index.html">InAppMessaging</a><br/>
+<br/>
+<h1>InAppMessaging</h1>
+<code><span class="keyword">class </span><span class="identifier">InAppMessaging</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.library/-library/index.html"><span class="identifier">Library</span></a><span class="symbol">, </span><a href="../../io.karte.android.core.library/-action-module/index.html"><span class="identifier">ActionModule</span></a><span class="symbol">, </span><a href="../../io.karte.android.core.library/-user-module/index.html"><span class="identifier">UserModule</span></a><span class="symbol">, </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html"><span class="identifier">ActivityLifecycleCallback</span></a></code>
+<p>アプリ内メッセージの管理を行うクラスです。</p>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-config/index.html">Config</a></h4>
+</td>
+<td>
+<p>InAppMessagingモジュールの設定を保持するクラスです。</p>
+<code><span class="keyword">object </span><span class="identifier">Config</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージの管理を行うクラスです。</p>
+<code><span class="identifier">InAppMessaging</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="is-public.html">isPublic</a></h4>
+</td>
+<td>
+<p>公開モジュールであるかどうか</p>
+<code><span class="keyword">val </span><span class="identifier">isPublic</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="name.html">name</a></h4>
+</td>
+<td>
+<p>ライブラリ名</p>
+<code><span class="keyword">val </span><span class="identifier">name</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="version.html">version</a></h4>
+</td>
+<td>
+<p>バージョン</p>
+<code><span class="keyword">val </span><span class="identifier">version</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="configure.html">configure</a></h4>
+</td>
+<td>
+<p>ライブラリを初期化します。</p>
+<code><span class="keyword">fun </span><span class="identifier">configure</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$configure(io.karte.android.KarteApp)/app">app</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android/-karte-app/index.html"><span class="identifier">KarteApp</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-activity-created.html">onActivityCreated</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onActivityCreated</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$onActivityCreated(android.app.Activity, android.os.Bundle)/activity">activity</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Activity.html"><span class="identifier">Activity</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$onActivityCreated(android.app.Activity, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-activity-paused.html">onActivityPaused</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onActivityPaused</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$onActivityPaused(android.app.Activity)/activity">activity</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Activity.html"><span class="identifier">Activity</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-activity-resumed.html">onActivityResumed</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onActivityResumed</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$onActivityResumed(android.app.Activity)/activity">activity</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Activity.html"><span class="identifier">Activity</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-activity-started.html">onActivityStarted</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onActivityStarted</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$onActivityStarted(android.app.Activity)/activity">activity</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Activity.html"><span class="identifier">Activity</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="receive.html">receive</a></h4>
+</td>
+<td>
+<p>Trackサーバーのレスポンスデータをハンドルします。</p>
+<code><span class="keyword">fun </span><span class="identifier">receive</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$receive(io.karte.android.tracking.client.TrackResponse, io.karte.android.tracking.client.TrackRequest)/trackResponse">trackResponse</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.tracking.client/-track-response/index.html"><span class="identifier">TrackResponse</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$receive(io.karte.android.tracking.client.TrackResponse, io.karte.android.tracking.client.TrackRequest)/trackRequest">trackRequest</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.tracking.client/-track-request/index.html"><span class="identifier">TrackRequest</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="renew-visitor-id.html">renewVisitorId</a></h4>
+</td>
+<td>
+<p>ビジターIDの再生成をハンドルします。</p>
+<code><span class="keyword">fun </span><span class="identifier">renewVisitorId</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$renewVisitorId(kotlin.String, kotlin.String)/current">current</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$renewVisitorId(kotlin.String, kotlin.String)/previous">previous</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="reset.html">reset</a></h4>
+</td>
+<td>
+<p>各画面に対するリセット要求をハンドルします。
+画面遷移やdismiss等の特定画面に対して表示を停止する際に呼ばれます。</p>
+<code><span class="keyword">fun </span><span class="identifier">reset</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="reset-all.html">resetAll</a></h4>
+</td>
+<td>
+<p>全体に対するリセット要求をハンドルします。
+オプトアウト等の全体の接客表示を停止する際に呼ばれます。</p>
+<code><span class="keyword">fun </span><span class="identifier">resetAll</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="unconfigure.html">unconfigure</a></h4>
+</td>
+<td>
+<p>ライブラリを破棄します。</p>
+<code><span class="keyword">fun </span><span class="identifier">unconfigure</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging$unconfigure(io.karte.android.KarteApp)/app">app</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android/-karte-app/index.html"><span class="identifier">KarteApp</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="delegate.html">delegate</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージで発生するイベント等を委譲するためのデリゲートインスタンスを取得・設定します。</p>
+<code><span class="keyword">var </span><span class="identifier">delegate</span><span class="symbol">: </span><a href="../-in-app-messaging-delegate/index.html"><span class="identifier">InAppMessagingDelegate</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-presenting.html">isPresenting</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージの表示有無を返します。</p>
+<code><span class="keyword">val </span><span class="identifier">isPresenting</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="dismiss.html">dismiss</a></h4>
+</td>
+<td>
+<p>現在表示中の全てのアプリ内メッセージを非表示にします。</p>
+<code><span class="keyword">fun </span><span class="identifier">dismiss</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="register-popup-window.html">registerPopupWindow</a></h4>
+</td>
+<td>
+<p>アプリ内で保持している<a href="https://developer.android.com/reference/android/widget/PopupWindow.html">PopupWindow</a>を渡します。
+SDKはアプリ内メッセージ表示中に、渡された<a href="https://developer.android.com/reference/android/widget/PopupWindow.html">PopupWindow</a>の状態に応じてタップの透過等を行ないます。</p>
+<code><span class="keyword">fun </span><span class="identifier">registerPopupWindow</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging.Companion$registerPopupWindow(android.widget.PopupWindow)/popupWindow">popupWindow</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/PopupWindow.html"><span class="identifier">PopupWindow</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="register-window.html">registerWindow</a></h4>
+</td>
+<td>
+<p>アプリ内で保持している<a href="#">TYPE_APPLICATION_PANEL</a>タイプの<a href="https://developer.android.com/reference/android/view/Window.html">Window</a>を渡します。
+SDKはアプリ内メッセージ表示中に、渡された<a href="https://developer.android.com/reference/android/view/Window.html">Window</a>の状態に応じてタップの透過等を行ないます。</p>
+<code><span class="keyword">fun </span><span class="identifier">registerWindow</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessaging.Companion$registerWindow(android.view.Window)/window">window</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/Window.html"><span class="identifier">Window</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="suppress.html">suppress</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージの表示を抑制します。</p>
+<code><span class="keyword">fun </span><span class="identifier">suppress</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="unsuppress.html">unsuppress</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージの表示抑制状態を解除します。</p>
+<code><span class="keyword">fun </span><span class="identifier">unsuppress</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
