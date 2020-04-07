@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KarteApp Extension Reference</title>
+    <title>TrackerObjectiveC Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/KarteApp" class="dashAnchor"></a>
-    <a title="KarteApp Extension Reference"></a>
+    <a name="//apple_ref/swift/Extension/TrackerObjectiveC" class="dashAnchor"></a>
+    <a title="TrackerObjectiveC Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">KarteRemoteNotification 2.0.0 Docs</a></p>
@@ -23,7 +23,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">KarteRemoteNotification Reference</a>
         <img id="carat" src="../img/carat.png" />
-        KarteApp Extension Reference
+        TrackerObjectiveC Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -62,10 +62,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>KarteApp</h1>
+            <h1>TrackerObjectiveC</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">KarteApp</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">TrackerObjectiveC</span></code></pre>
 
                 </div>
               </div>
@@ -77,9 +77,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@KarteRemoteNotification@KarteCore@objc(cs)KRTApp(cm)registerFCMToken:"></a>
-                    <a name="//apple_ref/swift/Method/registerFCMToken(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@KarteRemoteNotification@KarteCore@objc(cs)KRTApp(cm)registerFCMToken:">registerFCMToken(_:)</a>
+                    <a name="/c:@CM@KarteRemoteNotification@KarteCore@objc(cs)KRTTracker(cm)trackClickWithUserInfo:"></a>
+                    <a name="//apple_ref/swift/Method/trackClick(userInfo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@KarteRemoteNotification@KarteCore@objc(cs)KRTTracker(cm)trackClickWithUserInfo:">trackClick(userInfo:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -87,9 +87,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>FCM（Firebase Cloud Messaging）トークンを登録します。</p>
-
-<p>なお初期化が行われていない状態で呼び出した場合は登録処理は行われません。</p>
+                        <p>通知の効果測定用のイベント（message_click）を発火します。</p>
 
                       </div>
                       <div class="declaration">
@@ -97,7 +95,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">class</span> <span class="kd">func</span> <span class="nf">registerFCMToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">fcmToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+<span class="kd">class</span> <span class="kd">func</span> <span class="nf">trackClick</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -108,12 +106,12 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>fcmToken</em>
+                                <em>userInfo</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>FCMトークン</p>
+                                  <p>通知ペイロード</p>
                                 </div>
                               </td>
                             </tr>
