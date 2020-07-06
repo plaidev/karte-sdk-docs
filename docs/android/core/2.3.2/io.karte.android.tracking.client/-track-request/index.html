@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>TrackRequest - core</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">core</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.tracking.client</a>&nbsp;/&nbsp;<a href="./index.html">TrackRequest</a><br/>
+<br/>
+<h1>TrackRequest</h1>
+<code><span class="keyword">class </span><span class="identifier">TrackRequest</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.utilities.http/-j-s-o-n-request/index.html"><span class="identifier">JSONRequest</span></a></code>
+<p>Track API のリクエスト情報を保持するクラスです。</p>
+<p><strong>SDK内部で利用するタイプであり、通常のSDK利用でこちらのタイプを利用することはありません。</strong></p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<p>クラスを初期化します。</p>
+<code><span class="identifier">TrackRequest</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.tracking.client.TrackRequest$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.collections.List((io.karte.android.tracking.Event)))/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.tracking.client.TrackRequest$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.collections.List((io.karte.android.tracking.Event)))/visitorId">visitorId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.tracking.client.TrackRequest$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.collections.List((io.karte.android.tracking.Event)))/originalPvId">originalPvId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.tracking.client.TrackRequest$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.collections.List((io.karte.android.tracking.Event)))/pvId">pvId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.tracking.client.TrackRequest$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.collections.List((io.karte.android.tracking.Event)))/events">events</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../io.karte.android.tracking/-event/index.html"><span class="identifier">Event</span></a><span class="symbol">&gt;</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="body.html">body</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">body</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="json.html">json</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">json</span><span class="symbol">: </span><a href="https://developer.android.com/reference/org/json/JSONObject.html"><span class="identifier">JSONObject</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="original-pv-id.html">originalPvId</a></h4>
+</td>
+<td>
+<p>オリジナルページビューID</p>
+<code><span class="keyword">val </span><span class="identifier">originalPvId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="pv-id.html">pvId</a></h4>
+</td>
+<td>
+<p>ページビューID</p>
+<code><span class="keyword">val </span><span class="identifier">pvId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="contains.html">contains</a></h4>
+</td>
+<td>
+<p>リクエストに指定されたイベントが含まれているかチェックする。</p>
+<code><span class="keyword">fun </span><span class="identifier">contains</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.tracking.client.TrackRequest$contains(io.karte.android.tracking.EventName)/eventName">eventName</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.tracking/-event-name/index.html"><span class="identifier">EventName</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
