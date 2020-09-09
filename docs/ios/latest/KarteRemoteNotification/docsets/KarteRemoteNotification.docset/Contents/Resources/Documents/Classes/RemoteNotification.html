@@ -14,9 +14,9 @@
     <a title="RemoteNotification Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteRemoteNotification 2.3.0 Docs</a></p>
+        <p><a href="../index.html">KarteRemoteNotification 2.4.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E3%2E0%2FKarteRemoteNotification%2Fdocsets%2FKarteRemoteNotification%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E4%2E0%2FKarteRemoteNotification%2Fdocsets%2FKarteRemoteNotification%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -77,6 +77,38 @@
           <section class="section task-group-section">
             <div class="task-group">
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(cpy)isEnabledAutoMeasurement"></a>
+                    <a name="//apple_ref/swift/Variable/isEnabledAutoMeasurement" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(cpy)isEnabledAutoMeasurement">isEnabledAutoMeasurement</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>通知のクリック計測を自動で行うかどうかを表すフラグを返します。<br>
+フラグを <code>false</code> にした場合は、自動でのクリック計測が行われません。<br>
+デフォルトは <code>true</code> です。</p>
+
+<p><strong>本フラグの設定は <code>KarteApp.setup(appKey:)</code> を呼び出す前に行う必要があります。</strong></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="k">var</span> <span class="nv">isEnabledAutoMeasurement</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -224,6 +256,37 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(im)track"></a>
+                    <a name="//apple_ref/swift/Method/track()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(im)track">track()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>通知のクリック計測を行います。<br>
+通常は自動でクリック計測が行われるため本メソッドを呼び出す必要はありませんが、
+<code><a href="../Classes/RemoteNotification.html#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotification(cpy)isEnabledAutoMeasurement">isEnabledAutoMeasurement</a></code> が <code>false</code> の場合は自動での計測が行われないため、
+本メソッドを呼び出す必要があります。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:9KarteCore7LibraryP4nameSSvpZ"></a>
                     <a name="//apple_ref/swift/Variable/name" class="dashAnchor"></a>
                     <a class="token" href="#/s:9KarteCore7LibraryP4nameSSvpZ">name</a>
@@ -356,7 +419,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2020-08-28)</p>
+          <p>&copy; 2020 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2020-09-09)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
