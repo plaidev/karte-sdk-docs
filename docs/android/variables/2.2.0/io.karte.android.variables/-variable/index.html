@@ -1,0 +1,113 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Variable - variables</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">variables</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.variables</a>&nbsp;/&nbsp;<a href="./index.html">Variable</a><br/>
+<br/>
+<h1>Variable</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Variable</span></code>
+<p>設定値とそれに付随する情報を保持するためのクラスです。</p>
+<p>設定値の他に、接客サービスIDやアクションIDを保持しています。</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="campaign-id.html">campaignId</a></h4>
+</td>
+<td>
+<p>キャンペーンIDを返します。</p>
+<code><span class="keyword">val </span><span class="identifier">campaignId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-defined.html">isDefined</a></h4>
+</td>
+<td>
+<p>設定値が定義済みであるかどうか返します。</p>
+<code><span class="keyword">val </span><span class="identifier">isDefined</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="name.html">name</a></h4>
+</td>
+<td>
+<p>設定値名を返します。</p>
+<code><span class="keyword">val </span><span class="identifier">name</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="shorten-id.html">shortenId</a></h4>
+</td>
+<td>
+<p>アクションIDを返します。</p>
+<code><span class="keyword">val </span><span class="identifier">shortenId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="value.html">value</a></h4>
+</td>
+<td>
+<p>設定値を返します。</p>
+<code><span class="keyword">val </span><span class="identifier">value</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="boolean.html">boolean</a></h4>
+</td>
+<td>
+<p>設定値（ブール値）を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">boolean</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.variables.Variable$boolean(kotlin.Boolean)/default">default</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="double.html">double</a></h4>
+</td>
+<td>
+<p>設定値（浮動小数点数）を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">double</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.variables.Variable$double(kotlin.Double)/default">default</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><span class="identifier">Double</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html"><span class="identifier">Double</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="json-array.html">jsonArray</a></h4>
+</td>
+<td>
+<p>設定値（<a href="https://developer.android.com/reference/org/json/JSONArray.html">JSONArray</a>）を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">jsonArray</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.variables.Variable$jsonArray(org.json.JSONArray)/default">default</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/org/json/JSONArray.html"><span class="identifier">JSONArray</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/org/json/JSONArray.html"><span class="identifier">JSONArray</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="json-object.html">jsonObject</a></h4>
+</td>
+<td>
+<p>設定値（<a href="https://developer.android.com/reference/org/json/JSONObject.html">JSONObject</a>）を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">jsonObject</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.variables.Variable$jsonObject(org.json.JSONObject)/default">default</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/org/json/JSONObject.html"><span class="identifier">JSONObject</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/org/json/JSONObject.html"><span class="identifier">JSONObject</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="long.html">long</a></h4>
+</td>
+<td>
+<p>設定値（整数）を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">long</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.variables.Variable$long(kotlin.Long)/default">default</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="string.html">string</a></h4>
+</td>
+<td>
+<p>設定値（文字列）を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">string</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.variables.Variable$string(kotlin.String)/default">default</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
