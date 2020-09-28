@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>InAppMessagingDelegate - inappmessaging</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">inappmessaging</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.inappmessaging</a>&nbsp;/&nbsp;<a href="./index.html">InAppMessagingDelegate</a><br/>
+<br/>
+<h1>InAppMessagingDelegate</h1>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">InAppMessagingDelegate</span></code>
+<p>アプリ内メッセージで発生するイベントを委譲するためのクラスです。</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージで発生するイベントを委譲するためのクラスです。</p>
+<code><span class="identifier">InAppMessagingDelegate</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="on-dismissed.html">onDismissed</a></h4>
+</td>
+<td>
+<p>接客サービスアクションが非表示になったことを通知します。</p>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">onDismissed</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessagingDelegate$onDismissed(kotlin.String, kotlin.String)/campaignId">campaignId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessagingDelegate$onDismissed(kotlin.String, kotlin.String)/shortenId">shortenId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-presented.html">onPresented</a></h4>
+</td>
+<td>
+<p>接客サービスアクションが表示されたことを通知します。</p>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">onPresented</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessagingDelegate$onPresented(kotlin.String, kotlin.String)/campaignId">campaignId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessagingDelegate$onPresented(kotlin.String, kotlin.String)/shortenId">shortenId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-window-dismissed.html">onWindowDismissed</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージ用のWindowが非表示になったことを通知します。</p>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">onWindowDismissed</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="on-window-presented.html">onWindowPresented</a></h4>
+</td>
+<td>
+<p>アプリ内メッセージ用のWindowが表示されたことを通知します。</p>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">onWindowPresented</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="should-open-u-r-l.html">shouldOpenURL</a></h4>
+</td>
+<td>
+<p>接客サービスアクション中のボタンがクリックされた際に、リンクをSDK側で自動的に処理するかどうか問い合わせます。</p>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">shouldOpenURL</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.inappmessaging.InAppMessagingDelegate$shouldOpenURL(android.net.Uri)/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.html"><span class="identifier">Uri</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
