@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Tracker
+    <title>Class KarteAttributes
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Tracker
+    <meta name="title" content="Class KarteAttributes
    ">
     <meta name="generator" content="docfx 2.43.3.0">
     
@@ -68,208 +68,172 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Io.Karte.Tracker">
+            <article class="content wrap" id="_content" data-uid="Io.Karte.KarteAttributes">
   
   
-  <h1 id="Io_Karte_Tracker" data-uid="Io.Karte.Tracker" class="text-break">Class Tracker
+  <h1 id="Io_Karte_KarteAttributes" data-uid="Io.Karte.KarteAttributes" class="text-break">Class KarteAttributes
   </h1>
-  <div class="markdown level0 summary"><p>Trackerクラスは、主にイベントのトラッキング機能を提供します。</p>
-<p>KARTEにイベントを送信する場合、本クラスが提供する各種トラッキングメソッドを利用して行います。</p>
+  <div class="markdown level0 summary"><p>KarteAttributesクラスは、 KARTEが自動で処理するプッシュ通知のデータを取り扱うクラスです。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Tracker</span></div>
+    <div class="level1"><span class="xref">KarteAttributes</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Io.Karte.html">Io.Karte</a></h6>
-  <h5 id="Io_Karte_Tracker_syntax">Syntax</h5>
+  <h5 id="Io_Karte_KarteAttributes_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Tracker</code></pre>
+    <pre><code class="lang-csharp hljs">public class KarteAttributes</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
-  <a id="Io_Karte_Tracker_Identify_" data-uid="Io.Karte.Tracker.Identify*"></a>
-  <h4 id="Io_Karte_Tracker_Identify_JObject_" data-uid="Io.Karte.Tracker.Identify(JObject)">Identify(JObject)</h4>
-  <div class="markdown level1 summary"><p>Identifyイベント（ユーザー情報）を送信します。</p>
-<p>KARTEではユーザー情報もユーザー情報イベントとして、他のイベントと同じ形式で扱います。</p>
+  <a id="Io_Karte_KarteAttributes_BigImageUrl_" data-uid="Io.Karte.KarteAttributes.BigImageUrl*"></a>
+  <h4 id="Io_Karte_KarteAttributes_BigImageUrl" data-uid="Io.Karte.KarteAttributes.BigImageUrl">BigImageUrl</h4>
+  <div class="markdown level1 summary"><p>プッシュ通知の画像URLを返します。これはプッシュ通知アクションに指定した静的変数のattachment_urlに対応しています。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Identify(JObject values)</code></pre>
+    <pre><code class="lang-csharp hljs">public string BigImageUrl { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">JObject</span></td>
-        <td><span class="parametername">values</span></td>
-        <td><p>ユーザーに紐付けるカスタムオブジェクト</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Io_Karte_Tracker_Track_" data-uid="Io.Karte.Tracker.Track*"></a>
-  <h4 id="Io_Karte_Tracker_Track_System_String_" data-uid="Io.Karte.Tracker.Track(System.String)">Track(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Track(string eventName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td></td>
+        <td><p>プッシュ通知の画像URLを返します。</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_Track_" data-uid="Io.Karte.Tracker.Track*"></a>
-  <h4 id="Io_Karte_Tracker_Track_System_String_JObject_" data-uid="Io.Karte.Tracker.Track(System.String,JObject)">Track(String, JObject)</h4>
-  <div class="markdown level1 summary"><p>イベントを送信します。</p>
+  <a id="Io_Karte_KarteAttributes_Body_" data-uid="Io.Karte.KarteAttributes.Body*"></a>
+  <h4 id="Io_Karte_KarteAttributes_Body" data-uid="Io.Karte.KarteAttributes.Body">Body</h4>
+  <div class="markdown level1 summary"><p>プッシュ通知の本文を返します。これはプッシュ通知アクションに指定した静的変数のbodyに対応しています。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Track(string eventName, JObject values)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Body { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>イベント名</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">JObject</span></td>
-        <td><span class="parametername">values</span></td>
-        <td><p>イベントに紐付けるカスタムオブジェクト</p>
+        <td><p>プッシュ通知の本文を返します。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_View_" data-uid="Io.Karte.Tracker.View*"></a>
-  <h4 id="Io_Karte_Tracker_View_System_String_" data-uid="Io.Karte.Tracker.View(System.String)">View(String)</h4>
-  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+  <a id="Io_Karte_KarteAttributes_Channel_" data-uid="Io.Karte.KarteAttributes.Channel*"></a>
+  <h4 id="Io_Karte_KarteAttributes_Channel" data-uid="Io.Karte.KarteAttributes.Channel">Channel</h4>
+  <div class="markdown level1 summary"><p>プッシュ通知のチャンネルIDを返します。これはプッシュ通知アクションに指定した静的変数のandroid_channel_idに対応しています。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void View(string viewName)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Channel { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">viewName</span></td>
-        <td><p>画面名</p>
+        <td><p>プッシュ通知のチャンネルIDを返します。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_View_" data-uid="Io.Karte.Tracker.View*"></a>
-  <h4 id="Io_Karte_Tracker_View_System_String_System_String_" data-uid="Io.Karte.Tracker.View(System.String,System.String)">View(String, String)</h4>
-  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+  <a id="Io_Karte_KarteAttributes_Link_" data-uid="Io.Karte.KarteAttributes.Link*"></a>
+  <h4 id="Io_Karte_KarteAttributes_Link" data-uid="Io.Karte.KarteAttributes.Link">Link</h4>
+  <div class="markdown level1 summary"><p>プッシュ通知のクリックリンクを返します。これはプッシュ通知アクションに指定した静的変数のurlに対応しています。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void View(string viewName, string title)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Link { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">viewName</span></td>
-        <td><p>画面名</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">title</span></td>
-        <td><p>画面タイトル</p>
+        <td><p>プッシュ通知のクリックリンクを返します。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_View_" data-uid="Io.Karte.Tracker.View*"></a>
-  <h4 id="Io_Karte_Tracker_View_System_String_System_String_JObject_" data-uid="Io.Karte.Tracker.View(System.String,System.String,JObject)">View(String, String, JObject)</h4>
-  <div class="markdown level1 summary"><p>Viewイベントを送信します。</p>
+  <a id="Io_Karte_KarteAttributes_Sound_" data-uid="Io.Karte.KarteAttributes.Sound*"></a>
+  <h4 id="Io_Karte_KarteAttributes_Sound" data-uid="Io.Karte.KarteAttributes.Sound">Sound</h4>
+  <div class="markdown level1 summary"><p>プッシュ通知の通知音可否を返します。これはプッシュ通知アクションに指定した静的変数のsound_for_androidに対応しています。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void View(string viewName, string title, JObject values)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Sound { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>プッシュ通知の通知音可否を返します。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Io_Karte_KarteAttributes_Title_" data-uid="Io.Karte.KarteAttributes.Title*"></a>
+  <h4 id="Io_Karte_KarteAttributes_Title" data-uid="Io.Karte.KarteAttributes.Title">Title</h4>
+  <div class="markdown level1 summary"><p>プッシュ通知のタイトルを返します。これはプッシュ通知アクションに指定した静的変数のtitleに対応しています。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">viewName</span></td>
-        <td><p>画面名</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">title</span></td>
-        <td><p>画面タイトル</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">JObject</span></td>
-        <td><span class="parametername">values</span></td>
-        <td><p>イベントに紐付けるカスタムオブジェクト</p>
+        <td><p>プッシュ通知のタイトルを返します。</p>
 </td>
       </tr>
     </tbody>

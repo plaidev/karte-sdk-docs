@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class KarteAttributes
+    <title>Class RemoteNotificationHandler
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class KarteAttributes
+    <meta name="title" content="Class RemoteNotificationHandler
    ">
     <meta name="generator" content="docfx 2.43.3.0">
     
@@ -68,36 +68,54 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Io.Karte.Tracker.KarteAttributes">
+            <article class="content wrap" id="_content" data-uid="Io.Karte.RemoteNotificationHandler">
   
   
-  <h1 id="Io_Karte_Tracker_KarteAttributes" data-uid="Io.Karte.Tracker.KarteAttributes" class="text-break">Class KarteAttributes
+  <h1 id="Io_Karte_RemoteNotificationHandler" data-uid="Io.Karte.RemoteNotificationHandler" class="text-break">Class RemoteNotificationHandler
   </h1>
-  <div class="markdown level0 summary"><p>KarteAttributesクラスは、 KARTEが自動で処理するプッシュ通知のデータを取り扱うクラスです。</p>
+  <div class="markdown level0 summary"><p>RemoteNotificationHandlerクラスは、KARTEから送信された通知メッセージを処理する機能を提供します。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">KarteAttributes</span></div>
+    <div class="level1"><span class="xref">RemoteNotificationHandler</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Io.Karte.Tracker.html">Io.Karte.Tracker</a></h6>
-  <h5 id="Io_Karte_Tracker_KarteAttributes_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Io.Karte.html">Io.Karte</a></h6>
+  <h5 id="Io_Karte_RemoteNotificationHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KarteAttributes</code></pre>
+    <pre><code class="lang-csharp hljs">public class RemoteNotificationHandler</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
-  <a id="Io_Karte_Tracker_KarteAttributes_BigImageUrl_" data-uid="Io.Karte.Tracker.KarteAttributes.BigImageUrl*"></a>
-  <h4 id="Io_Karte_Tracker_KarteAttributes_BigImageUrl" data-uid="Io.Karte.Tracker.KarteAttributes.BigImageUrl">BigImageUrl</h4>
-  <div class="markdown level1 summary"><p>プッシュ通知の画像URLを返します。これはプッシュ通知アクションに指定した静的変数のattachment_urlに対応しています。</p>
+  <a id="Io_Karte_RemoteNotificationHandler_ExtractKarteAttributes_" data-uid="Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes*"></a>
+  <h4 id="Io_Karte_RemoteNotificationHandler_ExtractKarteAttributes_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary{System.String,System.String})">ExtractKarteAttributes(IDictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>通知メッセージからSDKが自動で処理するデータを取り出し、KarteAttribtuesインスタンスを返します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string BigImageUrl { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static KarteAttributes ExtractKarteAttributes(IDictionary&lt;string, string&gt; userInfo)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>通知メッセージ</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -107,97 +125,42 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>プッシュ通知の画像URLを返します。</p>
+        <td><a class="xref" href="Io.Karte.KarteAttributes.html">KarteAttributes</a></td>
+        <td><p>KarteAttributesインスタンスを返します。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_KarteAttributes_Body_" data-uid="Io.Karte.Tracker.KarteAttributes.Body*"></a>
-  <h4 id="Io_Karte_Tracker_KarteAttributes_Body" data-uid="Io.Karte.Tracker.KarteAttributes.Body">Body</h4>
-  <div class="markdown level1 summary"><p>プッシュ通知の本文を返します。これはプッシュ通知アクションに指定した静的変数のbodyに対応しています。</p>
+  <a id="Io_Karte_RemoteNotificationHandler_HandleRemoteNotification_" data-uid="Io.Karte.RemoteNotificationHandler.HandleRemoteNotification*"></a>
+  <h4 id="Io_Karte_RemoteNotificationHandler_HandleRemoteNotification_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})">HandleRemoteNotification(IDictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>KARTE経由で送信された通知メッセージを処理します。処理内容はプラットフォームによって異なります。</p>
+<p>iOS: 通知メッセージに含まれるディープリンクURLを開きます。</p>
+<p>Android: 通知メッセージから、通知を作成します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Body { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HandleRemoteNotification(IDictionary&lt;string, string&gt; userInfo)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>プッシュ通知の本文を返します。</p>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>通知メッセージ</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_KarteAttributes_Channel_" data-uid="Io.Karte.Tracker.KarteAttributes.Channel*"></a>
-  <h4 id="Io_Karte_Tracker_KarteAttributes_Channel" data-uid="Io.Karte.Tracker.KarteAttributes.Channel">Channel</h4>
-  <div class="markdown level1 summary"><p>プッシュ通知のチャンネルIDを返します。これはプッシュ通知アクションに指定した静的変数のandroid_channel_idに対応しています。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Channel { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>プッシュ通知のチャンネルIDを返します。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Io_Karte_Tracker_KarteAttributes_Link_" data-uid="Io.Karte.Tracker.KarteAttributes.Link*"></a>
-  <h4 id="Io_Karte_Tracker_KarteAttributes_Link" data-uid="Io.Karte.Tracker.KarteAttributes.Link">Link</h4>
-  <div class="markdown level1 summary"><p>プッシュ通知のクリックリンクを返します。これはプッシュ通知アクションに指定した静的変数のurlに対応しています。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Link { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>プッシュ通知のクリックリンクを返します。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Io_Karte_Tracker_KarteAttributes_Sound_" data-uid="Io.Karte.Tracker.KarteAttributes.Sound*"></a>
-  <h4 id="Io_Karte_Tracker_KarteAttributes_Sound" data-uid="Io.Karte.Tracker.KarteAttributes.Sound">Sound</h4>
-  <div class="markdown level1 summary"><p>プッシュ通知の通知音可否を返します。これはプッシュ通知アクションに指定した静的変数のsound_for_androidに対応しています。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Sound { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -208,21 +171,40 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>プッシュ通知の通知音可否を返します。</p>
+        <td><p>処理結果を返します。</p>
+<p>処理できた場合は true、できなかった場合は false を返します。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_KarteAttributes_Title_" data-uid="Io.Karte.Tracker.KarteAttributes.Title*"></a>
-  <h4 id="Io_Karte_Tracker_KarteAttributes_Title" data-uid="Io.Karte.Tracker.KarteAttributes.Title">Title</h4>
-  <div class="markdown level1 summary"><p>プッシュ通知のタイトルを返します。これはプッシュ通知アクションに指定した静的変数のtitleに対応しています。</p>
+  <a id="Io_Karte_RemoteNotificationHandler_RetrieveURLFromUserInfo_" data-uid="Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo*"></a>
+  <h4 id="Io_Karte_RemoteNotificationHandler_RetrieveURLFromUserInfo_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary{System.String,System.String})">RetrieveURLFromUserInfo(IDictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>KARTE経由で送信された通知メッセージに含まれるURLを返します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string RetrieveURLFromUserInfo(IDictionary&lt;string, string&gt; userInfo)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">userInfo</span></td>
+        <td><p>通知メッセージ</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -233,7 +215,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>プッシュ通知のタイトルを返します。</p>
+        <td><p>ディープリンクURLを返します。</p>
 </td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class KarteVariables
+    <title>Class Variables
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class KarteVariables
+    <meta name="title" content="Class Variables
    ">
     <meta name="generator" content="docfx 2.43.3.0">
     
@@ -68,48 +68,48 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Io.Karte.Tracker.KarteVariables">
+            <article class="content wrap" id="_content" data-uid="Io.Karte.Variables">
   
   
-  <h1 id="Io_Karte_Tracker_KarteVariables" data-uid="Io.Karte.Tracker.KarteVariables" class="text-break">Class KarteVariables
+  <h1 id="Io_Karte_Variables" data-uid="Io.Karte.Variables" class="text-break">Class Variables
   </h1>
-  <div class="markdown level0 summary"><p>KarteVariablesクラスは、設定値配信に関連するクラスで、以下の機能を提供します。
+  <div class="markdown level0 summary"><p>Variablesクラスは、設定値配信に関連するクラスで、以下の機能を提供します。
 <ul><li>設定値の取得</li><li>設定値の保持・管理</li><li>効果測定用のイベントの送信</li></ul>
 </p>
-<p>なおKarteVariablesクラスを利用するためには、事前にKarteTrackerの初期化が必要です。</p>
+<p>なおVariablesクラスを利用するためには、事前にSDKの初期化が必要です。</p>
 <p>初期化が行われていない場合、例外が発生する可能性があります。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">KarteVariables</span></div>
+    <div class="level1"><span class="xref">Variables</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Io.Karte.Tracker.html">Io.Karte.Tracker</a></h6>
-  <h5 id="Io_Karte_Tracker_KarteVariables_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Io.Karte.html">Io.Karte</a></h6>
+  <h5 id="Io_Karte_Variables_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KarteVariables</code></pre>
+    <pre><code class="lang-csharp hljs">public class Variables</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Io_Karte_Tracker_KarteVariables_Fetch_" data-uid="Io.Karte.Tracker.KarteVariables.Fetch*"></a>
-  <h4 id="Io_Karte_Tracker_KarteVariables_Fetch" data-uid="Io.Karte.Tracker.KarteVariables.Fetch">Fetch()</h4>
+  <a id="Io_Karte_Variables_Fetch_" data-uid="Io.Karte.Variables.Fetch*"></a>
+  <h4 id="Io_Karte_Variables_Fetch" data-uid="Io.Karte.Variables.Fetch">Fetch()</h4>
   <div class="markdown level1 summary"><p>設定値を取得します。</p>
 <p>取得は非同期で行われるため、設定値の取得完了をトリガーに処理を行いたい場合は、<code>FetchWithCompletion</code>を利用してください。</p>
 <p>※事前にトラッカーの初期化が必要です。</p>
-<p>初期化時に指定したアプリケーションキーに対応するトラッカーの初期化が行われていない場合は、例外が発生します。</p>
+<p>初期化時に指定したアプリケーションキーに対応するSDKの初期化が行われていない場合は、例外が発生します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Fetch()</code></pre>
   </div>
-  <a id="Io_Karte_Tracker_KarteVariables_FetchWithCompletion_" data-uid="Io.Karte.Tracker.KarteVariables.FetchWithCompletion*"></a>
-  <h4 id="Io_Karte_Tracker_KarteVariables_FetchWithCompletion_System_Action_System_Boolean__" data-uid="Io.Karte.Tracker.KarteVariables.FetchWithCompletion(System.Action{System.Boolean})">FetchWithCompletion(Action&lt;Boolean&gt;)</h4>
+  <a id="Io_Karte_Variables_FetchWithCompletion_" data-uid="Io.Karte.Variables.FetchWithCompletion*"></a>
+  <h4 id="Io_Karte_Variables_FetchWithCompletion_System_Action_System_Boolean__" data-uid="Io.Karte.Variables.FetchWithCompletion(System.Action{System.Boolean})">FetchWithCompletion(Action&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>設定値を取得します。</p>
 <p>設定値の取得が完了したタイミングで、引数に指定したクロージャにコールバックされます。</p>
 <example>
-<pre><code>KarteVariables.FetchWithCompletion ((result) => {
+<pre><code>Variables.FetchWithCompletion ((result) => {
     string str = result ? &quot;取得成功&quot; : &quot;取得失敗&quot;;
 });</code></pre>
 </example>
@@ -137,8 +137,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_KarteVariables_GetVariable_" data-uid="Io.Karte.Tracker.KarteVariables.GetVariable*"></a>
-  <h4 id="Io_Karte_Tracker_KarteVariables_GetVariable_System_String_" data-uid="Io.Karte.Tracker.KarteVariables.GetVariable(System.String)">GetVariable(String)</h4>
+  <a id="Io_Karte_Variables_GetVariable_" data-uid="Io.Karte.Variables.GetVariable*"></a>
+  <h4 id="Io_Karte_Variables_GetVariable_System_String_" data-uid="Io.Karte.Variables.GetVariable(System.String)">GetVariable(String)</h4>
   <div class="markdown level1 summary"><p>キーに紐付くVariableオブジェクトを返します。</p>
 <p>接客サービス側で設定値を設定していない場合であってもオブジェクトは返ります。</p>
 <p>設定値の設定有無はVariableクラスの <code>isDefined</code>プロパティを使って判定します。</p>
@@ -146,7 +146,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static KarteVariable GetVariable(string key)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Variable GetVariable(string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,20 +176,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Io.Karte.Tracker.KarteVariable.html">KarteVariable</a></td>
+        <td><a class="xref" href="Io.Karte.Variable.html">Variable</a></td>
         <td><p>Variableオブジェクトを返します。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_KarteVariables_TrackWithVariables_" data-uid="Io.Karte.Tracker.KarteVariables.TrackWithVariables*"></a>
-  <h4 id="Io_Karte_Tracker_KarteVariables_TrackWithVariables_Io_Karte_Tracker_KarteVariable___System_String_" data-uid="Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[],System.String)">TrackWithVariables(KarteVariable[], String)</h4>
-  <div class="markdown level1 summary"><p>効果測定用のイベントを送信します。</p>
+  <a id="Io_Karte_Variables_TrackClick_" data-uid="Io.Karte.Variables.TrackClick*"></a>
+  <h4 id="Io_Karte_Variables_TrackClick_Io_Karte_Variable___" data-uid="Io.Karte.Variables.TrackClick(Io.Karte.Variable[])">TrackClick(Variable[])</h4>
+  <div class="markdown level1 summary"><p>指定された設定値に関連するキャンペーン情報を元に効果測定用のイベント（message_click）を発火します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void TrackWithVariables(KarteVariable[] vars, string eventName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void TrackClick(Variable[] vars)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,27 +202,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Io.Karte.Tracker.KarteVariable.html">KarteVariable</a>[]</td>
+        <td><a class="xref" href="Io.Karte.Variable.html">Variable</a>[]</td>
         <td><span class="parametername">vars</span></td>
-        <td><p>Variableオブジェクトの配列</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>イベント名</p>
+        <td><p>設定値の配列</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <a id="Io_Karte_Tracker_KarteVariables_TrackWithVariables_" data-uid="Io.Karte.Tracker.KarteVariables.TrackWithVariables*"></a>
-  <h4 id="Io_Karte_Tracker_KarteVariables_TrackWithVariables_Io_Karte_Tracker_KarteVariable___System_String_JObject_" data-uid="Io.Karte.Tracker.KarteVariables.TrackWithVariables(Io.Karte.Tracker.KarteVariable[],System.String,JObject)">TrackWithVariables(KarteVariable[], String, JObject)</h4>
-  <div class="markdown level1 summary"><p>効果測定用のイベントを送信します。</p>
+  <a id="Io_Karte_Variables_TrackClick_" data-uid="Io.Karte.Variables.TrackClick*"></a>
+  <h4 id="Io_Karte_Variables_TrackClick_Io_Karte_Variable___JObject_" data-uid="Io.Karte.Variables.TrackClick(Io.Karte.Variable[],JObject)">TrackClick(Variable[], JObject)</h4>
+  <div class="markdown level1 summary"><p>指定された設定値に関連するキャンペーン情報を元に効果測定用のイベント（message_click）を発火します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void TrackWithVariables(KarteVariable[] vars, string eventName, JObject values)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void TrackClick(Variable[] vars, JObject values)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,15 +229,69 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Io.Karte.Tracker.KarteVariable.html">KarteVariable</a>[]</td>
+        <td><a class="xref" href="Io.Karte.Variable.html">Variable</a>[]</td>
         <td><span class="parametername">vars</span></td>
-        <td><p>Variableオブジェクトの配列</p>
+        <td><p>設定値の配列</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">eventName</span></td>
-        <td><p>イベント名</p>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>イベントに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Io_Karte_Variables_TrackOpen_" data-uid="Io.Karte.Variables.TrackOpen*"></a>
+  <h4 id="Io_Karte_Variables_TrackOpen_Io_Karte_Variable___" data-uid="Io.Karte.Variables.TrackOpen(Io.Karte.Variable[])">TrackOpen(Variable[])</h4>
+  <div class="markdown level1 summary"><p>指定された設定値に関連するキャンペーン情報を元に効果測定用のイベント（message_open）を発火します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TrackOpen(Variable[] vars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Io.Karte.Variable.html">Variable</a>[]</td>
+        <td><span class="parametername">vars</span></td>
+        <td><p>設定値の配列</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Io_Karte_Variables_TrackOpen_" data-uid="Io.Karte.Variables.TrackOpen*"></a>
+  <h4 id="Io_Karte_Variables_TrackOpen_Io_Karte_Variable___JObject_" data-uid="Io.Karte.Variables.TrackOpen(Io.Karte.Variable[],JObject)">TrackOpen(Variable[], JObject)</h4>
+  <div class="markdown level1 summary"><p>指定された設定値に関連するキャンペーン情報を元に効果測定用のイベント（message_open）を発火します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TrackOpen(Variable[] vars, JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Io.Karte.Variable.html">Variable</a>[]</td>
+        <td><span class="parametername">vars</span></td>
+        <td><p>設定値の配列</p>
 </td>
       </tr>
       <tr>

@@ -1,138 +1,54 @@
 {
   "homepages": [],
-  "source_base_path": "/Users/kota.fujiwara/projects/KarteTrackerUnity/Unity/docfx_project",
+  "source_base_path": "/Users/kota.fujiwara/projects/tracker-unity/Unity/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteAttributes.yml",
+      "source_relative_path": "api/Io.Karte.App.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteAttributes.html",
-          "hash": "Ks6FLp5dzEJuMadqF2ln6A=="
+          "relative_path": "api/Io.Karte.App.html",
+          "hash": "VFjteiVA1zDiNhnVRhILlg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteInAppMessagingManager.yml",
+      "source_relative_path": "api/Io.Karte.InAppMessaging.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteInAppMessagingManager.html",
-          "hash": "zyFxg8n2Ku1wxXQTIdnp7g=="
+          "relative_path": "api/Io.Karte.InAppMessaging.html",
+          "hash": "b4we3qOH+t68bMXAH++BZA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteLogLevel.yml",
+      "source_relative_path": "api/Io.Karte.KarteAttributes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteLogLevel.html",
-          "hash": "sFkmlx9ifhQsJtm4Ma3sOA=="
+          "relative_path": "api/Io.Karte.KarteAttributes.html",
+          "hash": "wqS3H1jo4A3+meKXLb7ISQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteLogger.yml",
+      "source_relative_path": "api/Io.Karte.RemoteNotificationHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteLogger.html",
-          "hash": "W72BgwgCoZ6tcck1FDIRgQ=="
+          "relative_path": "api/Io.Karte.RemoteNotificationHandler.html",
+          "hash": "GdD8otEOEHKfDHfNviqdQA=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteRemoteNotificationHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteRemoteNotificationHandler.html",
-          "hash": "aXQKSUpuJbYbxMmpXqKhcg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteTracker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteTracker.html",
-          "hash": "kvBCoRwlBFZsmPQs/A27/w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteTrackerConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteTrackerConfig.html",
-          "hash": "OPaWP0xjgcQI2o5nW7SdJQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteTrackerConfigBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteTrackerConfigBuilder.html",
-          "hash": "vyD1BIwHc59u9QyMMj6aew=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteTrackerJsUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteTrackerJsUtil.html",
-          "hash": "TD5xJopryXVjP6tL+6uNUg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteVariable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteVariable.html",
-          "hash": "VlRL++DLfQeHDSMaNZLHMQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Io.Karte.Tracker.KarteVariables.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Io.Karte.Tracker.KarteVariables.html",
-          "hash": "v97EIHAHyLl2Ec4cfqCyRg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +57,70 @@
       "output": {
         ".html": {
           "relative_path": "api/Io.Karte.Tracker.html",
-          "hash": "Vi1mwhyYIouEf+rGBUPntQ=="
+          "hash": "Kn61GRKhsz2z8/fb9+OpJA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Io.Karte.UserSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Io.Karte.UserSync.html",
+          "hash": "WsiB89WmQqWRP6quOQctUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Io.Karte.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Io.Karte.Variable.html",
+          "hash": "DV9LXK+VBsReiir47f9t7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Io.Karte.Variables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Io.Karte.Variables.html",
+          "hash": "lFsaOkM6hl8EpP0rOLPAeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Io.Karte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Io.Karte.html",
+          "hash": "Pd/h0jZCEWR8denIhPwGeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "UfW0mO+FNsH2Lw5oHaD1qQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,7 +129,31 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "1kTrgczgY9P+bS0iBCbcEg=="
+          "hash": "ZCwTcsQ3aVou1VWp7h1+NQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "81vSNjRzneHlyS7xlOATWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
         }
       },
       "is_incremental": false,
@@ -198,10 +198,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "OmnusZQguRn0fU7PSuBobw=="
+          "hash": "uIgnNdOmbyfFcQIkC8VO3A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "HfvuFSllId2PB+w/JG5vYg=="
+          "hash": "bGVf7aso5rQ6bPPlx95OdQ=="
         }
       },
       "is_incremental": false,
@@ -226,24 +226,24 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 12,
-          "skipped_file_count": 12
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 1
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
