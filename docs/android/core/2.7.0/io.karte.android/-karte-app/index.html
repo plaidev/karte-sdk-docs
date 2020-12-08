@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>KarteApp - core</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">core</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android</a>&nbsp;/&nbsp;<a href="./index.html">KarteApp</a><br/>
+<br/>
+<h1>KarteApp</h1>
+<code><span class="keyword">class </span><span class="identifier">KarteApp</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html"><span class="identifier">ActivityLifecycleCallback</span></a></code>
+<p>KARTE SDKのエントリポイントであると共に、SDKの構成および依存ライブラリ等の管理を行うクラスです。</p>
+<p>SDKを利用するには、<a href="setup.html">KarteApp.setup</a>を呼び出し初期化を行う必要があります。</p>
+<p>初期化が行われていない状態では、イベントのトラッキングを始め、SDKの機能が利用できません。</p>
+<p>なおアプリ内メッセージ等のサブモジュールについても同様です。</p>
+<p>SDKの設定については、初期化時に一部変更することが可能です。
+設定を変更して初期化を行う場合は、<a href="../../io.karte.android.core.config/-config/index.html">Config</a>を指定して<a href="setup.html">KarteApp.setup</a>を呼び出してください。</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="app-info.html">appInfo</a></h4>
+</td>
+<td>
+<p>アプリケーション情報を返します。</p>
+<code><span class="keyword">var </span><span class="identifier">appInfo</span><span class="symbol">: </span><a href="../../io.karte.android.tracking/-app-info/index.html"><span class="identifier">AppInfo</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="app-key.html">appKey</a></h4>
+</td>
+<td>
+<p><a href="setup.html">KarteApp.setup</a> 呼び出し時に指定したアプリケーションキーを返します。</p>
+<code><span class="keyword">var </span><span class="identifier">appKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="application.html">application</a></h4>
+</td>
+<td>
+<p><a href="setup.html">KarteApp.setup</a> 呼び出し時に指定した<a href="https://developer.android.com/reference/android/app/Application.html">Application</a>インスタンスを返します。</p>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">application</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/app/Application.html"><span class="identifier">Application</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="config.html">config</a></h4>
+</td>
+<td>
+<p><a href="setup.html">KarteApp.setup</a> 呼び出し時に指定した設定情報を返します。</p>
+<code><span class="keyword">var </span><span class="identifier">config</span><span class="symbol">: </span><a href="../../io.karte.android.core.config/-config/index.html"><span class="identifier">Config</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="original-pv-id.html">originalPvId</a></h4>
+</td>
+<td>
+<p>現在のオリジナルページビューIDを返します。</p>
+<code><span class="keyword">val </span><span class="identifier">originalPvId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="pv-id.html">pvId</a></h4>
+</td>
+<td>
+<p>現在のページビューIDを返します。</p>
+<code><span class="keyword">val </span><span class="identifier">pvId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="execute-command.html">executeCommand</a></h4>
+</td>
+<td>
+<p>コマンドスキームを処理し、結果を返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">executeCommand</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp$executeCommand(android.net.Uri)/uri">uri</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.html"><span class="identifier">Uri</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="opt-out-temporarily.html">optOutTemporarily</a></h4>
+</td>
+<td>
+<p>一時的（アプリの次回起動時まで）にオプトアウトします。</p>
+<code><span class="keyword">fun </span><span class="identifier">optOutTemporarily</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="register.html">register</a></h4>
+</td>
+<td>
+<p>モジュールを登録します。</p>
+<code><span class="keyword">fun </span><span class="identifier">register</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp$register(io.karte.android.core.library.Module)/module">module</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.library/-module/index.html"><span class="identifier">Module</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="repository.html">repository</a></h4>
+</td>
+<td>
+<p>永続化等に使用する <a href="../../io.karte.android.core.repository/-repository/index.html">Repository</a> インスタンスを返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">repository</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp$repository(kotlin.String)/namespace">namespace</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a>&nbsp;<span class="symbol">=</span>&nbsp;""<span class="symbol">)</span><span class="symbol">: </span><a href="../../io.karte.android.core.repository/-repository/index.html"><span class="identifier">Repository</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="unregister.html">unregister</a></h4>
+</td>
+<td>
+<p>モジュールの登録を解除します。</p>
+<code><span class="keyword">fun </span><span class="identifier">unregister</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp$unregister(io.karte.android.core.library.Module)/module">module</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.library/-module/index.html"><span class="identifier">Module</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="is-opt-out.html">isOptOut</a></h4>
+</td>
+<td>
+<p>オプトアウトの設定有無を返します。</p>
+<code><span class="keyword">val </span><span class="identifier">isOptOut</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="visitor-id.html">visitorId</a></h4>
+</td>
+<td>
+<p>ユーザーを識別するためのID（ビジターID）を返します。</p>
+<code><span class="keyword">val </span><span class="identifier">visitorId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="opt-in.html">optIn</a></h4>
+</td>
+<td>
+<p>オプトインします。</p>
+<code><span class="keyword">fun </span><span class="identifier">optIn</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="opt-out.html">optOut</a></h4>
+</td>
+<td>
+<p>オプトアウトします。</p>
+<code><span class="keyword">fun </span><span class="identifier">optOut</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="register.html">register</a></h4>
+</td>
+<td>
+<p>ライブラリを登録します。</p>
+<code><span class="keyword">fun </span><span class="identifier">register</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp.Companion$register(io.karte.android.core.library.Library)/library">library</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.library/-library/index.html"><span class="identifier">Library</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="renew-visitor-id.html">renewVisitorId</a></h4>
+</td>
+<td>
+<p>ビジターIDを再生成します。</p>
+<code><span class="keyword">fun </span><span class="identifier">renewVisitorId</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="set-log-level.html">setLogLevel</a></h4>
+</td>
+<td>
+<p>ログレベルを設定します。</p>
+<code><span class="keyword">fun </span><span class="identifier">setLogLevel</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp.Companion$setLogLevel(io.karte.android.core.logger.LogLevel)/level">level</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.logger/-log-level/index.html"><span class="identifier">LogLevel</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="setup.html">setup</a></h4>
+</td>
+<td>
+<p>SDKの初期化を行います。</p>
+<code><span class="keyword">fun </span><span class="identifier">setup</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp.Companion$setup(android.content.Context, kotlin.String, io.karte.android.core.config.Config)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.KarteApp.Companion$setup(android.content.Context, kotlin.String, io.karte.android.core.config.Config)/appKey">appKey</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.KarteApp.Companion$setup(android.content.Context, kotlin.String, io.karte.android.core.config.Config)/config">config</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.config/-config/index.html"><span class="identifier">Config</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="unregister.html">unregister</a></h4>
+</td>
+<td>
+<p>ライブラリの登録を解除します。</p>
+<code><span class="keyword">fun </span><span class="identifier">unregister</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.KarteApp.Companion$unregister(io.karte.android.core.library.Library)/library">library</span><span class="symbol">:</span>&nbsp;<a href="../../io.karte.android.core.library/-library/index.html"><span class="identifier">Library</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
