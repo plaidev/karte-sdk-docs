@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>MessageHandler - notifications</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">notifications</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.notifications</a>&nbsp;/&nbsp;<a href="./index.html">MessageHandler</a><br/>
+<br/>
+<h1>MessageHandler</h1>
+<code><span class="keyword">object </span><span class="identifier">MessageHandler</span></code>
+<p>KARTEから送信された通知メッセージを処理する機能を提供するクラスです。</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="can-handle-message.html">canHandleMessage</a></h4>
+</td>
+<td>
+<p>KARTE経由で送信された通知メッセージであるか判定します。</p>
+<code><span class="keyword">fun </span><span class="identifier">canHandleMessage</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$canHandleMessage(com.google.firebase.messaging.RemoteMessage)/message">message</span><span class="symbol">:</span>&nbsp;<span class="identifier">RemoteMessage</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">canHandleMessage</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$canHandleMessage(kotlin.collections.Map((kotlin.String, )))/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="copy-info-to-intent.html">copyInfoToIntent</a></h4>
+</td>
+<td>
+<p>プッシュ通知の開封イベントの送信に必要なパラメータを<a href="https://developer.android.com/reference/android/content/Intent.html">Intent</a>にコピーします。</p>
+<code><span class="keyword">fun </span><span class="identifier">copyInfoToIntent</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$copyInfoToIntent(kotlin.collections.Map((kotlin.String, )), android.content.Intent)/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.MessageHandler$copyInfoToIntent(kotlin.collections.Map((kotlin.String, )), android.content.Intent)/intent">intent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="extract-karte-attributes.html">extractKarteAttributes</a></h4>
+</td>
+<td>
+<p><a href="#">RemoteMessage</a>からSDKが自動で処理するデータを取り出し、<a href="../-karte-attributes/index.html">KarteAttributes</a>インスタンスを返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">extractKarteAttributes</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$extractKarteAttributes(com.google.firebase.messaging.RemoteMessage)/message">message</span><span class="symbol">:</span>&nbsp;<span class="identifier">RemoteMessage</span><span class="symbol">)</span><span class="symbol">: </span><a href="../-karte-attributes/index.html"><span class="identifier">KarteAttributes</span></a><span class="symbol">?</span></code>
+<p>データメッセージからSDKが自動で処理するデータを取り出し、<a href="../-karte-attributes/index.html">KarteAttributes</a>インスタンスを返します。</p>
+<code><span class="keyword">fun </span><span class="identifier">extractKarteAttributes</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$extractKarteAttributes(kotlin.collections.Map((kotlin.String, )))/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="../-karte-attributes/index.html"><span class="identifier">KarteAttributes</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="handle-message.html">handleMessage</a></h4>
+</td>
+<td>
+<p>KARTE経由で送信された通知メッセージから、通知を作成します。</p>
+<code><span class="keyword">fun </span><span class="identifier">handleMessage</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$handleMessage(android.content.Context, com.google.firebase.messaging.RemoteMessage, android.content.Intent)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.MessageHandler$handleMessage(android.content.Context, com.google.firebase.messaging.RemoteMessage, android.content.Intent)/message">message</span><span class="symbol">:</span>&nbsp;<span class="identifier">RemoteMessage</span><span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.MessageHandler$handleMessage(android.content.Context, com.google.firebase.messaging.RemoteMessage, android.content.Intent)/defaultIntent">defaultIntent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>KARTE経由で送信された通知メッセージ（データメッセージ）から、通知を作成します。</p>
+<code><span class="keyword">fun </span><span class="identifier">handleMessage</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.notifications.MessageHandler$handleMessage(android.content.Context, kotlin.collections.Map((kotlin.String, )), android.content.Intent)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.MessageHandler$handleMessage(android.content.Context, kotlin.collections.Map((kotlin.String, )), android.content.Intent)/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="io.karte.android.notifications.MessageHandler$handleMessage(android.content.Context, kotlin.collections.Map((kotlin.String, )), android.content.Intent)/defaultIntent">defaultIntent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
