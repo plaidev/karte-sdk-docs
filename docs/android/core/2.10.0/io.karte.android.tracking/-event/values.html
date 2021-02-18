@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Event.values - core</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">core</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.tracking</a>&nbsp;/&nbsp;<a href="index.html">Event</a>&nbsp;/&nbsp;<a href="./values.html">values</a><br/>
+<br/>
+<h1>values</h1>
+<a name="io.karte.android.tracking.Event$values"></a>
+<code><span class="keyword">var </span><span class="identifier">values</span><span class="symbol">: </span><a href="https://developer.android.com/reference/org/json/JSONObject.html"><span class="identifier">JSONObject</span></a></code>
+<p>イベントに紐付けるカスタムオブジェクト</p>
+<h3>フィールド名の制限</h3>
+<ul><li>ドット ( <code>.</code> ) を含む名称は使用できません。</li>
+<li><code>$</code> で始まる名前は使用できません。</li>
+<li>フィールド名として <code>_source</code> <code>any</code> <code>avg</code> <code>cache</code> <code>count</code> <code>count_sets</code> <code>date</code> <code>f_t</code> <code>first</code> <code>keys</code> <code>l_t</code> <code>last</code> <code>lrus</code> <code>max</code> <code>min</code> <code>o</code> <code>prev</code> <code>sets</code> <code>size</code> <code>span</code> <code>sum</code> <code>type</code> <code>v</code> を指定することはできません。</li>
+</ul>
+<h3>値の制限</h3>
+<p>送信可能なデータ型は、下記の通りです。</p>
+<ul><li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></li>
+<li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></li>
+<li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-u-int/index.html">UInt</a></li>
+<li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Double</a></li>
+<li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></li>
+<li><a href="https://docs.oracle.com/javase/6/docs/api/java/util/Date.html">java.util.Date</a></li>
+<li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a></li>
+<li><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a></li>
+</ul>
+</BODY>
+</HTML>
