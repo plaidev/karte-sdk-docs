@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BasicAction - visualtracking</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">visualtracking</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.visualtracking</a>&nbsp;/&nbsp;<a href="./index.html">BasicAction</a><br/>
+<br/>
+<h1>BasicAction</h1>
+<code><span class="keyword">class </span><span class="identifier">BasicAction</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-action/index.html"><span class="identifier">Action</span></a></code>
+<p>必要最低限のアクションを表現する型です。</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<p>Actionを返します。
+アクションIDにはアプリ再起動時も変化しない一意なIDを設定してください。</p>
+<code><span class="identifier">BasicAction</span><span class="symbol">(</span><span class="identifier" id="io.karte.android.visualtracking.BasicAction$<init>(kotlin.String, kotlin.String, kotlin.String, io.karte.android.visualtracking.ImageProvider)/action">action</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.karte.android.visualtracking.BasicAction$<init>(kotlin.String, kotlin.String, kotlin.String, io.karte.android.visualtracking.ImageProvider)/actionId">actionId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.karte.android.visualtracking.BasicAction$<init>(kotlin.String, kotlin.String, kotlin.String, io.karte.android.visualtracking.ImageProvider)/targetText">targetText</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.karte.android.visualtracking.BasicAction$<init>(kotlin.String, kotlin.String, kotlin.String, io.karte.android.visualtracking.ImageProvider)/imageProvider">imageProvider</span><span class="symbol">:</span>&nbsp;<a href="../-image-provider/index.html"><span class="identifier">ImageProvider</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="action.html">action</a></h4>
+</td>
+<td>
+<p>アクション名</p>
+<code><span class="keyword">val </span><span class="identifier">action</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="action-id.html">actionId</a></h4>
+</td>
+<td>
+<p>アクションID</p>
+<code><span class="keyword">val </span><span class="identifier">actionId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="image-provider.html">imageProvider</a></h4>
+</td>
+<td>
+<p>操作ログに添付する画像を返す関数（ペアリング時の操作ログ送信でのみ利用されます。）</p>
+<code><span class="keyword">val </span><span class="identifier">imageProvider</span><span class="symbol">: </span><a href="../-image-provider/index.html"><span class="identifier">ImageProvider</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="target-text.html">targetText</a></h4>
+</td>
+<td>
+<p>ターゲット文字列（Viewコンポーネントのタイトルなどを設定します。）</p>
+<code><span class="keyword">val </span><span class="identifier">targetText</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="to-string.html">toString</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">toString</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

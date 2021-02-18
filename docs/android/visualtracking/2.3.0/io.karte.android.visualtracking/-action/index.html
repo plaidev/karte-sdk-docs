@@ -1,0 +1,64 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Action - visualtracking</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">visualtracking</a>&nbsp;/&nbsp;<a href="../index.html">io.karte.android.visualtracking</a>&nbsp;/&nbsp;<a href="./index.html">Action</a><br/>
+<br/>
+<h1>Action</h1>
+<code><span class="keyword">interface </span><span class="identifier">Action</span></code>
+<p>アクション（操作ログ）の性質を表現する型です。</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="action.html">action</a></h4>
+</td>
+<td>
+<p>アクション名を返します</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">action</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="action-id.html">actionId</a></h4>
+</td>
+<td>
+<p>アクションIDを返します</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">actionId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="image-provider.html">imageProvider</a></h4>
+</td>
+<td>
+<p>操作ログに添付する画像を返す関数（ペアリング時の操作ログ送信でのみ利用されます。）を保持する型です。</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">imageProvider</span><span class="symbol">: </span><a href="../-image-provider/index.html"><span class="identifier">ImageProvider</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="target-text.html">targetText</a></h4>
+</td>
+<td>
+<p>ターゲット文字列を返します</p>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">targetText</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../-basic-action/index.html">BasicAction</a></h4>
+</td>
+<td>
+<p>必要最低限のアクションを表現する型です。</p>
+<code><span class="keyword">class </span><span class="identifier">BasicAction</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">Action</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
