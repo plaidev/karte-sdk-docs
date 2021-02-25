@@ -1,4 +1,0 @@
-$dokka.format:html
-$dokka.linkExtension:html
-$dokka.location:io.karte.android.notifications$registerFCMToken(io.karte.android.KarteApp.Companion, kotlin.String)io.karte.android.notifications/io.karte.android.-karte-app/register-f-c-m-token.html
-io.karte.android.notifications
