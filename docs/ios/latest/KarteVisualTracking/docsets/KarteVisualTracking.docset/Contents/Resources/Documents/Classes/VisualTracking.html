@@ -14,9 +14,9 @@
     <a title="VisualTracking Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteVisualTracking 2.4.0 Docs</a></p>
+        <p><a href="../index.html">KarteVisualTracking 2.5.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E4%2E0%2FKarteVisualTracking%2Fdocsets%2FKarteVisualTracking%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E5%2E0%2FKarteVisualTracking%2Fdocsets%2FKarteVisualTracking%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -80,6 +80,9 @@
               <li class="nav-group-task">
                 <a href="../Protocols/ActionProtocol.html">ActionProtocol</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualTrackingDelegate.html">VisualTrackingDelegate</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -113,6 +116,94 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(cpy)shared"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(cpy)shared">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>共有インスタンスを返します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">VisualTracking</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(py)delegate"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ビジュアルトラッキングで発生するイベント等を委譲するためのデリゲートインスタンスを取得・設定します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/VisualTrackingDelegate.html">VisualTrackingDelegate</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(py)isPaired"></a>
+                    <a name="//apple_ref/swift/Property/isPaired" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(py)isPaired">isPaired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ペアリング状態を取得します。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isPaired</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>端末がペアリングされていればtrue、それ以外はfalseを返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(cm)_krt_load"></a>
                     <a name="//apple_ref/swift/Method/_krt_load()" class="dashAnchor"></a>
                     <a class="token" href="#/c:@M@KarteVisualTracking@objc(cs)KRTVisualTracking(cm)_krt_load">_krt_load()</a>
@@ -135,6 +226,55 @@
 <span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">_krt_load</span><span class="p">()</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/handle(actionProtocol:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ">handle(actionProtocol:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>操作ログをハンドルします。<br></p>
+
+<p>操作ログはペアリング時のみ送信されます<br>
+イベント発火条件定義に操作ログがマッチした際にビジュアルイベントが送信されます。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">handle</span><span class="p">(</span><span class="nv">actionProtocol</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ActionProtocol.html">ActionProtocol</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actionProtocol</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>ActionProtocol</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -269,61 +409,12 @@
                     </section>
                   </div>
                 </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ"></a>
-                    <a name="//apple_ref/swift/Method/handle(actionProtocol:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ">handle(actionProtocol:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>操作ログをハンドルします。<br></p>
-
-<p>操作ログはペアリング時のみ送信されます<br>
-イベント発火条件定義に操作ログがマッチした際にビジュアルイベントが送信されます。</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">handle</span><span class="p">(</span><span class="nv">actionProtocol</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ActionProtocol.html">ActionProtocol</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionProtocol</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>ActionProtocol</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2021-02-04)</p>
+          <p>&copy; 2021 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2021-03-04)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
