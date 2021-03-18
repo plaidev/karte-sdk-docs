@@ -20,7 +20,7 @@ None
 
 トラッキング用の API エンドポイント URL。
 
-> :warning: このプロパティについて
+> 🚧 このプロパティについて
 > 通常この設定を変更する必要はありません。
 
 ### Declaration
@@ -45,7 +45,7 @@ None
 
 > Instance Property | v1.3.0 - | (deprecated) v1.5.5 -
 
-> :exclamation: このプロパティは廃止予定です
+> ❗️ このプロパティは廃止予定です
 > IDFA の送信が必要な場合は、`IDFADelegate` を利用してください。
 
 IDFA の送信有無。

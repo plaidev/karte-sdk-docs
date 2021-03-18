@@ -4,7 +4,7 @@
 
 > Class | v1.0.0 - | (deprecated) v1.1.0 -
 
-> :exclamation: このクラスは廃止予定です
+> ❗️ このクラスは廃止予定です
 > [`MessageHandler`](messagehandler) クラスを利用してください。
 
 `KarteMessageHandler` クラスは、KARTE から送信された通知メッセージを処理する機能を提供します。

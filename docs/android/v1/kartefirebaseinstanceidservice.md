@@ -4,7 +4,7 @@
 
 > Abstract class | v1.0.0 - | (deprecated) v1.5.2 -
 
-> :exclamation: このクラスは非推奨です
+> ❗️ このクラスは非推奨です
 > 代わりに `Tracker.trackFcmToken()` を使いアプリからトークンを送信してください。
 
 `KarteFirebaseInstanceIdService` クラスは、FCM トークンの更新イベントをハンドルし、KARTE へ FCM トークンの送信する機能を提供します。

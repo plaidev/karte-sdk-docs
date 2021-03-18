@@ -195,11 +195,11 @@ public abstract void track(String eventName, JSONObject values);
 | eventName | イベント名                             |
 | values    | イベントに紐付けるカスタムオブジェクト |
 
-> :warning: イベント名 (eventName) について
+> 🚧 イベント名 (eventName) について
 > イベント名には一部予約語があり使えない場合があります。
 > [こちら](https://developers.karte.io/docs/predefined-event) をご確認下さい。
 
-> :warning: カスタムオブジェクト (values) について
+> 🚧 カスタムオブジェクト (values) について
 > values のフィールドには一部予約語があり、使えない場合があります。
 > [こちら](https://developers.karte.io/docs/guide-event) をご確認下さい。
 
@@ -242,14 +242,14 @@ public abstract void track(String eventName, Bundle values);
 | eventName | イベント名                             |
 | values    | イベントに紐付けるカスタムオブジェクト |
 
-> :warninig: トラッキングの注意事項
+> 🚧 トラッキングの注意事項
 > SDK v1.5.3 未満で `Bundle` によるトラッキングを行なう場合、送信値に `null` が含まれていると `NullPointerException` が発生します。`Bundle` での送信を行う場合は v1.5.3 以上の SDK を使用してください。
 
 ## `track(String eventName, Bundle values, boolean withAppInfo)`
 
 > Instance Method | v1.3.5 -
 
-> :exclamation: このメソッドは廃止予定です。
+> ❗️ このメソッドは廃止予定です。
 > withAppInfo の値に関わらず、app_info はイベントに付与されます。
 > `track(String eventName, Bundle values)`を利用してください。
 
@@ -447,7 +447,7 @@ public abstract void trackFcmToken(String token);
 
 > Instance Method | v1.5.2
 
-> :exclamation: このメソッドは廃止予定です
+> ❗️ このメソッドは廃止予定です
 > `renewVisitorId()` を利用してください。
 
 ログアウト処理を行います。
@@ -476,7 +476,7 @@ public abstract void logout(CompletionHandler completionHandler);
 
 > Instance Method | v1.5.4 -
 
-> :exclamation: このメソッドは廃止予定です
+> ❗️ このメソッドは廃止予定です
 > `renewVisitorId()` を利用してください。
 
 ログアウト処理を行います。

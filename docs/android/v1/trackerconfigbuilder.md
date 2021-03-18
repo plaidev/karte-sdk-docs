@@ -56,7 +56,7 @@ public TrackerConfig build();
 
 トラッキング用の API エンドポイント URL を設定します。
 
-> :warning: このメソッドについて
+> 🚧 このメソッドについて
 > 通常この設定を変更する必要はありません。
 
 ### Declaration
@@ -81,7 +81,7 @@ public Builder setTrackEndpoint(String trackEndpoint);
 
 アプリ内メッセージ表示用ページのエンドポイント URL を設定します。
 
-> :waring: このメソッドについて
+> 🚧 このメソッドについて
 > 通常この設定を変更する必要はありません。
 
 ### Declaration
@@ -196,7 +196,7 @@ public Builder setDryRun(boolean dryRun);
 
 > Instance Method | v1.3.1 -
 
-> :exclamation: このメソッドは廃止予定です。
+> ❗️ このメソッドは廃止予定です。
 > SDK v1.6.0 から、このオプションの値は無視されます。
 
 キーボードが画面要素に被らないように `Activity` のサイズを自動調節する機能の有無を設定します。

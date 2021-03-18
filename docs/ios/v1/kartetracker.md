@@ -207,11 +207,11 @@ UUID で構成された、ビジター ID を返します。
 | eventName | イベント名                             |
 | values    | イベントに紐付けるカスタムオブジェクト |
 
-> :warning: イベント名 (eventName) について
+> 🚧 イベント名 (eventName) について
 > イベント名には一部予約語があり、使えない場合があります。
 > [こちら](https://developers.karte.io/docs/predefined-event) をご確認下さい。
 
-> :warning: カスタムオブジェクト (values) について
+> 🚧 カスタムオブジェクト (values) について
 > values のフィールドには一部予約語があり、使えない場合があります。
 > [こちら](https://developers.karte.io/docs/guide-event) をご確認下さい。
 
@@ -238,11 +238,11 @@ iPad OS のマルチウインドウに対応しています。
 | values    | イベントに紐付けるカスタムオブジェクト                                                                                                   |
 | view      | イベントに紐付ける `UIView`<br>このイベントに対応して接客が表示される場合、この `UIView` が属するシーン(`UIScene`)で接客が表示されます。 |
 
-> :warning: イベント名 (eventName) について
+> 🚧 イベント名 (eventName) について
 > イベント名には一部予約語があり、使えない場合があります。
 > [こちら](https://developers.karte.io/docs/predefined-event) をご確認下さい。
 
-> :warning: カスタムオブジェクト (values) について
+> 🚧 カスタムオブジェクト (values) について
 > values のフィールドには一部予約語があり、使えない場合があります。
 > [こちら](https://developers.karte.io/docs/guide-event) をご確認下さい。
 
@@ -430,7 +430,7 @@ FCM トークンを KARTE に登録します。
 
 > Instance Method | v1.5.2 - | (deprecated) v1.5.3 -
 
-> :exclamation: このメソッドは廃止予定です
+> ❗️ このメソッドは廃止予定です
 > `renewVisitorId` を利用してください。
 
 ログアウト処理を行います。
@@ -459,7 +459,7 @@ FCM トークンを KARTE に登録します。
 
 > Instance Method | v1.5.3 - | (deprecated) v1.5.9 -
 
-> :exclamation: このメソッドは廃止予定です
+> ❗️ このメソッドは廃止予定です
 > `renewVisitorId` を利用してください。
 
 ログアウト処理を行います。
