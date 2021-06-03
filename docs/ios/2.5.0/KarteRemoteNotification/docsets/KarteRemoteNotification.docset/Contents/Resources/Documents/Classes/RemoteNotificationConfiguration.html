@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Logger Extension Reference</title>
+    <title>RemoteNotificationConfiguration Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/Logger" class="dashAnchor"></a>
-    <a title="Logger Extension Reference"></a>
+    <a name="//apple_ref/swift/Class/RemoteNotificationConfiguration" class="dashAnchor"></a>
+    <a title="RemoteNotificationConfiguration Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">KarteRemoteNotification 2.5.0 Docs</a></p>
@@ -23,7 +23,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">KarteRemoteNotification Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Logger Extension Reference
+        RemoteNotificationConfiguration Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -65,8 +65,16 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Logger</h1>
-            
+            <h1>RemoteNotificationConfiguration</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@objc(KRTRemoteNotificationConfiguration)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">RemoteNotificationConfiguration</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">LibraryConfiguration</span></code></pre>
+
+                </div>
+              </div>
+            <p>RemoteNotificationモジュールの設定を保持するクラスです。</p>
+
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -74,9 +82,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9KarteCore6LoggerV3TagV"></a>
-                    <a name="//apple_ref/swift/Extension/Tag" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore6LoggerV3TagV">Tag</a>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotificationConfiguration(py)isEnabledAutoMeasurement"></a>
+                    <a name="//apple_ref/swift/Property/isEnabledAutoMeasurement" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)KRTRemoteNotificationConfiguration(py)isEnabledAutoMeasurement">isEnabledAutoMeasurement</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -84,14 +92,17 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
-                        <a href="../Extensions/Logger/Tag.html" class="slightly-smaller">See more</a>
+                        <p>通知のクリック計測を自動で行うかどうかを表すフラグを返します。<br>
+フラグを <code>false</code> にした場合は、自動でのクリック計測が行われません。<br>
+デフォルトは <code>true</code> です。</p>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Logger</span><span class="o">.</span><span class="kt">Tag</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isEnabledAutoMeasurement</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
