@@ -14,9 +14,9 @@
     <a title="Variables Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteVariables 2.2.0 Docs</a></p>
+        <p><a href="../index.html">KarteVariables 2.3.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E2%2E0%2FKarteVariables%2Fdocsets%2FKarteVariables%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E3%2E0%2FKarteVariables%2Fdocsets%2FKarteVariables%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -37,6 +37,14 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Variables.html">Variables</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/LastFetchStatus.html">LastFetchStatus</a>
               </li>
             </ul>
           </li>
@@ -95,6 +103,62 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:@M@KarteVariables@objc(cs)KRTVariables(cpy)lastFetchTime"></a>
+                    <a name="//apple_ref/swift/Variable/lastFetchTime" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariables(cpy)lastFetchTime">lastFetchTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>最終フェッチ完了時間を返します、未フェッチな場合は <code>nil</code> を返します</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="k">var</span> <span class="nv">lastFetchTime</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteVariables@objc(cs)KRTVariables(cpy)lastFetchStatus"></a>
+                    <a name="//apple_ref/swift/Variable/lastFetchStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariables(cpy)lastFetchStatus">lastFetchStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>最終フェッチ完了ステータスを返します</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="k">var</span> <span class="nv">lastFetchStatus</span><span class="p">:</span> <span class="kt"><a href="../Enums/LastFetchStatus.html">LastFetchStatus</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariables(cm)_krt_load"></a>
                     <a name="//apple_ref/swift/Method/_krt_load()" class="dashAnchor"></a>
                     <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariables(cm)_krt_load">_krt_load()</a>
@@ -117,6 +181,53 @@
 <span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">_krt_load</span><span class="p">()</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteVariables@objc(cs)KRTVariables(cm)hasSuccessfulLastFetchInSeconds:"></a>
+                    <a name="//apple_ref/swift/Method/hasSuccessfulLastFetch(inSeconds:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariables(cm)hasSuccessfulLastFetchInSeconds:">hasSuccessfulLastFetch(inSeconds:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>直近指定秒以内に成功したフェッチ結果があるかどうかを返します</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">hasSuccessfulLastFetch</span><span class="p">(</span><span class="nv">inSeconds</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inSeconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>秒数（1以上）</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -511,7 +622,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2021-06-25)</p>
+          <p>&copy; 2021 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2021-10-28)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
