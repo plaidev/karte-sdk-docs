@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Logger Extension Reference</title>
+    <title>ObjcCompatibleScope Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/Logger" class="dashAnchor"></a>
-    <a title="Logger Extension Reference"></a>
+    <a name="//apple_ref/swift/Class/ObjcCompatibleScope" class="dashAnchor"></a>
+    <a title="ObjcCompatibleScope Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">KarteRemoteNotification 2.7.0 Docs</a></p>
@@ -23,7 +23,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">KarteRemoteNotification Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Logger Extension Reference
+        ObjcCompatibleScope Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -65,8 +65,17 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Logger</h1>
-            
+            <h1>ObjcCompatibleScope</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ObjcCompatibleScope</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>SwiftとObjective-Cの互換性のためのクラスです。</p>
+
+<p><strong>SDK内部で利用するクラスであり、通常のSDK利用でこちらのクラスを利用することはありません。</strong></p>
+
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -74,9 +83,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9KarteCore6LoggerV3TagV"></a>
-                    <a name="//apple_ref/swift/Extension/Tag" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore6LoggerV3TagV">Tag</a>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)ObjcCompatibleScope(cm)registerFCMToken:"></a>
+                    <a name="//apple_ref/swift/Method/registerFCMToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)ObjcCompatibleScope(cm)registerFCMToken:">registerFCMToken(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -85,13 +94,40 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         
-                        <a href="../Extensions/Logger/Tag.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Logger</span><span class="o">.</span><span class="kt">Tag</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">registerFCMToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">fcmToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteRemoteNotification@objc(cs)ObjcCompatibleScope(cm)trackClickWithUserInfo:"></a>
+                    <a name="//apple_ref/swift/Method/trackClick(userInfo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteRemoteNotification@objc(cs)ObjcCompatibleScope(cm)trackClickWithUserInfo:">trackClick(userInfo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">trackClick</span><span class="p">(</span><span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
