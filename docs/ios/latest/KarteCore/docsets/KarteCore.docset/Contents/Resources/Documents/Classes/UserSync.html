@@ -14,9 +14,9 @@
     <a title="UserSync Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.20.0 Docs</a></p>
+        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E20%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -224,7 +224,7 @@
               </div>
             <p>WebView 連携するためのクラスです。</p>
 
-<p>WebページURLに連携用のクエリパラメータを付与した状態で、URLをWebViewで開くことでWebとAppのユーザーの紐付けが行われます。<br>
+<p>Webページを開くWebViewに連携用のスクリプトを設定することで、WebとAppのユーザーの紐付けが行われます。<br>
 なお連携を行うためにはWebページに、KARTEのタグが埋め込まれている必要があります。</p>
 
           </section>
@@ -251,7 +251,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(appendingQueryParameterWithURLString:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "User sync function using query parameters is deprecated. It will be removed in the future. Use setUserSyncSript.")</span>
+<span class="kd">@objc(appendingQueryParameterWithURLString:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">appendingQueryParameter</span><span class="p">(</span><span class="n">_</span> <span class="nv">urlString</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
@@ -302,7 +303,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(appendingQueryParameterWithURL:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "User sync function using query parameters is deprecated. It will be removed in the future. Use setUserSyncSript.")</span>
+<span class="kd">@objc(appendingQueryParameterWithURL:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">appendingQueryParameter</span><span class="p">(</span><span class="n">_</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URL</span></code></pre>
 
                         </div>
@@ -383,12 +385,47 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@KarteCore@objc(cs)KRTUserSync(cm)getUserSyncScript"></a>
+                    <a name="//apple_ref/swift/Method/getUserSyncScript()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTUserSync(cm)getUserSyncScript">getUserSyncScript()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>WebViewに連携するためのスクリプトを生成します。<br>
+スクリプトをユーザースクリプトとしてWebViewに設定することで連携できます。</p>
+
+<p>なおSDKの初期化が行われていない場合はnilが返却されます。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc(getUserSyncScript)</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getUserSyncScript</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>生成したスクリプト文字列を返します。SDKの初期化が行われていない場合は nil を返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-06-28)</p>
+          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
