@@ -26,6 +26,19 @@ references:
   isSpec: "True"
   fullName: Io.Karte.App.GetVisitorId
   nameWithType: App.GetVisitorId
+- uid: Io.Karte.App.OpenUrl(System.String)
+  name: OpenUrl(String)
+  href: api/Io.Karte.App.html#Io_Karte_App_OpenUrl_System_String_
+  commentId: M:Io.Karte.App.OpenUrl(System.String)
+  fullName: Io.Karte.App.OpenUrl(System.String)
+  nameWithType: App.OpenUrl(String)
+- uid: Io.Karte.App.OpenUrl*
+  name: OpenUrl
+  href: api/Io.Karte.App.html#Io_Karte_App_OpenUrl_
+  commentId: Overload:Io.Karte.App.OpenUrl
+  isSpec: "True"
+  fullName: Io.Karte.App.OpenUrl
+  nameWithType: App.OpenUrl
 - uid: Io.Karte.App.OptIn
   name: OptIn()
   href: api/Io.Karte.App.html#Io_Karte_App_OptIn
@@ -97,6 +110,44 @@ references:
   isSpec: "True"
   fullName: Io.Karte.InAppMessaging.dismiss
   nameWithType: InAppMessaging.dismiss
+- uid: Io.Karte.InAppMessaging.HandleOpenUrl
+  name: InAppMessaging.HandleOpenUrl
+  href: api/Io.Karte.InAppMessaging.HandleOpenUrl.html
+  commentId: T:Io.Karte.InAppMessaging.HandleOpenUrl
+  fullName: Io.Karte.InAppMessaging.HandleOpenUrl
+  nameWithType: InAppMessaging.HandleOpenUrl
+- uid: Io.Karte.InAppMessaging.HandleOpenUrlWithScene
+  name: InAppMessaging.HandleOpenUrlWithScene
+  href: api/Io.Karte.InAppMessaging.HandleOpenUrlWithScene.html
+  commentId: T:Io.Karte.InAppMessaging.HandleOpenUrlWithScene
+  fullName: Io.Karte.InAppMessaging.HandleOpenUrlWithScene
+  nameWithType: InAppMessaging.HandleOpenUrlWithScene
+- uid: Io.Karte.InAppMessaging.InvokeOpenUrlHandler(System.String)
+  name: InvokeOpenUrlHandler(String)
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_InvokeOpenUrlHandler_System_String_
+  commentId: M:Io.Karte.InAppMessaging.InvokeOpenUrlHandler(System.String)
+  fullName: Io.Karte.InAppMessaging.InvokeOpenUrlHandler(System.String)
+  nameWithType: InAppMessaging.InvokeOpenUrlHandler(String)
+- uid: Io.Karte.InAppMessaging.InvokeOpenUrlHandler*
+  name: InvokeOpenUrlHandler
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_InvokeOpenUrlHandler_
+  commentId: Overload:Io.Karte.InAppMessaging.InvokeOpenUrlHandler
+  isSpec: "True"
+  fullName: Io.Karte.InAppMessaging.InvokeOpenUrlHandler
+  nameWithType: InAppMessaging.InvokeOpenUrlHandler
+- uid: Io.Karte.InAppMessaging.InvokeOpenUrlWithSceneHandler(System.String,System.String)
+  name: InvokeOpenUrlWithSceneHandler(String, String)
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_InvokeOpenUrlWithSceneHandler_System_String_System_String_
+  commentId: M:Io.Karte.InAppMessaging.InvokeOpenUrlWithSceneHandler(System.String,System.String)
+  fullName: Io.Karte.InAppMessaging.InvokeOpenUrlWithSceneHandler(System.String, System.String)
+  nameWithType: InAppMessaging.InvokeOpenUrlWithSceneHandler(String, String)
+- uid: Io.Karte.InAppMessaging.InvokeOpenUrlWithSceneHandler*
+  name: InvokeOpenUrlWithSceneHandler
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_InvokeOpenUrlWithSceneHandler_
+  commentId: Overload:Io.Karte.InAppMessaging.InvokeOpenUrlWithSceneHandler
+  isSpec: "True"
+  fullName: Io.Karte.InAppMessaging.InvokeOpenUrlWithSceneHandler
+  nameWithType: InAppMessaging.InvokeOpenUrlWithSceneHandler
 - uid: Io.Karte.InAppMessaging.isPresenting
   name: isPresenting
   href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_isPresenting
@@ -110,6 +161,32 @@ references:
   isSpec: "True"
   fullName: Io.Karte.InAppMessaging.isPresenting
   nameWithType: InAppMessaging.isPresenting
+- uid: Io.Karte.InAppMessaging.OnOpenUrl
+  name: OnOpenUrl
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_OnOpenUrl
+  commentId: P:Io.Karte.InAppMessaging.OnOpenUrl
+  fullName: Io.Karte.InAppMessaging.OnOpenUrl
+  nameWithType: InAppMessaging.OnOpenUrl
+- uid: Io.Karte.InAppMessaging.OnOpenUrl*
+  name: OnOpenUrl
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_OnOpenUrl_
+  commentId: Overload:Io.Karte.InAppMessaging.OnOpenUrl
+  isSpec: "True"
+  fullName: Io.Karte.InAppMessaging.OnOpenUrl
+  nameWithType: InAppMessaging.OnOpenUrl
+- uid: Io.Karte.InAppMessaging.OnOpenUrlWithScene
+  name: OnOpenUrlWithScene
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_OnOpenUrlWithScene
+  commentId: P:Io.Karte.InAppMessaging.OnOpenUrlWithScene
+  fullName: Io.Karte.InAppMessaging.OnOpenUrlWithScene
+  nameWithType: InAppMessaging.OnOpenUrlWithScene
+- uid: Io.Karte.InAppMessaging.OnOpenUrlWithScene*
+  name: OnOpenUrlWithScene
+  href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_OnOpenUrlWithScene_
+  commentId: Overload:Io.Karte.InAppMessaging.OnOpenUrlWithScene
+  isSpec: "True"
+  fullName: Io.Karte.InAppMessaging.OnOpenUrlWithScene
+  nameWithType: InAppMessaging.OnOpenUrlWithScene
 - uid: Io.Karte.InAppMessaging.suppress
   name: suppress()
   href: api/Io.Karte.InAppMessaging.html#Io_Karte_InAppMessaging_suppress
@@ -226,13 +303,13 @@ references:
   commentId: T:Io.Karte.RemoteNotificationHandler
   fullName: Io.Karte.RemoteNotificationHandler
   nameWithType: RemoteNotificationHandler
-- uid: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
+- uid: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(IDictionary{System.String,System.String})
   name: ExtractKarteAttributes(IDictionary<String, String>)
-  href: api/Io.Karte.RemoteNotificationHandler.html#Io_Karte_RemoteNotificationHandler_ExtractKarteAttributes_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
+  href: api/Io.Karte.RemoteNotificationHandler.html#Io_Karte_RemoteNotificationHandler_ExtractKarteAttributes_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(IDictionary{System.String,System.String})
   name.vb: ExtractKarteAttributes(IDictionary(Of String, String))
-  fullName: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes(IDictionary(Of System.String, System.String))
   nameWithType: RemoteNotificationHandler.ExtractKarteAttributes(IDictionary<String, String>)
   nameWithType.vb: RemoteNotificationHandler.ExtractKarteAttributes(IDictionary(Of String, String))
 - uid: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes*
@@ -242,13 +319,13 @@ references:
   isSpec: "True"
   fullName: Io.Karte.RemoteNotificationHandler.ExtractKarteAttributes
   nameWithType: RemoteNotificationHandler.ExtractKarteAttributes
-- uid: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})
+- uid: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(IDictionary{System.String,System.String})
   name: HandleRemoteNotification(IDictionary<String, String>)
-  href: api/Io.Karte.RemoteNotificationHandler.html#Io_Karte_RemoteNotificationHandler_HandleRemoteNotification_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary{System.String,System.String})
+  href: api/Io.Karte.RemoteNotificationHandler.html#Io_Karte_RemoteNotificationHandler_HandleRemoteNotification_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(IDictionary{System.String,System.String})
   name.vb: HandleRemoteNotification(IDictionary(Of String, String))
-  fullName: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification(IDictionary(Of System.String, System.String))
   nameWithType: RemoteNotificationHandler.HandleRemoteNotification(IDictionary<String, String>)
   nameWithType.vb: RemoteNotificationHandler.HandleRemoteNotification(IDictionary(Of String, String))
 - uid: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification*
@@ -258,13 +335,13 @@ references:
   isSpec: "True"
   fullName: Io.Karte.RemoteNotificationHandler.HandleRemoteNotification
   nameWithType: RemoteNotificationHandler.HandleRemoteNotification
-- uid: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary{System.String,System.String})
+- uid: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary{System.String,System.String})
   name: RetrieveURLFromUserInfo(IDictionary<String, String>)
-  href: api/Io.Karte.RemoteNotificationHandler.html#Io_Karte_RemoteNotificationHandler_RetrieveURLFromUserInfo_System_Collections_Generic_IDictionary_System_String_System_String__
-  commentId: M:Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary{System.String,System.String})
+  href: api/Io.Karte.RemoteNotificationHandler.html#Io_Karte_RemoteNotificationHandler_RetrieveURLFromUserInfo_IDictionary_System_String_System_String__
+  commentId: M:Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary{System.String,System.String})
   name.vb: RetrieveURLFromUserInfo(IDictionary(Of String, String))
-  fullName: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary<System.String, System.String>)
-  fullName.vb: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  fullName: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary<System.String, System.String>)
+  fullName.vb: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary(Of System.String, System.String))
   nameWithType: RemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary<String, String>)
   nameWithType.vb: RemoteNotificationHandler.RetrieveURLFromUserInfo(IDictionary(Of String, String))
 - uid: Io.Karte.RemoteNotificationHandler.RetrieveURLFromUserInfo*
@@ -280,12 +357,31 @@ references:
   commentId: T:Io.Karte.Tracker
   fullName: Io.Karte.Tracker
   nameWithType: Tracker
+- uid: Io.Karte.Tracker.Attribute(JObject)
+  name: Attribute(JObject)
+  href: api/Io.Karte.Tracker.html#Io_Karte_Tracker_Attribute_JObject_
+  commentId: M:Io.Karte.Tracker.Attribute(JObject)
+  fullName: Io.Karte.Tracker.Attribute(JObject)
+  nameWithType: Tracker.Attribute(JObject)
+- uid: Io.Karte.Tracker.Attribute*
+  name: Attribute
+  href: api/Io.Karte.Tracker.html#Io_Karte_Tracker_Attribute_
+  commentId: Overload:Io.Karte.Tracker.Attribute
+  isSpec: "True"
+  fullName: Io.Karte.Tracker.Attribute
+  nameWithType: Tracker.Attribute
 - uid: Io.Karte.Tracker.Identify(JObject)
   name: Identify(JObject)
   href: api/Io.Karte.Tracker.html#Io_Karte_Tracker_Identify_JObject_
   commentId: M:Io.Karte.Tracker.Identify(JObject)
   fullName: Io.Karte.Tracker.Identify(JObject)
   nameWithType: Tracker.Identify(JObject)
+- uid: Io.Karte.Tracker.Identify(System.String,JObject)
+  name: Identify(String, JObject)
+  href: api/Io.Karte.Tracker.html#Io_Karte_Tracker_Identify_System_String_JObject_
+  commentId: M:Io.Karte.Tracker.Identify(System.String,JObject)
+  fullName: Io.Karte.Tracker.Identify(System.String, JObject)
+  nameWithType: Tracker.Identify(String, JObject)
 - uid: Io.Karte.Tracker.Identify*
   name: Identify
   href: api/Io.Karte.Tracker.html#Io_Karte_Tracker_Identify_
@@ -356,6 +452,19 @@ references:
   isSpec: "True"
   fullName: Io.Karte.UserSync.AppendUserSyncQueryParameter
   nameWithType: UserSync.AppendUserSyncQueryParameter
+- uid: Io.Karte.UserSync.getUserSyncScript
+  name: getUserSyncScript()
+  href: api/Io.Karte.UserSync.html#Io_Karte_UserSync_getUserSyncScript
+  commentId: M:Io.Karte.UserSync.getUserSyncScript
+  fullName: Io.Karte.UserSync.getUserSyncScript()
+  nameWithType: UserSync.getUserSyncScript()
+- uid: Io.Karte.UserSync.getUserSyncScript*
+  name: getUserSyncScript
+  href: api/Io.Karte.UserSync.html#Io_Karte_UserSync_getUserSyncScript_
+  commentId: Overload:Io.Karte.UserSync.getUserSyncScript
+  isSpec: "True"
+  fullName: Io.Karte.UserSync.getUserSyncScript
+  nameWithType: UserSync.getUserSyncScript
 - uid: Io.Karte.Variable
   name: Variable
   href: api/Io.Karte.Variable.html
@@ -462,13 +571,13 @@ references:
   isSpec: "True"
   fullName: Io.Karte.Variables.Fetch
   nameWithType: Variables.Fetch
-- uid: Io.Karte.Variables.FetchWithCompletion(System.Action{System.Boolean})
+- uid: Io.Karte.Variables.FetchWithCompletion(Action{System.Boolean})
   name: FetchWithCompletion(Action<Boolean>)
-  href: api/Io.Karte.Variables.html#Io_Karte_Variables_FetchWithCompletion_System_Action_System_Boolean__
-  commentId: M:Io.Karte.Variables.FetchWithCompletion(System.Action{System.Boolean})
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_FetchWithCompletion_Action_System_Boolean__
+  commentId: M:Io.Karte.Variables.FetchWithCompletion(Action{System.Boolean})
   name.vb: FetchWithCompletion(Action(Of Boolean))
-  fullName: Io.Karte.Variables.FetchWithCompletion(System.Action<System.Boolean>)
-  fullName.vb: Io.Karte.Variables.FetchWithCompletion(System.Action(Of System.Boolean))
+  fullName: Io.Karte.Variables.FetchWithCompletion(Action<System.Boolean>)
+  fullName.vb: Io.Karte.Variables.FetchWithCompletion(Action(Of System.Boolean))
   nameWithType: Variables.FetchWithCompletion(Action<Boolean>)
   nameWithType.vb: Variables.FetchWithCompletion(Action(Of Boolean))
 - uid: Io.Karte.Variables.FetchWithCompletion*
@@ -491,6 +600,45 @@ references:
   isSpec: "True"
   fullName: Io.Karte.Variables.GetVariable
   nameWithType: Variables.GetVariable
+- uid: Io.Karte.Variables.HasSuccessfulLastFetchIn(System.Int32)
+  name: HasSuccessfulLastFetchIn(Int32)
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_HasSuccessfulLastFetchIn_System_Int32_
+  commentId: M:Io.Karte.Variables.HasSuccessfulLastFetchIn(System.Int32)
+  fullName: Io.Karte.Variables.HasSuccessfulLastFetchIn(System.Int32)
+  nameWithType: Variables.HasSuccessfulLastFetchIn(Int32)
+- uid: Io.Karte.Variables.HasSuccessfulLastFetchIn*
+  name: HasSuccessfulLastFetchIn
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_HasSuccessfulLastFetchIn_
+  commentId: Overload:Io.Karte.Variables.HasSuccessfulLastFetchIn
+  isSpec: "True"
+  fullName: Io.Karte.Variables.HasSuccessfulLastFetchIn
+  nameWithType: Variables.HasSuccessfulLastFetchIn
+- uid: Io.Karte.Variables.LastFetchStatus
+  name: LastFetchStatus()
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_LastFetchStatus
+  commentId: M:Io.Karte.Variables.LastFetchStatus
+  fullName: Io.Karte.Variables.LastFetchStatus()
+  nameWithType: Variables.LastFetchStatus()
+- uid: Io.Karte.Variables.LastFetchStatus*
+  name: LastFetchStatus
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_LastFetchStatus_
+  commentId: Overload:Io.Karte.Variables.LastFetchStatus
+  isSpec: "True"
+  fullName: Io.Karte.Variables.LastFetchStatus
+  nameWithType: Variables.LastFetchStatus
+- uid: Io.Karte.Variables.LastFetchTime
+  name: LastFetchTime()
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_LastFetchTime
+  commentId: M:Io.Karte.Variables.LastFetchTime
+  fullName: Io.Karte.Variables.LastFetchTime()
+  nameWithType: Variables.LastFetchTime()
+- uid: Io.Karte.Variables.LastFetchTime*
+  name: LastFetchTime
+  href: api/Io.Karte.Variables.html#Io_Karte_Variables_LastFetchTime_
+  commentId: Overload:Io.Karte.Variables.LastFetchTime
+  isSpec: "True"
+  fullName: Io.Karte.Variables.LastFetchTime
+  nameWithType: Variables.LastFetchTime
 - uid: Io.Karte.Variables.TrackClick(Io.Karte.Variable[])
   name: TrackClick(Variable[])
   href: api/Io.Karte.Variables.html#Io_Karte_Variables_TrackClick_Io_Karte_Variable___
