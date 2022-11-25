@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Tracker
    ">
-    <meta name="generator" content="docfx 2.43.3.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../images/karte_logo_favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -89,6 +89,33 @@
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Io_Karte_Tracker_Attribute_" data-uid="Io.Karte.Tracker.Attribute*"></a>
+  <h4 id="Io_Karte_Tracker_Attribute_JObject_" data-uid="Io.Karte.Tracker.Attribute(JObject)">Attribute(JObject)</h4>
+  <div class="markdown level1 summary"><p>Attributeイベント（ユーザー情報）を送信します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Attribute(JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>ユーザーに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Io_Karte_Tracker_Identify_" data-uid="Io.Karte.Tracker.Identify*"></a>
   <h4 id="Io_Karte_Tracker_Identify_JObject_" data-uid="Io.Karte.Tracker.Identify(JObject)">Identify(JObject)</h4>
   <div class="markdown level1 summary"><p>Identifyイベント（ユーザー情報）を送信します。</p>
@@ -109,6 +136,40 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">JObject</span></td>
+        <td><span class="parametername">values</span></td>
+        <td><p>ユーザーに紐付けるカスタムオブジェクト</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Io_Karte_Tracker_Identify_" data-uid="Io.Karte.Tracker.Identify*"></a>
+  <h4 id="Io_Karte_Tracker_Identify_System_String_JObject_" data-uid="Io.Karte.Tracker.Identify(System.String,JObject)">Identify(String, JObject)</h4>
+  <div class="markdown level1 summary"><p>Identifyイベント（ユーザー情報）を送信します。</p>
+<p>KARTEではユーザー情報もユーザー情報イベントとして、他のイベントと同じ形式で扱います。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Identify(string userId, JObject values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>ユーザーを識別する一意なID</p>
+</td>
+      </tr>
       <tr>
         <td><span class="xref">JObject</span></td>
         <td><span class="parametername">values</span></td>
@@ -280,7 +341,8 @@
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
