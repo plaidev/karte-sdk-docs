@@ -1,0 +1,6 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+io.karte.android.inbox
+io.karte.android.inbox.models
+
