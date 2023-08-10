@@ -1,0 +1,16 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+io.karte.android
+io.karte.android.core.config
+io.karte.android.core.library
+io.karte.android.core.logger
+io.karte.android.core.repository
+io.karte.android.core.usersync
+io.karte.android.modules.crashreporting
+io.karte.android.tracking
+io.karte.android.tracking.client
+io.karte.android.tracking.queue
+io.karte.android.utilities
+io.karte.android.utilities.http
+
