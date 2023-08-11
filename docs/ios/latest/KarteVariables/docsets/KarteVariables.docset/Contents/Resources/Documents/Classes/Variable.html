@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/Variable" class="dashAnchor"></a>
     <a title="Variable Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteVariables 2.4.1 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E4%2E1%2FKarteVariables%2Fdocsets%2FKarteVariables%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteVariables 2.6.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.6.0%2FKarteVariables%2Fdocsets%2FKarteVariables.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteVariables Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         Variable Class Reference
       </p>
     </div>
@@ -33,7 +41,7 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/ObjcCompatibleScopeForVariables.html">ObjcCompatibleScopeForVariables</a>
+                <a href="../Classes.html#/c:@M@KarteVariables@objc(cs)ObjcCompatibleScopeForVariables">ObjcCompatibleScopeForVariables</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Variable.html">Variable</a>
@@ -55,19 +63,7 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/Logger.html">Logger</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Extensions/Tracker.html">Tracker</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/VariableMessage.html">VariableMessage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/VariableMessage.html#/Action">– Action</a>
               </li>
             </ul>
           </li>
@@ -87,6 +83,7 @@
             <h1>Variable</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc(KRTVariable)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">Variable</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
@@ -316,7 +313,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)initWithName:"></a>
                     <a name="//apple_ref/swift/Method/init(name:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)initWithName:">init(name:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)initWithName:">init(name:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -363,7 +360,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)stringWithDefaultValue:"></a>
                     <a name="//apple_ref/swift/Method/string(default:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)stringWithDefaultValue:">string(default:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)stringWithDefaultValue:">string(default:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -415,7 +412,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)integerWithDefaultValue:"></a>
                     <a name="//apple_ref/swift/Method/integer(default:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)integerWithDefaultValue:">integer(default:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)integerWithDefaultValue:">integer(default:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -467,7 +464,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)doubleWithDefaultValue:"></a>
                     <a name="//apple_ref/swift/Method/double(default:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)doubleWithDefaultValue:">double(default:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)doubleWithDefaultValue:">double(default:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -519,7 +516,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)boolWithDefaultValue:"></a>
                     <a name="//apple_ref/swift/Method/bool(default:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)boolWithDefaultValue:">bool(default:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)boolWithDefaultValue:">bool(default:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -573,7 +570,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)arrayWithDefaultValue:"></a>
                     <a name="//apple_ref/swift/Method/array(default:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)arrayWithDefaultValue:">array(default:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)arrayWithDefaultValue:">array(default:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -630,7 +627,7 @@
                     <code>
                     <a name="/c:@M@KarteVariables@objc(cs)KRTVariable(im)dictionaryWithDefaultValue:"></a>
                     <a name="//apple_ref/swift/Method/dictionary(default:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)dictionaryWithDefaultValue:">dictionary(default:)</a>
+                    <a class="token" href="#/c:@M@KarteVariables@objc(cs)KRTVariable(im)dictionaryWithDefaultValue:">dictionary(default:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -687,11 +684,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-08-04)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
