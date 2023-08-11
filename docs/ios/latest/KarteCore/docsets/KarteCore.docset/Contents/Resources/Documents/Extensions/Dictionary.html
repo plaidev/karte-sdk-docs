@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Extension/Dictionary" class="dashAnchor"></a>
     <a title="Dictionary Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteCore 2.23.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.23.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteCore Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         Dictionary Extension Reference
       </p>
     </div>
@@ -52,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TrackerObjectiveC.html">TrackerObjectiveC</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/TrackingTask.html">TrackingTask</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/UserSync.html">UserSync</a>
@@ -121,7 +126,7 @@
                 <a href="../Extensions/NSNull.html">NSNull</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Resolver.html">Resolver</a>
+                <a href="../Extensions.html#/s:14KarteUtilities8ResolverC">Resolver</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -156,6 +161,9 @@
                 <a href="../Protocols/JSONConvertible.html">JSONConvertible</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/TrackEventRejectionFilterRule.html">TrackEventRejectionFilterRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/TrackerDelegate.html">TrackerDelegate</a>
               </li>
             </ul>
@@ -163,9 +171,6 @@
           <li class="nav-group-name">
             <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/CodableInjectedForObjcCompatibility.html">CodableInjectedForObjcCompatibility</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Structs/Event.html">Event</a>
               </li>
@@ -186,9 +191,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/OptionalCodableInjectedForObjcCompatibility.html">OptionalCodableInjectedForObjcCompatibility</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/TrackRequest.html">TrackRequest</a>
@@ -217,6 +219,7 @@
             <h1>Dictionary</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Dictionary</span> <span class="k">where</span> <span class="kt">Key</span> <span class="o">==</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">Value</span> <span class="o">==</span> <span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span></code></pre>
 <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Dictionary</span><span class="p">:</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span> <span class="k">where</span> <span class="kt">Key</span> <span class="o">==</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">Value</span> <span class="o">==</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span></code></pre>
 
@@ -227,11 +230,11 @@
           <section class="section task-group-section">
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Key%60%20==%20%60String%60,%20%60Value%60%20==%20%60JSONValue%60"></a>
+                <a name="/Available%20where%20%60Key%60%20%3D%3D%20%60String%60%2C%20%60Value%60%20%3D%3D%20%60JSONValue%60"></a>
                 <a name="//apple_ref/swift/Section/Available where `Key` == `String`, `Value` == `JSONValue`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Key%60%20==%20%60String%60,%20%60Value%60%20==%20%60JSONValue%60"></a>
-                  <h3 class="section-name"><p>Available where <code>Key</code> == <code>String</code>, <code>Value</code> == <code><a href="../Enums/JSONValue.html">JSONValue</a></code></p>
+                  <a class="section-name-link" href="#/Available%20where%20%60Key%60%20%3D%3D%20%60String%60%2C%20%60Value%60%20%3D%3D%20%60JSONValue%60"></a>
+                  <h3 class="section-name"><span>Available where <code>Key</code> == <code>String</code>, <code>Value</code> == <code><a href="../Enums/JSONValue.html">JSONValue</a></code></span>
 </h3>
                 </div>
               </div>
@@ -241,7 +244,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5value10forKeyPathACSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/value(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5value10forKeyPathACSgSS_tF">value(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5value10forKeyPathACSgSS_tF">value(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -291,7 +294,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6string10forKeyPathSSSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/string(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6string10forKeyPathSSSgSS_tF">string(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6string10forKeyPathSSSgSS_tF">string(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -341,7 +344,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4bool10forKeyPathSbSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/bool(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4bool10forKeyPathSbSgSS_tF">bool(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4bool10forKeyPathSbSgSS_tF">bool(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -391,7 +394,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE7integer10forKeyPathSiSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/integer(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE7integer10forKeyPathSiSgSS_tF">integer(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE7integer10forKeyPathSiSgSS_tF">integer(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -441,7 +444,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6double10forKeyPathSdSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/double(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6double10forKeyPathSdSgSS_tF">double(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6double10forKeyPathSdSgSS_tF">double(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -491,7 +494,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4date10forKeyPath10Foundation4DateVSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/date(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4date10forKeyPath10Foundation4DateVSgSS_tF">date(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4date10forKeyPath10Foundation4DateVSgSS_tF">date(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -541,7 +544,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5array10forKeyPathSayypGSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/array(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5array10forKeyPathSayypGSgSS_tF">array(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5array10forKeyPathSayypGSgSS_tF">array(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -589,9 +592,59 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE9jsonArray10forKeyPathSayACGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/jsonArray(forKeyPath:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE9jsonArray10forKeyPathSayACGSgSS_tF">jsonArray(forKeyPath:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定されたキーパスに関連付けられた値にアクセスします。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">jsonArray</span><span class="p">(</span><span class="n">forKeyPath</span> <span class="nv">keyPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>keyPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>辞書を検索するためのキーパス</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>キーパスに関連付けられた配列値がある場合はそれを返し、ない場合は値型が配列型でない場合は nil を返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE10dictionary10forKeyPathSDySSypGSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/dictionary(forKeyPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE10dictionary10forKeyPathSDySSypGSgSS_tF">dictionary(forKeyPath:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE10dictionary10forKeyPathSDySSypGSgSS_tF">dictionary(forKeyPath:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -639,9 +692,59 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE14jsonDictionary10forKeyPathSDySSACGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/jsonDictionary(forKeyPath:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE14jsonDictionary10forKeyPathSDySSACGSgSS_tF">jsonDictionary(forKeyPath:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定されたキーパスに関連付けられた値にアクセスします。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">jsonDictionary</span><span class="p">(</span><span class="n">forKeyPath</span> <span class="nv">keyPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>keyPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>辞書を検索するためのキーパス</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>キーパスに関連付けられた辞書値がある場合はそれを返し、ない場合や値型が辞書型でない場合は nil を返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5value6forKeyypSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/value(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5value6forKeyypSgSS_tF">value(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5value6forKeyypSgSS_tF">value(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -691,7 +794,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6string6forKeySSSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/string(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6string6forKeySSSgSS_tF">string(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6string6forKeySSSgSS_tF">string(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -741,7 +844,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4bool6forKeySbSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/bool(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4bool6forKeySbSgSS_tF">bool(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4bool6forKeySbSgSS_tF">bool(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -791,7 +894,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE7integer6forKeySiSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/integer(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE7integer6forKeySiSgSS_tF">integer(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE7integer6forKeySiSgSS_tF">integer(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -841,7 +944,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6double6forKeySdSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/double(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6double6forKeySdSgSS_tF">double(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE6double6forKeySdSgSS_tF">double(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -891,7 +994,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4date6forKey10Foundation4DateVSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/date(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4date6forKey10Foundation4DateVSgSS_tF">date(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE4date6forKey10Foundation4DateVSgSS_tF">date(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -941,7 +1044,7 @@
                     <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5array6forKeySayypGSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/array(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5array6forKeySayypGSgSS_tF">array(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE5array6forKeySayypGSgSS_tF">array(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -989,9 +1092,59 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE9jsonArray6forKeySayACGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/jsonArray(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE9jsonArray6forKeySayACGSgSS_tF">jsonArray(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定されたキーに関連付けられた値にアクセスします。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">jsonArray</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>辞書を検索するためのキー</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>キーに関連付けられた配列値がある場合はそれを返し、ない場合や値型が配列型でない場合は nil を返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE10dictionary6forKeySDySSypGSgSS_tF"></a>
                     <a name="//apple_ref/swift/Method/dictionary(forKey:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE10dictionary6forKeySDySSypGSgSS_tF">dictionary(forKey:)</a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE10dictionary6forKeySDySSypGSgSS_tF">dictionary(forKey:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1036,15 +1189,65 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE14jsonDictionary6forKeySDySSACGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/jsonDictionary(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SD9KarteCoreSSRszAA9JSONValueORs_rlE14jsonDictionary6forKeySDySSACGSgSS_tF">jsonDictionary(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定されたキーに関連付けられた値にアクセスします。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">jsonDictionary</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>辞書を検索するためのキー</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>キーに関連付けられた辞書値がある場合はそれを返し、ない場合は値型が辞書型でない場合は nil を返します。</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Key%60%20==%20%60String%60,%20%60Value%60%20==%20%60JSONConvertible%60"></a>
+                <a name="/Available%20where%20%60Key%60%20%3D%3D%20%60String%60%2C%20%60Value%60%20%3D%3D%20%60JSONConvertible%60"></a>
                 <a name="//apple_ref/swift/Section/Available where `Key` == `String`, `Value` == `JSONConvertible`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Key%60%20==%20%60String%60,%20%60Value%60%20==%20%60JSONConvertible%60"></a>
-                  <h3 class="section-name"><p>Available where <code>Key</code> == <code>String</code>, <code>Value</code> == <code><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></code></p>
+                  <a class="section-name-link" href="#/Available%20where%20%60Key%60%20%3D%3D%20%60String%60%2C%20%60Value%60%20%3D%3D%20%60JSONConvertible%60"></a>
+                  <h3 class="section-name"><span>Available where <code>Key</code> == <code>String</code>, <code>Value</code> == <code><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></code></span>
 </h3>
                 </div>
               </div>
@@ -1080,11 +1283,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

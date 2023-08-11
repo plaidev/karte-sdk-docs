@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/KarteApp" class="dashAnchor"></a>
     <a title="KarteApp Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteCore 2.23.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.23.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteCore Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         KarteApp Class Reference
       </p>
     </div>
@@ -52,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TrackerObjectiveC.html">TrackerObjectiveC</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/TrackingTask.html">TrackingTask</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/UserSync.html">UserSync</a>
@@ -121,7 +126,7 @@
                 <a href="../Extensions/NSNull.html">NSNull</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Resolver.html">Resolver</a>
+                <a href="../Extensions.html#/s:14KarteUtilities8ResolverC">Resolver</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -156,6 +161,9 @@
                 <a href="../Protocols/JSONConvertible.html">JSONConvertible</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/TrackEventRejectionFilterRule.html">TrackEventRejectionFilterRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/TrackerDelegate.html">TrackerDelegate</a>
               </li>
             </ul>
@@ -163,9 +171,6 @@
           <li class="nav-group-name">
             <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/CodableInjectedForObjcCompatibility.html">CodableInjectedForObjcCompatibility</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Structs/Event.html">Event</a>
               </li>
@@ -186,9 +191,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/OptionalCodableInjectedForObjcCompatibility.html">OptionalCodableInjectedForObjcCompatibility</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/TrackRequest.html">TrackRequest</a>
@@ -217,6 +219,7 @@
             <h1>KarteApp</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc(KRTApp)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">KarteApp</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -361,7 +364,7 @@
                     <code>
                     <a name="/c:@CM@KarteCore@objc(cs)KRTApp(cm)setupWithAppKey:configuration:"></a>
                     <a name="//apple_ref/swift/Method/setup(appKey:configuration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setupWithAppKey:configuration:">setup(appKey:configuration:)</a>
+                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setupWithAppKey:configuration:">setup(appKey:<wbr>configuration:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -427,7 +430,7 @@
                     <code>
                     <a name="/c:@CM@KarteCore@objc(cs)KRTApp(cm)setupWithConfiguration:"></a>
                     <a name="//apple_ref/swift/Method/setup(configuration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setupWithConfiguration:">setup(configuration:)</a>
+                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setupWithConfiguration:">setup(configuration:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -481,7 +484,7 @@
                     <code>
                     <a name="/c:@CM@KarteCore@objc(cs)KRTApp(cm)setLogLevel:"></a>
                     <a name="//apple_ref/swift/Method/setLogLevel(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setLogLevel:">setLogLevel(_:)</a>
+                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setLogLevel:">setLogLevel(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -530,7 +533,7 @@
                     <code>
                     <a name="/c:@CM@KarteCore@objc(cs)KRTApp(cm)setLogEnabled:"></a>
                     <a name="//apple_ref/swift/Method/setLogEnabled(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setLogEnabled:">setLogEnabled(_:)</a>
+                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)setLogEnabled:">setLogEnabled(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -548,7 +551,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "setLogEnabled method is deprecated. It will be removed in the future. Use setLogLevel instead.")</span>
+<span class="kd">@objc</span>
 <span class="kd">class</span> <span class="kd">func</span> <span class="nf">setLogEnabled</span><span class="p">(</span><span class="n">_</span> <span class="nv">isEnabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -703,7 +707,7 @@
                     <code>
                     <a name="/c:@CM@KarteCore@objc(cs)KRTApp(cm)application:openURL:"></a>
                     <a name="//apple_ref/swift/Method/application(_:open:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)application:openURL:">application(_:open:)</a>
+                    <a class="token" href="#/c:@CM@KarteCore@objc(cs)KRTApp(cm)application:openURL:">application(_:<wbr>open:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -796,7 +800,7 @@
                     <code>
                     <a name="/s:9KarteCore0A3AppC8register7libraryyAA7Library_pXp_tFZ"></a>
                     <a name="//apple_ref/swift/Method/register(library:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC8register7libraryyAA7Library_pXp_tFZ">register(library:)</a>
+                    <a class="token" href="#/s:9KarteCore0A3AppC8register7libraryyAA7Library_pXp_tFZ">register(library:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -844,7 +848,7 @@
                     <code>
                     <a name="/s:9KarteCore0A3AppC10unregister7libraryyAA7Library_pXp_tFZ"></a>
                     <a name="//apple_ref/swift/Method/unregister(library:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC10unregister7libraryyAA7Library_pXp_tFZ">unregister(library:)</a>
+                    <a class="token" href="#/s:9KarteCore0A3AppC10unregister7libraryyAA7Library_pXp_tFZ">unregister(library:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -890,7 +894,7 @@
                     <code>
                     <a name="/s:9KarteCore0A3AppC8register6moduleyAA6ModuleO_tF"></a>
                     <a name="//apple_ref/swift/Method/register(module:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC8register6moduleyAA6ModuleO_tF">register(module:)</a>
+                    <a class="token" href="#/s:9KarteCore0A3AppC8register6moduleyAA6ModuleO_tF">register(module:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -936,7 +940,7 @@
                     <code>
                     <a name="/s:9KarteCore0A3AppC10unregister6moduleyAA6ModuleO_tF"></a>
                     <a name="//apple_ref/swift/Method/unregister(module:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC10unregister6moduleyAA6ModuleO_tF">unregister(module:)</a>
+                    <a class="token" href="#/s:9KarteCore0A3AppC10unregister6moduleyAA6ModuleO_tF">unregister(module:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1182,198 +1186,15 @@
                     </section>
                   </div>
                 </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC5setup13configurationyAA13ConfigurationC_tF"></a>
-                    <a name="//apple_ref/swift/Method/setup(configuration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC5setup13configurationyAA13ConfigurationC_tF">setup(configuration:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setup</span><span class="p">(</span><span class="nv">configuration</span><span class="p">:</span> <span class="kt"><a href="../Classes/Configuration.html">Configuration</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC8teardownyyF"></a>
-                    <a name="//apple_ref/swift/Method/teardown()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC8teardownyyF">teardown()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">teardown</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC5optInyyF"></a>
-                    <a name="//apple_ref/swift/Method/optIn()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC5optInyyF">optIn()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">optIn</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC6optOutyyF"></a>
-                    <a name="//apple_ref/swift/Method/optOut()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC6optOutyyF">optOut()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">optOut</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC17optOutTemporarilyyyF"></a>
-                    <a name="//apple_ref/swift/Method/optOutTemporarily()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC17optOutTemporarilyyyF">optOutTemporarily()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">optOutTemporarily</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC14renewVisitorIdyyF"></a>
-                    <a name="//apple_ref/swift/Method/renewVisitorId()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC14renewVisitorIdyyF">renewVisitorId()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">renewVisitorId</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore0A3AppC11application_4openSbSo13UIApplicationC_10Foundation3URLVtF"></a>
-                    <a name="//apple_ref/swift/Method/application(_:open:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore0A3AppC11application_4openSbSo13UIApplicationC_10Foundation3URLVtF">application(_:open:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">application</span><span class="p">(</span><span class="n">_</span> <span class="nv">app</span><span class="p">:</span> <span class="kt">UIApplication</span><span class="p">,</span> <span class="kd">open</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

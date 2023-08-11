@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Struct/Event" class="dashAnchor"></a>
     <a title="Event Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteCore 2.23.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.23.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteCore Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         Event Structure Reference
       </p>
     </div>
@@ -52,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TrackerObjectiveC.html">TrackerObjectiveC</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/TrackingTask.html">TrackingTask</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/UserSync.html">UserSync</a>
@@ -121,7 +126,7 @@
                 <a href="../Extensions/NSNull.html">NSNull</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Resolver.html">Resolver</a>
+                <a href="../Extensions.html#/s:14KarteUtilities8ResolverC">Resolver</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -156,6 +161,9 @@
                 <a href="../Protocols/JSONConvertible.html">JSONConvertible</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/TrackEventRejectionFilterRule.html">TrackEventRejectionFilterRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/TrackerDelegate.html">TrackerDelegate</a>
               </li>
             </ul>
@@ -163,9 +171,6 @@
           <li class="nav-group-name">
             <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/CodableInjectedForObjcCompatibility.html">CodableInjectedForObjcCompatibility</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Structs/Event.html">Event</a>
               </li>
@@ -186,9 +191,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/OptionalCodableInjectedForObjcCompatibility.html">OptionalCodableInjectedForObjcCompatibility</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/TrackRequest.html">TrackRequest</a>
@@ -217,6 +219,7 @@
             <h1>Event</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Event</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
@@ -308,9 +311,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9KarteCore5EventV9eventName6valuesAcA0cE0V_SDySSAA15JSONConvertible_pGtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(eventName:values:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore5EventV9eventName6valuesAcA0cE0V_SDySSAA15JSONConvertible_pGtcfc">init(eventName:values:)</a>
+                    <a name="/s:9KarteCore5EventV11libraryNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/libraryName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore5EventV11libraryNameSSSgvp">libraryName</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -318,65 +321,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">eventName</span><span class="p">:</span> <span class="kt"><a href="../Structs/EventName.html">EventName</a></span><span class="p">,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+                        <p>イベント発生源のライブラリ名</p>
 
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore5EventVyA2C5AliasOcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore5EventVyA2C5AliasOcfc">init(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">alias</span><span class="p">:</span> <span class="kt"><a href="../Structs/Event/Alias.html">Alias</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:9KarteCore5EventV5mergeyySDySSAA15JSONConvertible_pGF"></a>
-                    <a name="//apple_ref/swift/Method/merge(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore5EventV5mergeyySDySSAA15JSONConvertible_pGF">merge(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">merge</span><span class="p">(</span><span class="n">_</span> <span class="nv">other</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span><span class="p">])</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">libraryName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -444,11 +396,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Extension/Array" class="dashAnchor"></a>
     <a title="Array Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteCore 2.23.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.23.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteCore Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         Array Extension Reference
       </p>
     </div>
@@ -52,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TrackerObjectiveC.html">TrackerObjectiveC</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/TrackingTask.html">TrackingTask</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/UserSync.html">UserSync</a>
@@ -121,7 +126,7 @@
                 <a href="../Extensions/NSNull.html">NSNull</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Resolver.html">Resolver</a>
+                <a href="../Extensions.html#/s:14KarteUtilities8ResolverC">Resolver</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -156,6 +161,9 @@
                 <a href="../Protocols/JSONConvertible.html">JSONConvertible</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/TrackEventRejectionFilterRule.html">TrackEventRejectionFilterRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/TrackerDelegate.html">TrackerDelegate</a>
               </li>
             </ul>
@@ -163,9 +171,6 @@
           <li class="nav-group-name">
             <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/CodableInjectedForObjcCompatibility.html">CodableInjectedForObjcCompatibility</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Structs/Event.html">Event</a>
               </li>
@@ -186,9 +191,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/OptionalCodableInjectedForObjcCompatibility.html">OptionalCodableInjectedForObjcCompatibility</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/TrackRequest.html">TrackRequest</a>
@@ -217,7 +219,9 @@
             <h1>Array</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Array</span><span class="p">:</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span> <span class="k">where</span> <span class="kt">Element</span> <span class="o">==</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span></code></pre>
+                  
+                  <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Array</span> <span class="k">where</span> <span class="kt">Element</span> <span class="o">==</span> <span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Array</span><span class="p">:</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span> <span class="k">where</span> <span class="kt">Element</span> <span class="o">==</span> <span class="kt"><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></span></code></pre>
 
                 </div>
               </div>
@@ -226,11 +230,51 @@
           <section class="section task-group-section">
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Available%20where%20%60Element%60%20==%20%60JSONConvertible%60"></a>
+                <a name="/Available%20where%20%60Element%60%20%3D%3D%20%60JSONValue%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Element` == `JSONValue`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Element%60%20%3D%3D%20%60JSONValue%60"></a>
+                  <h3 class="section-name"><span>Available where <code>Element</code> == <code><a href="../Enums/JSONValue.html">JSONValue</a></code></span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa9KarteCoreAA9JSONValueORszlE12dictionariesSaySDySSACGGvp"></a>
+                    <a name="//apple_ref/swift/Property/dictionaries" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa9KarteCoreAA9JSONValueORszlE12dictionariesSaySDySSACGGvp">dictionaries</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>配列要素の型を <code><a href="../Enums/JSONValue.html">JSONValue</a></code> から <code>[String: JSONValue]</code> にキャスト済みの配列を返す。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dictionaries</span><span class="p">:</span> <span class="p">[[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Enums/JSONValue.html">JSONValue</a></span><span class="p">]]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Element%60%20%3D%3D%20%60JSONConvertible%60"></a>
                 <a name="//apple_ref/swift/Section/Available where `Element` == `JSONConvertible`" class="dashAnchor"></a>
                 <div class="section-name-container">
-                  <a class="section-name-link" href="#/Available%20where%20%60Element%60%20==%20%60JSONConvertible%60"></a>
-                  <h3 class="section-name"><p>Available where <code>Element</code> == <code><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></code></p>
+                  <a class="section-name-link" href="#/Available%20where%20%60Element%60%20%3D%3D%20%60JSONConvertible%60"></a>
+                  <h3 class="section-name"><span>Available where <code>Element</code> == <code><a href="../Protocols/JSONConvertible.html">JSONConvertible</a></code></span>
 </h3>
                 </div>
               </div>
@@ -266,11 +310,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

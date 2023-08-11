@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/TrackerObjectiveC" class="dashAnchor"></a>
     <a title="TrackerObjectiveC Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteCore 2.23.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.23.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteCore Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         TrackerObjectiveC Class Reference
       </p>
     </div>
@@ -52,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TrackerObjectiveC.html">TrackerObjectiveC</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/TrackingTask.html">TrackingTask</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/UserSync.html">UserSync</a>
@@ -121,7 +126,7 @@
                 <a href="../Extensions/NSNull.html">NSNull</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Resolver.html">Resolver</a>
+                <a href="../Extensions.html#/s:14KarteUtilities8ResolverC">Resolver</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -156,6 +161,9 @@
                 <a href="../Protocols/JSONConvertible.html">JSONConvertible</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/TrackEventRejectionFilterRule.html">TrackEventRejectionFilterRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/TrackerDelegate.html">TrackerDelegate</a>
               </li>
             </ul>
@@ -163,9 +171,6 @@
           <li class="nav-group-name">
             <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/CodableInjectedForObjcCompatibility.html">CodableInjectedForObjcCompatibility</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Structs/Event.html">Event</a>
               </li>
@@ -186,9 +191,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/OptionalCodableInjectedForObjcCompatibility.html">OptionalCodableInjectedForObjcCompatibility</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/TrackRequest.html">TrackRequest</a>
@@ -217,6 +219,7 @@
             <h1>TrackerObjectiveC</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc(KRTTracker)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">TrackerObjectiveC</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -253,7 +256,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)initWithView:"></a>
                     <a name="//apple_ref/swift/Method/init(view:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)initWithView:">init(view:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)initWithView:">init(view:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -300,7 +303,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)track:"></a>
                     <a name="//apple_ref/swift/Method/track(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)track:">track(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)track:">track(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -317,7 +320,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -352,7 +355,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)track:values:"></a>
                     <a name="//apple_ref/swift/Method/track(_:values:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)track:values:">track(_:values:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)track:values:">track(_:<wbr>values:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -369,7 +372,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -416,7 +419,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)identify:"></a>
                     <a name="//apple_ref/swift/Method/identify(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)identify:">identify(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)identify:">identify(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -434,7 +437,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "userId is a required parameter")</span>
 <span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -469,7 +472,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)identify::"></a>
                     <a name="//apple_ref/swift/Method/identify(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)identify::">identify(_:_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)identify::">identify(_:<wbr>_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -486,7 +489,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -533,7 +536,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)attribute:"></a>
                     <a name="//apple_ref/swift/Method/attribute(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)attribute:">attribute(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)attribute:">attribute(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -550,7 +553,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">attribute</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">attribute</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -585,7 +588,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:"></a>
                     <a name="//apple_ref/swift/Method/view(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:">view(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:">view(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -602,7 +605,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -637,7 +640,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:title:"></a>
                     <a name="//apple_ref/swift/Method/view(_:title:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:title:">view(_:title:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:title:">view(_:<wbr>title:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -654,7 +657,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -701,7 +704,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:title:values:"></a>
                     <a name="//apple_ref/swift/Method/view(_:title:values:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:title:values:">view(_:title:values:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(cm)view:title:values:">view(_:<wbr>title:<wbr>values:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -718,7 +721,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -777,7 +780,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)track:"></a>
                     <a name="//apple_ref/swift/Method/track(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)track:">track(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)track:">track(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -794,7 +797,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -829,7 +832,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)track:values:"></a>
                     <a name="//apple_ref/swift/Method/track(_:values:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)track:values:">track(_:values:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)track:values:">track(_:<wbr>values:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -846,7 +849,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">track</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -893,7 +896,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)identify:"></a>
                     <a name="//apple_ref/swift/Method/identify(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)identify:">identify(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)identify:">identify(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -911,7 +914,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "userId is a required parameter")</span>
 <span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -946,7 +949,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)identify::"></a>
                     <a name="//apple_ref/swift/Method/identify(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)identify::">identify(_:_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)identify::">identify(_:<wbr>_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -963,7 +966,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">identify</span><span class="p">(</span><span class="n">_</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -1010,7 +1013,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)attribute:"></a>
                     <a name="//apple_ref/swift/Method/attribute(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)attribute:">attribute(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)attribute:">attribute(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1027,7 +1030,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">attribute</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">attribute</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -1062,7 +1065,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)view:"></a>
                     <a name="//apple_ref/swift/Method/view(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)view:">view(_:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)view:">view(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1079,7 +1082,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -1114,7 +1117,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)view:title:"></a>
                     <a name="//apple_ref/swift/Method/view(_:title:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)view:title:">view(_:title:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)view:title:">view(_:<wbr>title:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1131,7 +1134,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -1178,7 +1181,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                     <code>
                     <a name="/c:@M@KarteCore@objc(cs)KRTTracker(im)view:title:values:"></a>
                     <a name="//apple_ref/swift/Method/view(_:title:values:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)view:title:values:">view(_:title:values:)</a>
+                    <a class="token" href="#/c:@M@KarteCore@objc(cs)KRTTracker(im)view:title:values:">view(_:<wbr>title:<wbr>values:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1195,7 +1198,7 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TrackingTask.html">TrackingTask</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">view</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">TrackingTask</span></code></pre>
 
                         </div>
                       </div>
@@ -1254,11 +1257,10 @@ Split View / Slide Over を有効がアプリケーションでは、<code>UIVie
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

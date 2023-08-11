@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Struct/TrackRequest" class="dashAnchor"></a>
     <a title="TrackRequest Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.21.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E21%2E0%2FKarteCore%2Fdocsets%2FKarteCore%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteCore 2.23.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.23.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteCore Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         TrackRequest Structure Reference
       </p>
     </div>
@@ -52,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/TrackerObjectiveC.html">TrackerObjectiveC</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/TrackingTask.html">TrackingTask</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/UserSync.html">UserSync</a>
@@ -121,7 +126,7 @@
                 <a href="../Extensions/NSNull.html">NSNull</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Resolver.html">Resolver</a>
+                <a href="../Extensions.html#/s:14KarteUtilities8ResolverC">Resolver</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -156,6 +161,9 @@
                 <a href="../Protocols/JSONConvertible.html">JSONConvertible</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/TrackEventRejectionFilterRule.html">TrackEventRejectionFilterRule</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/TrackerDelegate.html">TrackerDelegate</a>
               </li>
             </ul>
@@ -163,9 +171,6 @@
           <li class="nav-group-name">
             <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Structs/CodableInjectedForObjcCompatibility.html">CodableInjectedForObjcCompatibility</a>
-              </li>
               <li class="nav-group-task">
                 <a href="../Structs/Event.html">Event</a>
               </li>
@@ -186,9 +191,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/OptionalCodableInjectedForObjcCompatibility.html">OptionalCodableInjectedForObjcCompatibility</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/TrackRequest.html">TrackRequest</a>
@@ -217,6 +219,7 @@
             <h1>TrackRequest</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TrackRequest</span> <span class="p">:</span> <span class="kt">Request</span></code></pre>
 
                 </div>
@@ -550,7 +553,7 @@
                     <code>
                     <a name="/s:14KarteUtilities7RequestP9intercept03urlC010Foundation10URLRequestVAH_tKF"></a>
                     <a name="//apple_ref/swift/Method/intercept(urlRequest:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:14KarteUtilities7RequestP9intercept03urlC010Foundation10URLRequestVAH_tKF">intercept(urlRequest:)</a>
+                    <a class="token" href="#/s:14KarteUtilities7RequestP9intercept03urlC010Foundation10URLRequestVAH_tKF">intercept(urlRequest:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -576,7 +579,7 @@
                     <code>
                     <a name="/s:14KarteUtilities7RequestP9intercept6object11urlResponseypyp_So17NSHTTPURLResponseCtKF"></a>
                     <a name="//apple_ref/swift/Method/intercept(object:urlResponse:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:14KarteUtilities7RequestP9intercept6object11urlResponseypyp_So17NSHTTPURLResponseCtKF">intercept(object:urlResponse:)</a>
+                    <a class="token" href="#/s:14KarteUtilities7RequestP9intercept6object11urlResponseypyp_So17NSHTTPURLResponseCtKF">intercept(object:<wbr>urlResponse:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -602,7 +605,7 @@
                     <code>
                     <a name="/s:14KarteUtilities7RequestP8response4from11urlResponse0G0Qzyp_So17NSHTTPURLResponseCtKF"></a>
                     <a name="//apple_ref/swift/Method/response(from:urlResponse:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:14KarteUtilities7RequestP8response4from11urlResponse0G0Qzyp_So17NSHTTPURLResponseCtKF">response(from:urlResponse:)</a>
+                    <a class="token" href="#/s:14KarteUtilities7RequestP8response4from11urlResponse0G0Qzyp_So17NSHTTPURLResponseCtKF">response(from:<wbr>urlResponse:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -628,7 +631,7 @@
                     <code>
                     <a name="/s:9KarteCore12TrackRequestV8contains9eventNameSbAA05EventG0V_tF"></a>
                     <a name="//apple_ref/swift/Method/contains(eventName:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore12TrackRequestV8contains9eventNameSbAA05EventG0V_tF">contains(eventName:)</a>
+                    <a class="token" href="#/s:9KarteCore12TrackRequestV8contains9eventNameSbAA05EventG0V_tF">contains(eventName:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -678,11 +681,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-07-29)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
