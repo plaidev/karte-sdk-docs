@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/VisualTracking" class="dashAnchor"></a>
     <a title="VisualTracking Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteVisualTracking 2.9.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E9%2E0%2FKarteVisualTracking%2Fdocsets%2FKarteVisualTracking%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteVisualTracking 2.11.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.11.0%2FKarteVisualTracking%2Fdocsets%2FKarteVisualTracking.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteVisualTracking Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         VisualTracking Class Reference
       </p>
     </div>
@@ -45,35 +53,6 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Enums/ActionFactory.html">ActionFactory</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Extensions/Logger.html">Logger</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIApplication.html">UIApplication</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIGestureRecognizer.html">UIGestureRecognizer</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIGestureRecognizer.html#/s:So19UIGestureRecognizerC19KarteVisualTrackingE2REC">– RE</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIResponder.html">UIResponder</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIViewController.html">UIViewController</a>
               </li>
             </ul>
           </li>
@@ -104,6 +83,7 @@
             <h1>VisualTracking</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc(KRTVisualTracking)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">VisualTracking</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">VisualTracking</span><span class="p">:</span> <span class="kt">Library</span></code></pre>
@@ -238,7 +218,7 @@
                     <code>
                     <a name="/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ"></a>
                     <a name="//apple_ref/swift/Method/handle(actionProtocol:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ">handle(actionProtocol:)</a>
+                    <a class="token" href="#/s:19KarteVisualTracking0bC0C6handle14actionProtocolyAA06ActionF0_p_tFZ">handle(actionProtocol:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -365,7 +345,7 @@
                     <code>
                     <a name="/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ"></a>
                     <a name="//apple_ref/swift/Method/configure(app:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ">configure(app:)</a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ">configure(app:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -391,7 +371,7 @@
                     <code>
                     <a name="/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ"></a>
                     <a name="//apple_ref/swift/Method/unconfigure(app:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ">unconfigure(app:)</a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ">unconfigure(app:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -417,11 +397,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-06-28)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
