@@ -8,21 +8,29 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/InAppMessaging" class="dashAnchor"></a>
     <a title="InAppMessaging Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteInAppMessaging 2.13.0 Docs</a></p>
-        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev%2Egithub%2Eio%2Fkarte%2Dsdk%2Ddocs%2Fios%2F2%2E13%2E0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+        <p><a href="../index.html">KarteInAppMessaging 2.15.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.15.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">KarteInAppMessaging Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         InAppMessaging Class Reference
       </p>
     </div>
@@ -34,26 +42,6 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Classes/InAppMessaging.html">InAppMessaging</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Extensions/Logger.html">Logger</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/Logger/Tag.html">– Tag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UITabBarController.html">UITabBarController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/UIViewController.html">UIViewController</a>
               </li>
             </ul>
           </li>
@@ -73,10 +61,11 @@
             <h1>InAppMessaging</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc(KRTInAppMessaging)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">InAppMessaging</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">InAppMessaging</span><span class="p">:</span> <span class="kt">Library</span></code></pre>
-<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">InAppMessaging</span><span class="p">:</span> <span class="kt">ActionModule</span><span class="p">,</span> <span class="kt">UserModule</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">InAppMessaging</span><span class="p">:</span> <span class="kt">ActionModule</span><span class="p">,</span> <span class="kt">UserModule</span><span class="p">,</span> <span class="kt">TrackModule</span></code></pre>
 
                 </div>
               </div>
@@ -241,7 +230,7 @@
                     <code>
                     <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)isPresentingWithView:"></a>
                     <a name="//apple_ref/swift/Method/isPresenting(view:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)isPresentingWithView:">isPresenting(view:)</a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)isPresentingWithView:">isPresenting(view:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -322,7 +311,7 @@
                     <code>
                     <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismissWithView:"></a>
                     <a name="//apple_ref/swift/Method/dismiss(view:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismissWithView:">dismiss(view:)</a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)dismissWithView:">dismiss(view:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -401,7 +390,7 @@
                     <code>
                     <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppressWithView:"></a>
                     <a name="//apple_ref/swift/Method/suppress(view:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppressWithView:">suppress(view:)</a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)suppressWithView:">suppress(view:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -478,7 +467,7 @@
                     <code>
                     <a name="/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppressWithView:"></a>
                     <a name="//apple_ref/swift/Method/unsuppress(view:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppressWithView:">unsuppress(view:)</a>
+                    <a class="token" href="#/c:@M@KarteInAppMessaging@objc(cs)KRTInAppMessaging(im)unsuppressWithView:">unsuppress(view:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -603,7 +592,7 @@
                     <code>
                     <a name="/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ"></a>
                     <a name="//apple_ref/swift/Method/configure(app:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ">configure(app:)</a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP9configure3appyAA0A3AppC_tFZ">configure(app:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -629,7 +618,7 @@
                     <code>
                     <a name="/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ"></a>
                     <a name="//apple_ref/swift/Method/unconfigure(app:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ">unconfigure(app:)</a>
+                    <a class="token" href="#/s:9KarteCore7LibraryP11unconfigure3appyAA0A3AppC_tFZ">unconfigure(app:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -705,9 +694,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:9KarteCore12ActionModuleP7receive8response7requestyAA13TrackResponseV0I0V_AA0H7RequestVtF"></a>
+                    <a name="/s:9KarteCore12ActionModuleP7receive8response7requestySDySSAA9JSONValueOG_AA12TrackRequestVtF"></a>
                     <a name="//apple_ref/swift/Method/receive(response:request:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore12ActionModuleP7receive8response7requestyAA13TrackResponseV0I0V_AA0H7RequestVtF">receive(response:request:)</a>
+                    <a class="token" href="#/s:9KarteCore12ActionModuleP7receive8response7requestySDySSAA9JSONValueOG_AA12TrackRequestVtF">receive(response:<wbr>request:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -721,7 +710,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">receive</span><span class="p">(</span><span class="nv">response</span><span class="p">:</span> <span class="kt">TrackResponse</span><span class="o">.</span><span class="kt">Response</span><span class="p">,</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">TrackRequest</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">receive</span><span class="p">(</span><span class="nv">response</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">JSONValue</span><span class="p">],</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">TrackRequest</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -733,7 +722,7 @@
                     <code>
                     <a name="/s:9KarteCore12ActionModuleP5reset7sceneIdyAA05SceneG0V_tF"></a>
                     <a name="//apple_ref/swift/Method/reset(sceneId:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore12ActionModuleP5reset7sceneIdyAA05SceneG0V_tF">reset(sceneId:)</a>
+                    <a class="token" href="#/s:9KarteCore12ActionModuleP5reset7sceneIdyAA05SceneG0V_tF">reset(sceneId:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -785,7 +774,7 @@
                     <code>
                     <a name="/s:9KarteCore10UserModuleP5renew9visitorId8previousySS_SStF"></a>
                     <a name="//apple_ref/swift/Method/renew(visitorId:previous:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:9KarteCore10UserModuleP5renew9visitorId8previousySS_SStF">renew(visitorId:previous:)</a>
+                    <a class="token" href="#/s:9KarteCore10UserModuleP5renew9visitorId8previousySS_SStF">renew(visitorId:<wbr>previous:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -806,16 +795,93 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore11TrackModuleP7prepare5event7sceneIdAA5EventVAH_AA05SceneH0VtF"></a>
+                    <a name="//apple_ref/swift/Method/prepare(event:sceneId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore11TrackModuleP7prepare5event7sceneIdAA5EventVAH_AA05SceneH0VtF">prepare(event:<wbr>sceneId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">prepare</span><span class="p">(</span><span class="nv">event</span><span class="p">:</span> <span class="kt">Event</span><span class="p">,</span> <span class="nv">sceneId</span><span class="p">:</span> <span class="kt">SceneId</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Event</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore11TrackModuleP9intercept10urlRequest10Foundation10URLRequestVAH_tKF"></a>
+                    <a name="//apple_ref/swift/Method/intercept(urlRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore11TrackModuleP9intercept10urlRequest10Foundation10URLRequestVAH_tKF">intercept(urlRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">intercept</span><span class="p">(</span><span class="nv">urlRequest</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">URLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9KarteCore11TrackModuleP32provideEventRejectionFilterRulesSayAA0cfgH4Rule_pGyF"></a>
+                    <a name="//apple_ref/swift/Method/provideEventRejectionFilterRules()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9KarteCore11TrackModuleP32provideEventRejectionFilterRulesSayAA0cfgH4Rule_pGyF">provideEventRejectionFilterRules()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">provideEventRejectionFilterRules</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">TrackEventRejectionFilterRule</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="https://karte.io" target="_blank" rel="external">PLAID, inc.</a>. All rights reserved. (Last updated: 2022-12-23)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2023-08-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
