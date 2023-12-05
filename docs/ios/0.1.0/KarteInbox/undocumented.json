@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/KarteInbox/Inbox.swift",
+      "line": 27,
+      "symbol": "Inbox.currentApiKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInbox/Logger+Tag.swift",
+      "line": 21,
+      "symbol": "Logger.Tag.inbox",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInbox/Models/InboxMessage.swift",
+      "line": 56,
+      "symbol": "InboxMessage.init(timestamp:title:body:linkUrl:attachmentUrl:campaignId:messageId:isRead:_customPayload:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/scripts"
+}
