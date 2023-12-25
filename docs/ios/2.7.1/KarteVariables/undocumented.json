@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/KarteVariables/ObjcCompatibleScope.swift",
+      "line": 25,
+      "symbol": "ObjcCompatibleScopeForVariables.trackOpen(variables:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteVariables/ObjcCompatibleScope.swift",
+      "line": 30,
+      "symbol": "ObjcCompatibleScopeForVariables.trackOpen(variables:values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteVariables/ObjcCompatibleScope.swift",
+      "line": 38,
+      "symbol": "ObjcCompatibleScopeForVariables.trackClick(variables:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteVariables/ObjcCompatibleScope.swift",
+      "line": 43,
+      "symbol": "ObjcCompatibleScopeForVariables.trackClick(variables:values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/scripts"
+}
