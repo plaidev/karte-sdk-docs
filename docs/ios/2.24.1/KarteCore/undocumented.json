@@ -1,0 +1,145 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/KarteCore/Common/DIHelper.swift",
+      "line": 21,
+      "symbol": "CodableInjectedForObjcCompatibility",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Common/DIHelper.swift",
+      "line": 51,
+      "symbol": "OptionalCodableInjectedForObjcCompatibility",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Common/Type/JSONConvertible.swift",
+      "line": 150,
+      "symbol": "Dictionary.mergeRecursive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Common/Type/JSONConvertible.swift",
+      "line": 154,
+      "symbol": "Dictionary.mergingRecursive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/KarteApp.swift",
+      "line": 320,
+      "symbol": "KarteApp.application(_:open:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/KarteApp.swift",
+      "line": 338,
+      "symbol": "Resolver.registerAllServices()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/APIClient/TrackResponse.swift",
+      "line": 81,
+      "symbol": "TrackResponse.Response.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/Bundler/CommandBundle.swift",
+      "line": 60,
+      "symbol": "CommandBundle",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/Bundler/CommandBundlerProxy.swift",
+      "line": 65,
+      "symbol": "StateCommandBundlerProxy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/Bundler/Rules/TimeWindowBundleRule.swift",
+      "line": 58,
+      "symbol": "TimeWindowBundleRule",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/Command/DefaultTrackingCommandExecutor.swift",
+      "line": 123,
+      "symbol": "DefaultTrackingCommandExecutor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/Command/RetryTrackingCommandExecutor.swift",
+      "line": 87,
+      "symbol": "RetryTrackingCommandExecutor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/Command/TrackingCommand.swift",
+      "line": 70,
+      "symbol": "TrackingCommand",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/TrackingAgent.swift",
+      "line": 99,
+      "symbol": "TrackingAgent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Agent/TrackingAgent.swift",
+      "line": 135,
+      "symbol": "TrackingAgent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Event/Event.swift",
+      "line": 53,
+      "symbol": "Event.init(eventName:values:libraryName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Event/Event.swift",
+      "line": 59,
+      "symbol": "Event.init(_:libraryName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Event/Event.swift",
+      "line": 64,
+      "symbol": "Event.merge(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/Event/EventFieldName.swift",
+      "line": 24,
+      "symbol": "EventFieldName.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteCore/Tracking/TrackingTask.swift",
+      "line": 23,
+      "symbol": "TrackingTask",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/scripts"
+}
