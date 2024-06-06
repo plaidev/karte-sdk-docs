@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/KarteInAppMessaging/IAMProcess.swift",
+      "line": 311,
+      "symbol": "IAMProcess",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppMessaging/IAMProcess.swift",
+      "line": 357,
+      "symbol": "IAMProcess",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppMessaging/View/IAMWebView.swift",
+      "line": 344,
+      "symbol": "IAMWebView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppMessaging/View/IAMWebView.swift",
+      "line": 430,
+      "symbol": "IAMWebView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/scripts"
+}
