@@ -1,5 +1,39 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:io.karte.android.visualtracking////PointingToDeclaration/visualtracking/io.karte.android.visualtracking/index.html
+$dokka.location:io.karte.android.visualtracking/Action///PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-action/index.html
+$dokka.location:io.karte.android.visualtracking/Action/action/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-action/action.html
+$dokka.location:io.karte.android.visualtracking/Action/actionId/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-action/action-id.html
+$dokka.location:io.karte.android.visualtracking/Action/imageProvider/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-action/image-provider.html
+$dokka.location:io.karte.android.visualtracking/Action/targetText/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-action/target-text.html
+$dokka.location:io.karte.android.visualtracking/BasicAction///PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/index.html
+$dokka.location:io.karte.android.visualtracking/BasicAction/BasicAction/#kotlin.String#kotlin.String?#kotlin.String?#io.karte.android.visualtracking.ImageProvider?/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/-basic-action.html
+$dokka.location:io.karte.android.visualtracking/BasicAction/action/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/action.html
+$dokka.location:io.karte.android.visualtracking/BasicAction/actionId/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/action-id.html
+$dokka.location:io.karte.android.visualtracking/BasicAction/imageProvider/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/image-provider.html
+$dokka.location:io.karte.android.visualtracking/BasicAction/targetText/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/target-text.html
+$dokka.location:io.karte.android.visualtracking/BasicAction/toString/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-basic-action/to-string.html
+$dokka.location:io.karte.android.visualtracking/ImageProvider///PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-image-provider/index.html
+$dokka.location:io.karte.android.visualtracking/ImageProvider/image/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-image-provider/image.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking.Companion///PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/-companion/index.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking.Companion/delegate/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/-companion/delegate.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking.Companion/handle/#io.karte.android.visualtracking.Action/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/-companion/handle.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking.Companion/isPaired/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/-companion/is-paired.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking///PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/index.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/VisualTracking/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/-visual-tracking.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/configure/#io.karte.android.KarteApp/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/configure.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/eventRejectionFilterRules/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/event-rejection-filter-rules.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/intercept/#io.karte.android.tracking.client.TrackRequest/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/intercept.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/isPublic/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/is-public.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/name/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/name.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/prepare/#io.karte.android.tracking.Event/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/prepare.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/receive/#io.karte.android.tracking.client.TrackResponse#io.karte.android.tracking.client.TrackRequest/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/receive.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/reset/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/reset.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/resetAll/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/reset-all.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/unconfigure/#io.karte.android.KarteApp/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/unconfigure.html
+$dokka.location:io.karte.android.visualtracking/VisualTracking/version/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking/version.html
+$dokka.location:io.karte.android.visualtracking/VisualTrackingDelegate///PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking-delegate/index.html
+$dokka.location:io.karte.android.visualtracking/VisualTrackingDelegate/VisualTrackingDelegate/#/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking-delegate/-visual-tracking-delegate.html
+$dokka.location:io.karte.android.visualtracking/VisualTrackingDelegate/onDevicePairingStatusUpdated/#kotlin.Boolean/PointingToDeclaration/visualtracking/io.karte.android.visualtracking/-visual-tracking-delegate/on-device-pairing-status-updated.html
 io.karte.android.visualtracking
 

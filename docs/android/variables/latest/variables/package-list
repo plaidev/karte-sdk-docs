@@ -1,5 +1,37 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:io.karte.android.variables////PointingToDeclaration/variables/io.karte.android.variables/index.html
+$dokka.location:io.karte.android.variables/FetchCompletion///PointingToDeclaration/variables/io.karte.android.variables/-fetch-completion/index.html
+$dokka.location:io.karte.android.variables/Variable.Companion///PointingToDeclaration/variables/io.karte.android.variables/-variable/-companion/index.html
+$dokka.location:io.karte.android.variables/Variable///PointingToDeclaration/variables/io.karte.android.variables/-variable/index.html
+$dokka.location:io.karte.android.variables/Variable/boolean/#kotlin.Boolean/PointingToDeclaration/variables/io.karte.android.variables/-variable/boolean.html
+$dokka.location:io.karte.android.variables/Variable/campaignId/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/campaign-id.html
+$dokka.location:io.karte.android.variables/Variable/double/#kotlin.Double/PointingToDeclaration/variables/io.karte.android.variables/-variable/double.html
+$dokka.location:io.karte.android.variables/Variable/eventHash/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/event-hash.html
+$dokka.location:io.karte.android.variables/Variable/isDefined/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/is-defined.html
+$dokka.location:io.karte.android.variables/Variable/jsonArray/#org.json.JSONArray/PointingToDeclaration/variables/io.karte.android.variables/-variable/json-array.html
+$dokka.location:io.karte.android.variables/Variable/jsonObject/#org.json.JSONObject/PointingToDeclaration/variables/io.karte.android.variables/-variable/json-object.html
+$dokka.location:io.karte.android.variables/Variable/long/#kotlin.Long/PointingToDeclaration/variables/io.karte.android.variables/-variable/long.html
+$dokka.location:io.karte.android.variables/Variable/name/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/name.html
+$dokka.location:io.karte.android.variables/Variable/shortenId/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/shorten-id.html
+$dokka.location:io.karte.android.variables/Variable/string/#kotlin.String/PointingToDeclaration/variables/io.karte.android.variables/-variable/string.html
+$dokka.location:io.karte.android.variables/Variable/timestamp/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/timestamp.html
+$dokka.location:io.karte.android.variables/Variable/value/#/PointingToDeclaration/variables/io.karte.android.variables/-variable/value.html
+$dokka.location:io.karte.android.variables/Variables///PointingToDeclaration/variables/io.karte.android.variables/-variables/index.html
+$dokka.location:io.karte.android.variables/Variables/clearCacheAll/#/PointingToDeclaration/variables/io.karte.android.variables/-variables/clear-cache-all.html
+$dokka.location:io.karte.android.variables/Variables/clearCacheByKey/#java.lang.String/PointingToDeclaration/variables/io.karte.android.variables/-variables/clear-cache-by-key.html
+$dokka.location:io.karte.android.variables/Variables/fetch/#/PointingToDeclaration/variables/io.karte.android.variables/-variables/fetch.html
+$dokka.location:io.karte.android.variables/Variables/fetch/#io.karte.android.variables.FetchCompletion/PointingToDeclaration/variables/io.karte.android.variables/-variables/fetch.html
+$dokka.location:io.karte.android.variables/Variables/filter/#io.karte.android.variables.VariablesPredicate<java.lang.String>/PointingToDeclaration/variables/io.karte.android.variables/-variables/filter.html
+$dokka.location:io.karte.android.variables/Variables/get/#java.lang.String/PointingToDeclaration/variables/io.karte.android.variables/-variables/get.html
+$dokka.location:io.karte.android.variables/Variables/getAllKeys/#/PointingToDeclaration/variables/io.karte.android.variables/-variables/get-all-keys.html
+$dokka.location:io.karte.android.variables/Variables/trackClick/#java.util.List<io.karte.android.variables.Variable>#java.util.Map<java.lang.String,?>/PointingToDeclaration/variables/io.karte.android.variables/-variables/track-click.html
+$dokka.location:io.karte.android.variables/Variables/trackClick/#java.util.List<io.karte.android.variables.Variable>#org.json.JSONObject/PointingToDeclaration/variables/io.karte.android.variables/-variables/track-click.html
+$dokka.location:io.karte.android.variables/Variables/trackClick/#java.util.List<io.karte.android.variables.Variable>/PointingToDeclaration/variables/io.karte.android.variables/-variables/track-click.html
+$dokka.location:io.karte.android.variables/Variables/trackOpen/#java.util.List<io.karte.android.variables.Variable>#java.util.Map<java.lang.String,?>/PointingToDeclaration/variables/io.karte.android.variables/-variables/track-open.html
+$dokka.location:io.karte.android.variables/Variables/trackOpen/#java.util.List<io.karte.android.variables.Variable>#org.json.JSONObject/PointingToDeclaration/variables/io.karte.android.variables/-variables/track-open.html
+$dokka.location:io.karte.android.variables/Variables/trackOpen/#java.util.List<io.karte.android.variables.Variable>/PointingToDeclaration/variables/io.karte.android.variables/-variables/track-open.html
+$dokka.location:io.karte.android.variables/VariablesPredicate///PointingToDeclaration/variables/io.karte.android.variables/-variables-predicate/index.html
+$dokka.location:io.karte.android.variables/VariablesPredicate/test/#T/PointingToDeclaration/variables/io.karte.android.variables/-variables-predicate/test.html
 io.karte.android.variables
 

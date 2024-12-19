@@ -1,6 +1,30 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:io.karte.android.inbox.models////PointingToDeclaration/inbox/io.karte.android.inbox.models/index.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage///PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/index.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/InboxMessage/#java.util.Date#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/-inbox-message.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/attachmentUrl/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/attachment-url.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/body/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/body.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/campaignId/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/campaign-id.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/customPayload/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/custom-payload.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/isRead/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/is-read.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/linkUrl/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/link-url.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/messageId/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/message-id.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/timestamp/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/timestamp.html
+$dokka.location:io.karte.android.inbox.models/InboxMessage/title/#/PointingToDeclaration/inbox/io.karte.android.inbox.models/-inbox-message/title.html
+$dokka.location:io.karte.android.inbox////PointingToDeclaration/inbox/io.karte.android.inbox/index.html
+$dokka.location:io.karte.android.inbox/Inbox.Companion///PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/-companion/index.html
+$dokka.location:io.karte.android.inbox/Inbox.Companion/fetchMessages/#kotlin.Int?#kotlin.String?/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/-companion/fetch-messages.html
+$dokka.location:io.karte.android.inbox/Inbox.Companion/fetchMessagesAsync/#kotlin.Int?#kotlin.String?#android.os.Handler?#kotlin.Function1[kotlin.collections.List[io.karte.android.inbox.models.InboxMessage]?,kotlin.Unit]/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/-companion/fetch-messages-async.html
+$dokka.location:io.karte.android.inbox/Inbox.Companion/openMessages/#kotlin.collections.List[kotlin.String]/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/-companion/open-messages.html
+$dokka.location:io.karte.android.inbox/Inbox.Companion/openMessagesAsync/#kotlin.collections.List[kotlin.String]#android.os.Handler?#kotlin.Function1[kotlin.Boolean,kotlin.Unit]/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/-companion/open-messages-async.html
+$dokka.location:io.karte.android.inbox/Inbox///PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/index.html
+$dokka.location:io.karte.android.inbox/Inbox/Inbox/#/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/-inbox.html
+$dokka.location:io.karte.android.inbox/Inbox/configure/#io.karte.android.KarteApp/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/configure.html
+$dokka.location:io.karte.android.inbox/Inbox/isPublic/#/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/is-public.html
+$dokka.location:io.karte.android.inbox/Inbox/name/#/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/name.html
+$dokka.location:io.karte.android.inbox/Inbox/unconfigure/#io.karte.android.KarteApp/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/unconfigure.html
+$dokka.location:io.karte.android.inbox/Inbox/version/#/PointingToDeclaration/inbox/io.karte.android.inbox/-inbox/version.html
 io.karte.android.inbox
 io.karte.android.inbox.models
 
