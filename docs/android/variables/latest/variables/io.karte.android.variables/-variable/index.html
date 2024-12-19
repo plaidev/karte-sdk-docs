@@ -1,512 +1,310 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Variable</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../../styles/style.css" rel="Stylesheet">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
-    <link href="../../../images/logo-icon.svg">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/custom-style-to-add.css" rel="Stylesheet">
-  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn">
-        <div id="logo"></div>
-        <div id="paneSearch"></div>
-        <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="io.karte.android.variables/Variable///PointingToDeclaration//-1508386440">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../index.html">variables</a>/<a href="../index.html">io.karte.android.variables</a>/<a href="index.html">Variable</a></div>
-            <div class="pull-right d-flex">
-              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":variables:dokkaHtml/release">androidJvm</button></div>
-              <div id="searchBar"></div>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/custom-style-to-add.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            variables
+                    </a>
             </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Variable</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">data class <a href="index.html">Variable</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">設定値とそれに付随する情報を保持するためのクラスです。</p><p class="paragraph">設定値の他に、接客サービスIDやアクションIDを保持しています。</p></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="">Types</h2>
-              <div class="table" data-togglable="Types"><a data-name="%5Bio.karte.android.variables%2FVariable.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1508386440" anchor-label="Companion" id="%5Bio.karte.android.variables%2FVariable.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-companion/index.html">Companion</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">object <a href="-companion/index.html">Companion</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+            <div class="library-version">
+2.7.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":variables:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="variables::io.karte.android.variables/Variable///PointingToDeclaration//1663237655">
+  <div class="breadcrumbs"><a href="../../../index.html">variables</a><span class="delimiter">/</span><a href="../index.html">io.karte.android.variables</a><span class="delimiter">/</span><span class="current">Variable</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Variable</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Variable</a></div><p class="paragraph">設定値とそれに付随する情報を保持するためのクラスです。</p><p class="paragraph">設定値の他に、接客サービスIDやアクションIDを保持しています。</p></div></div>
   </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="boolean" id="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="boolean.html">boolean</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block">@<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html">JvmName</a>(<span>name = <span class="breakable-word">&quot;getBoolean&quot;</span></span><wbr></wbr>)</div></div>fun <a href="boolean.html">boolean</a>(default: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="boolean" id="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="boolean" id="%5Bio.karte.android.variables%2FVariable%2Fboolean%2F%23kotlin.Boolean%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値（ブール値）を返します。なおブール値への変換ルールについては <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/to-boolean.html">こちら</a> を参照してください。設定値が未定義の場合は、デフォルト値を返します。</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcomponent1%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="component1" id="%5Bio.karte.android.variables%2FVariable%2Fcomponent1%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="component1.html">component1</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcomponent1%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">operator fun <a href="component1.html">component1</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcomponent2%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="component2" id="%5Bio.karte.android.variables%2FVariable%2Fcomponent2%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="component2.html">component2</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcomponent2%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">operator fun <a href="component2.html">component2</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcomponent3%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="component3" id="%5Bio.karte.android.variables%2FVariable%2Fcomponent3%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="component3.html">component3</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcomponent3%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">operator fun <a href="component3.html">component3</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcomponent4%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="component4" id="%5Bio.karte.android.variables%2FVariable%2Fcomponent4%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="component4.html">component4</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcomponent4%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">operator fun <a href="component4.html">component4</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcomponent5%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="component5" id="%5Bio.karte.android.variables%2FVariable%2Fcomponent5%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="component5.html">component5</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcomponent5%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">operator fun <a href="component5.html">component5</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcomponent6%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="component6" id="%5Bio.karte.android.variables%2FVariable%2Fcomponent6%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="component6.html">component6</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcomponent6%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">operator fun <a href="component6.html">component6</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fcopy%2F%23kotlin.String%23kotlin.String%3F%23kotlin.String%3F%23kotlin.Any%3F%23kotlin.String%3F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="copy" id="%5Bio.karte.android.variables%2FVariable%2Fcopy%2F%23kotlin.String%23kotlin.String%3F%23kotlin.String%3F%23kotlin.Any%3F%23kotlin.String%3F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="copy.html">copy</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fcopy%2F%23kotlin.String%23kotlin.String%3F%23kotlin.String%3F%23kotlin.Any%3F%23kotlin.String%3F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">fun <a href="copy.html">copy</a>(name: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, campaignId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null, shortenId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null, value: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>? = null, timestamp: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null, eventHash: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null): <a href="index.html">Variable</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="double" id="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="double.html">double</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block">@<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html">JvmName</a>(<span>name = <span class="breakable-word">&quot;getDouble&quot;</span></span><wbr></wbr>)</div></div>fun <a href="double.html">double</a>(default: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="double" id="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="double" id="%5Bio.karte.android.variables%2FVariable%2Fdouble%2F%23kotlin.Double%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値（浮動小数点数）を返します。なお設定値が数値でない場合は、デフォルト値を返します。</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="equals" id="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-companion/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440">equals</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">open operator override fun <a href="-companion/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440">equals</a>(other: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>?): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="hashCode" id="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-companion/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440">hashCode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">open override fun <a href="-companion/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440">hashCode</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="jsonArray" id="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="json-array.html">jsonArray</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block">@<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html">JvmName</a>(<span>name = <span class="breakable-word">&quot;getJSONArray&quot;</span></span><wbr></wbr>)</div></div>fun <a href="json-array.html">jsonArray</a>(default: <a href="https://developer.android.com/reference/kotlin/org/json/JSONArray.html">JSONArray</a>): <a href="https://developer.android.com/reference/kotlin/org/json/JSONArray.html">JSONArray</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="jsonArray" id="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="jsonArray" id="%5Bio.karte.android.variables%2FVariable%2FjsonArray%2F%23org.json.JSONArray%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値（<a href="https://developer.android.com/reference/kotlin/org/json/JSONArray.html">JSONArray</a>）を返します。以下の場合においてデフォルト値を返します。<ul><li><p class="paragraph">設定値が未定義の場合</p></li><li><p class="paragraph">設定値（JSON文字列）のパースができない場合</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="jsonObject" id="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="json-object.html">jsonObject</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block">@<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html">JvmName</a>(<span>name = <span class="breakable-word">&quot;getJSONObject&quot;</span></span><wbr></wbr>)</div></div>fun <a href="json-object.html">jsonObject</a>(default: <a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a>): <a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="jsonObject" id="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="jsonObject" id="%5Bio.karte.android.variables%2FVariable%2FjsonObject%2F%23org.json.JSONObject%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値（<a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a>）を返します。以下の場合においてデフォルト値を返します。<ul><li><p class="paragraph">設定値が未定義の場合</p></li><li><p class="paragraph">設定値（JSON文字列）のパースができない場合</p></li></ul></div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="long" id="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="long.html">long</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block">@<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html">JvmName</a>(<span>name = <span class="breakable-word">&quot;getLong&quot;</span></span><wbr></wbr>)</div></div>fun <a href="long.html">long</a>(default: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="long" id="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="long" id="%5Bio.karte.android.variables%2FVariable%2Flong%2F%23kotlin.Long%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値（整数）を返します。なお設定値が数値でない場合は、デフォルト値を返します。</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="string" id="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="string.html">string</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block">@<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html">JvmName</a>(<span>name = <span class="breakable-word">&quot;getString&quot;</span></span><wbr></wbr>)</div></div>fun <a href="string.html">string</a>(default: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="string" id="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="string" id="%5Bio.karte.android.variables%2FVariable%2Fstring%2F%23kotlin.String%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値（文字列）を返します。なお設定値が未定義の場合は、デフォルト値を返します。</div></div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" anchor-label="toString" id="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-companion/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440">toString</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace">open override fun <a href="-companion/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1508386440">toString</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="campaignId" id="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="campaign-id.html">campaignId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="campaignId" id="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="campaign-id.html">campaignId</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="campaignId" id="%5Bio.karte.android.variables%2FVariable%2FcampaignId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>キャンペーンIDを返します。設定値が未定義の場合は<code>null</code>を返します。</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FeventHash%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="eventHash" id="%5Bio.karte.android.variables%2FVariable%2FeventHash%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="event-hash.html">eventHash</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2FeventHash%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2FeventHash%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="eventHash" id="%5Bio.karte.android.variables%2FVariable%2FeventHash%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="event-hash.html">eventHash</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="isDefined" id="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="is-defined.html">isDefined</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="isDefined" id="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="is-defined.html">isDefined</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="isDefined" id="%5Bio.karte.android.variables%2FVariable%2FisDefined%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値が定義済みであるかどうか返します。定義済みの場合は <code>true</code> を、未定義の場合は <code>false</code> を返します。</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="name" id="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="name.html">name</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="name" id="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="name.html">name</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="name" id="%5Bio.karte.android.variables%2FVariable%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値名を返します。</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="shortenId" id="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="shorten-id.html">shortenId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="shortenId" id="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="shorten-id.html">shortenId</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="shortenId" id="%5Bio.karte.android.variables%2FVariable%2FshortenId%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>アクションIDを返します。設定値が未定義の場合は<code>null</code>を返します。</div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Ftimestamp%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="timestamp" id="%5Bio.karte.android.variables%2FVariable%2Ftimestamp%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="timestamp.html">timestamp</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Ftimestamp%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2Ftimestamp%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="timestamp" id="%5Bio.karte.android.variables%2FVariable%2Ftimestamp%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="timestamp.html">timestamp</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="value" id="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="value.html">value</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><a data-name="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="value" id="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a><div class="symbol monospace">val <a href="value.html">value</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>? = null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" anchor-label="value" id="%5Bio.karte.android.variables%2FVariable%2Fvalue%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-1508386440" data-filterable-set=":variables:dokkaHtml/release"></a>設定値を返します。設定値が未定義の場合は<code>null</code>を返します。</div></div></div>
-                      </div>
-                    </div>
-                  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="247081175%2FClasslikes%2F1663237655" anchor-label="Companion" id="247081175%2FClasslikes%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="247081175%2FClasslikes%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1073315423%2FProperties%2F1663237655" anchor-label="campaignId" id="1073315423%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="campaign-id.html"><span>campaign</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1073315423%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="campaign-id.html">campaignId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">キャンペーンIDを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="132365768%2FProperties%2F1663237655" anchor-label="eventHash" id="132365768%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="event-hash.html"><span>event</span><wbr></wbr><span><span>Hash</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="132365768%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="event-hash.html">eventHash</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1827107087%2FProperties%2F1663237655" anchor-label="isDefined" id="-1827107087%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-defined.html"><span>is</span><wbr></wbr><span><span>Defined</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1827107087%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="is-defined.html">isDefined</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">設定値が定義済みであるかどうか返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="259620831%2FProperties%2F1663237655" anchor-label="name" id="259620831%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="259620831%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">設定値名を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1655569040%2FProperties%2F1663237655" anchor-label="shortenId" id="-1655569040%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="shorten-id.html"><span>shorten</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1655569040%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="shorten-id.html">shortenId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">アクションIDを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1911459014%2FProperties%2F1663237655" anchor-label="timestamp" id="-1911459014%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="timestamp.html"><span><span>timestamp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1911459014%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="timestamp.html">timestamp</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-858490689%2FProperties%2F1663237655" anchor-label="value" id="-858490689%2FProperties%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="value.html"><span><span>value</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-858490689%2FProperties%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="value.html">value</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">設定値を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1604846189%2FFunctions%2F1663237655" anchor-label="boolean" id="1604846189%2FFunctions%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="boolean.html"><span><span>boolean</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1604846189%2FFunctions%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getBoolean&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">fun </span><a href="boolean.html"><span class="token function">boolean</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">設定値（ブール値）を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1114885173%2FFunctions%2F1663237655" anchor-label="double" id="-1114885173%2FFunctions%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="double.html"><span><span>double</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1114885173%2FFunctions%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getDouble&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">fun </span><a href="double.html"><span class="token function">double</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a></div><div class="brief "><p class="paragraph">設定値（浮動小数点数）を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-361107926%2FFunctions%2F1663237655" anchor-label="jsonArray" id="-361107926%2FFunctions%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="json-array.html"><span>json</span><wbr></wbr><span><span>Array</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-361107926%2FFunctions%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getJSONArray&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">fun </span><a href="json-array.html"><span class="token function">jsonArray</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/org/json/JSONArray.html">JSONArray</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/org/json/JSONArray.html">JSONArray</a></div><div class="brief "><p class="paragraph">設定値（<a href="https://developer.android.com/reference/kotlin/org/json/JSONArray.html">JSONArray</a>）を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1484411292%2FFunctions%2F1663237655" anchor-label="jsonObject" id="1484411292%2FFunctions%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="json-object.html"><span>json</span><wbr></wbr><span><span>Object</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1484411292%2FFunctions%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getJSONObject&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">fun </span><a href="json-object.html"><span class="token function">jsonObject</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a></div><div class="brief "><p class="paragraph">設定値（<a href="https://developer.android.com/reference/kotlin/org/json/JSONObject.html">JSONObject</a>）を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1070632597%2FFunctions%2F1663237655" anchor-label="long" id="-1070632597%2FFunctions%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="long.html"><span><span>long</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1070632597%2FFunctions%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getLong&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">fun </span><a href="long.html"><span class="token function">long</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><p class="paragraph">設定値（整数）を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="658652107%2FFunctions%2F1663237655" anchor-label="string" id="658652107%2FFunctions%2F1663237655" data-filterable-set=":variables:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":variables:dokkaHtml/release" data-filterable-set=":variables:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="string.html"><span><span>string</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="658652107%2FFunctions%2F1663237655"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":variables:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getString&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">fun </span><a href="string.html"><span class="token function">string</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">設定値（文字列）を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-

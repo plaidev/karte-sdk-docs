@@ -1,246 +1,209 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Inbox</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../../styles/style.css" rel="Stylesheet">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
-    <link href="../../../images/logo-icon.svg">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/custom-style-to-add.css" rel="Stylesheet">
-  </head>
-  <body>
-    <div id="container">
-      <div id="leftColumn">
-        <div id="logo"></div>
-        <div id="paneSearch"></div>
-        <div id="sideMenu"></div>
-      </div>
-      <div id="main">
-        <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="io.karte.android.inbox/Inbox///PointingToDeclaration//433121080">
-          <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../index.html">inbox</a>/<a href="../index.html">io.karte.android.inbox</a>/<a href="index.html">Inbox</a></div>
-            <div class="pull-right d-flex">
-              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":inbox:dokkaHtml/release">androidJvm</button></div>
-              <div id="searchBar"></div>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/custom-style-to-add.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            inbox
+                    </a>
             </div>
-          </div>
-          <div class="cover ">
-            <h1 class="cover"><span>Inbox</span></h1>
-            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">class <a href="index.html">Inbox</a> : <a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/io.karte.android.core.library/-library/index.html">Library</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">KARTEから送信したPush通知の履歴を取得するクラスです。</p></div></div>
-          </div>
-          <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
-            <div class="tabs-section-body">
-              <h2 class="tabbedcontent">Constructors</h2>
-              <div class="table" data-togglable="Constructors"><a data-name="%5Bio.karte.android.inbox%2FInbox%2FInbox%2F%23%2FPointingToDeclaration%2F%5D%2FConstructors%2F433121080" anchor-label="Inbox" id="%5Bio.karte.android.inbox%2FInbox%2FInbox%2F%23%2FPointingToDeclaration%2F%5D%2FConstructors%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue TabbedContent">
-                    <div class=""><span class="inline-flex"><a href="-inbox.html">Inbox</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox%2FInbox%2F%23%2FPointingToDeclaration%2F%5D%2FConstructors%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">fun <a href="-inbox.html">Inbox</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Types</h2>
-              <div class="table" data-togglable="Types"><a data-name="%5Bio.karte.android.inbox%2FInbox.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F433121080" anchor-label="Companion" id="%5Bio.karte.android.inbox%2FInbox.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-companion/index.html">Companion</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox.Companion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">object <a href="-companion/index.html">Companion</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+            <div class="library-version">
+0.1.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":inbox:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="inbox::io.karte.android.inbox/Inbox///PointingToDeclaration//-1477122778">
+  <div class="breadcrumbs"><a href="../../../index.html">inbox</a><span class="delimiter">/</span><a href="../index.html">io.karte.android.inbox</a><span class="delimiter">/</span><span class="current">Inbox</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Inbox</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Inbox</a> : <a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/core/io.karte.android.core.library/-library/index.html">Library</a></div><p class="paragraph">KARTEから送信したPush通知の履歴を取得するクラスです。</p></div></div>
   </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="%5Bio.karte.android.inbox%2FInbox%2Fconfigure%2F%23io.karte.android.KarteApp%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" anchor-label="configure" id="%5Bio.karte.android.inbox%2FInbox%2Fconfigure%2F%23io.karte.android.KarteApp%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="configure.html">configure</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox%2Fconfigure%2F%23io.karte.android.KarteApp%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">open override fun <a href="configure.html">configure</a>(app: <a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/io.karte.android/-karte-app/index.html">KarteApp</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" anchor-label="equals" id="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../io.karte.android.inbox.models/-inbox-message/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080">equals</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">open operator fun <a href="../../io.karte.android.inbox.models/-inbox-message/index.html#%5Bkotlin%2FAny%2Fequals%2F%23kotlin.Any%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080">equals</a>(other: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>?): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" anchor-label="hashCode" id="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../io.karte.android.inbox.models/-inbox-message/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080">hashCode</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">open fun <a href="../../io.karte.android.inbox.models/-inbox-message/index.html#%5Bkotlin%2FAny%2FhashCode%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080">hashCode</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" anchor-label="toString" id="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../io.karte.android.inbox.models/-inbox-message/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080">toString</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">open fun <a href="../../io.karte.android.inbox.models/-inbox-message/index.html#%5Bkotlin%2FAny%2FtoString%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080">toString</a>(): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.inbox%2FInbox%2Funconfigure%2F%23io.karte.android.KarteApp%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" anchor-label="unconfigure" id="%5Bio.karte.android.inbox%2FInbox%2Funconfigure%2F%23io.karte.android.KarteApp%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="unconfigure.html">unconfigure</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox%2Funconfigure%2F%23io.karte.android.KarteApp%2FPointingToDeclaration%2F%5D%2FFunctions%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title"><div class="divergent-group" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
-
-  <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace">open override fun <a href="unconfigure.html">unconfigure</a>(app: <a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/io.karte.android/-karte-app/index.html">KarteApp</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-  </div>
-</div>
-</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h2 class="">Properties</h2>
-              <div class="table" data-togglable="Properties"><a data-name="%5Bio.karte.android.inbox%2FInbox%2FisPublic%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" anchor-label="isPublic" id="%5Bio.karte.android.inbox%2FInbox%2FisPublic%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="is-public.html">isPublic</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox%2FisPublic%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><a data-name="%5Bio.karte.android.inbox%2FInbox%2FisPublic%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" anchor-label="isPublic" id="%5Bio.karte.android.inbox%2FInbox%2FisPublic%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a><div class="symbol monospace">open override val <a href="is-public.html">isPublic</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a> = true<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.inbox%2FInbox%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" anchor-label="name" id="%5Bio.karte.android.inbox%2FInbox%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="name.html">name</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><a data-name="%5Bio.karte.android.inbox%2FInbox%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" anchor-label="name" id="%5Bio.karte.android.inbox%2FInbox%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a><div class="symbol monospace">open override val <a href="name.html">name</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-<a data-name="%5Bio.karte.android.inbox%2FInbox%2Fversion%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" anchor-label="version" id="%5Bio.karte.android.inbox%2FInbox%2Fversion%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a>
-                <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
-                  <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="version.html">version</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.inbox%2FInbox%2Fversion%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080"></span>
-                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                        </span></span></div>
-                    <div>
-                      <div class="platform-tags ">
-                        <div class="platform-tag jvm-like">androidJvm</div>
-                      </div>
-                      <div class="title">
-                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><a data-name="%5Bio.karte.android.inbox%2FInbox%2Fversion%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" anchor-label="version" id="%5Bio.karte.android.inbox%2FInbox%2Fversion%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F433121080" data-filterable-set=":inbox:dokkaHtml/release"></a><div class="symbol monospace">open override val <a href="version.html">version</a>: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
-                      </div>
-                    </div>
-                  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1892956751%2FConstructors%2F-1477122778" anchor-label="Inbox" id="-1892956751%2FConstructors%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-inbox.html"><span><span>Inbox</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1892956751%2FConstructors%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="654642590%2FClasslikes%2F-1477122778" anchor-label="Companion" id="654642590%2FClasslikes%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="654642590%2FClasslikes%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-2019165424%2FProperties%2F-1477122778" anchor-label="isPublic" id="-2019165424%2FProperties%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-public.html"><span>is</span><wbr></wbr><span><span>Public</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2019165424%2FProperties%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="is-public.html">isPublic</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">true</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1283881656%2FProperties%2F-1477122778" anchor-label="name" id="1283881656%2FProperties%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1283881656%2FProperties%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-129359617%2FProperties%2F-1477122778" anchor-label="version" id="-129359617%2FProperties%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="version.html"><span><span>version</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-129359617%2FProperties%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="version.html">version</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1717781035%2FFunctions%2F-1477122778" anchor-label="configure" id="-1717781035%2FFunctions%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="configure.html"><span><span>configure</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1717781035%2FFunctions%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="configure.html"><span class="token function">configure</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">app<span class="token operator">: </span><a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/core/io.karte.android/-karte-app/index.html">KarteApp</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="654895644%2FFunctions%2F-1477122778" anchor-label="unconfigure" id="654895644%2FFunctions%2F-1477122778" data-filterable-set=":inbox:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":inbox:dokkaHtml/release" data-filterable-set=":inbox:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="unconfigure.html"><span><span>unconfigure</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="654895644%2FFunctions%2F-1477122778"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":inbox:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="unconfigure.html"><span class="token function">unconfigure</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">app<span class="token operator">: </span><a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/core/io.karte.android/-karte-app/index.html">KarteApp</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
-
