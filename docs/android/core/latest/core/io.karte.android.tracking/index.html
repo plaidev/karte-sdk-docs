@@ -1,335 +1,377 @@
-<!DOCTYPE html>
-<html class="no-js">
-<head>
+<html>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>io.karte.android.tracking</title>
     <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../";</script>
-    <script>document.documentElement.classList.replace("no-js","js");</script>
-    <script>const storage = localStorage.getItem("dokka-dark-mode")
-    if (storage == null) {
-        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-        if (osDarkSchemePreferred === true) {
-            document.getElementsByTagName("html")[0].classList.add("theme-dark")
-        }
-    } else {
-        const savedDarkMode = JSON.parse(storage)
-        if(savedDarkMode === true) {
-            document.getElementsByTagName("html")[0].classList.add("theme-dark")
-        }
-    }
-    </script>
-<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
-<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
-<link href="../../styles/style.css" rel="Stylesheet">
-<link href="../../styles/main.css" rel="Stylesheet">
-<link href="../../styles/prism.css" rel="Stylesheet">
-<link href="../../styles/logo-styles.css" rel="Stylesheet">
-<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
-<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
-<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
-<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
-<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
-<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
-<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
-<link href="../../images/logo-icon.svg">
-<link href="../../styles/logo-styles.css" rel="Stylesheet">
-<link href="../../styles/custom-style-to-add.css" rel="Stylesheet">
-</head>
-<body>
-    <div class="root">
-<nav class="navigation" id="navigation-wrapper">
-    <div class="navigation--inner">
-        <div class="navigation-title">
-            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
-            <div class="library-name">
-                    <a class="library-name--link" href="../../index.html">
-                            core
-                    </a>
-            </div>
-            <div class="library-version">
-2.26.0            </div>
-        </div>
-        <div class="filter-section" id="filter-section">
-                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":core:dokkaHtml/release">androidJvm</button>
-        </div>
-    </div>
-    <div class="navigation-controls">
-        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
-        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
-    </div>
-</nav>
-        <div id="container">
-            <div class="sidebar" id="leftColumn">
-                <div class="sidebar--inner" id="sideMenu"></div>
-            </div>
-            <div id="main">
-<div class="main-content" data-page-type="package" id="content" pageIds="core::io.karte.android.tracking////PointingToDeclaration//197447377">
-  <div class="breadcrumbs"><a href="../../index.html">core</a><span class="delimiter">/</span><span class="current">io.karte.android.tracking</span></div>
-  <div class="cover ">
-    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
-  </div>
-  <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
-    <div class="tabs-section-body">
-      <div data-togglable="TYPE">
-        <h2 class="">Types</h2>
-        <div class="table"><a data-name="2124231211%2FClasslikes%2F197447377" anchor-label="Action" id="2124231211%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-action/index.html"><span><span>Action</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2124231211%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-action/index.html">Action</a><span class="token operator">&lt;</span><a href="-action/index.html">T</a><span class="token operator"> : </span><a href="-d-t-o/index.html">DTO</a><span class="token operator">&lt;</span><a href="-action/index.html">T</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>shortenId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>type<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>content<span class="token operator">: </span><a href="-action/index.html">T</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>noAction<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>reason<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>responseTimestamp<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="-d-t-o/index.html">DTO</a><span class="token operator">&lt;</span><a href="-action/index.html">Action</a><span class="token operator">&lt;</span><a href="-action/index.html">T</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">アクション情報を保持するデータクラスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="1888969522%2FClasslikes%2F197447377" anchor-label="AppInfo" id="1888969522%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-app-info/index.html"><span>App</span><wbr></wbr><span><span>Info</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1888969522%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-app-info/index.html">AppInfo</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">repository<span class="token operator">: </span><a href="../io.karte.android.core.repository/-repository/index.html">Repository</a><span class="token punctuation">, </span></span><span class="parameter ">config<span class="token operator">: </span><a href="../io.karte.android.core.config/-config/index.html">Config</a></span></span><span class="token punctuation">)</span> : <a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/io.karte.android.tracking/-serializable/index.html">Serializable</a></div><div class="brief "><p class="paragraph">アプリケーション情報を保持するクラスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="1603017873%2FClasslikes%2F197447377" anchor-label="Campaign" id="1603017873%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-campaign/index.html"><span><span>Campaign</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1603017873%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-campaign/index.html">Campaign</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>campaignId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">var </span>serviceActionType<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="-d-t-o/index.html">DTO</a><span class="token operator">&lt;</span><a href="-campaign/index.html">Campaign</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">キャンペーン情報を保持するデータクラスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-915852947%2FClasslikes%2F197447377" anchor-label="CustomEventName" id="-915852947%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-custom-event-name/index.html"><span>Custom</span><wbr></wbr><span>Event</span><wbr></wbr><span><span>Name</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-915852947%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-custom-event-name/index.html">CustomEventName</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="-event-name/index.html">EventName</a></div><div class="brief "><p class="paragraph">カスタムイベント名を保持するクラスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-1480506942%2FClasslikes%2F197447377" anchor-label="DTO" id="-1480506942%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-d-t-o/index.html"><span><span>DTO</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1480506942%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-d-t-o/index.html">DTO</a><span class="token operator">&lt;</span><a href="-d-t-o/index.html">T</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Data Transfer Object from JSON</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="876815719%2FClasslikes%2F197447377" anchor-label="Event" id="876815719%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-event/index.html"><span><span>Event</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="876815719%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-event/index.html">Event</a></div><div class="brief "><p class="paragraph">イベントを表現するクラスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-1475743204%2FClasslikes%2F197447377" anchor-label="EventName" id="-1475743204%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-event-name/index.html"><span>Event</span><wbr></wbr><span><span>Name</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1475743204%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-event-name/index.html">EventName</a></div><div class="brief "><p class="paragraph">各イベント名を示すインターフェースです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="2000775214%2FClasslikes%2F197447377" anchor-label="MessageEvent" id="2000775214%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-message-event/index.html"><span>Message</span><wbr></wbr><span><span>Event</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2000775214%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-message-event/index.html">MessageEvent</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">type<span class="token operator">: </span><a href="-message-event-type/index.html">MessageEventType</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>campaignId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>shortenId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">values<span class="token operator">: </span><a href="-values/index.html">Values</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">libraryName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="-event/index.html">Event</a></div><div class="brief "><p class="paragraph"><code class="lang-kotlin">message_xxx</code> イベント</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-385123997%2FClasslikes%2F197447377" anchor-label="MessageEventName" id="-385123997%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-message-event-name/index.html"><span>Message</span><wbr></wbr><span>Event</span><wbr></wbr><span><span>Name</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-385123997%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-message-event-name/index.html">MessageEventName</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-message-event-name/index.html">MessageEventName</a><span class="token operator">&gt; </span>, <a href="-event-name/index.html">EventName</a></div><div class="brief "><p class="paragraph">message_xxx イベント名を定義した列挙型です。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="544651156%2FClasslikes%2F197447377" anchor-label="MessageEventType" id="544651156%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-message-event-type/index.html"><span>Message</span><wbr></wbr><span>Event</span><wbr></wbr><span><span>Type</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="544651156%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-message-event-type/index.html">MessageEventType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-message-event-type/index.html">MessageEventType</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">message_xxx イベントのタイプを定義した列挙型です。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-850343654%2FClasslikes%2F197447377" anchor-label="TrackCompletion" id="-850343654%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-track-completion/index.html"><span>Track</span><wbr></wbr><span><span>Completion</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-850343654%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-track-completion/index.html">TrackCompletion</a></div><div class="brief ">設定値の取得完了をハンドルするためのInterfaceです。</div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-674977143%2FClasslikes%2F197447377" anchor-label="Tracker" id="-674977143%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-tracker/index.html"><span><span>Tracker</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-674977143%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-tracker/index.html">Tracker</a></div><div class="brief ">イベントトラッキングを行うためのクラスです。 送信するイベントの種類に応じて、複数のメソッドが用意されております。 <h3 class="">track</h3> 任意の名前のイベントを送る場合に利用します。 <h3 class="">identify</h3> ユーザーに関する情報（ユーザーIDや名前、メールアドレス等）を送る場合に利用します。 <h3 class="">view</h3> 画面表示に関する情報を送る場合に利用します。 通常は <a href="https://developer.android.com/reference/kotlin/android/app/Activity.html#oncreate">onCreate</a> 等で呼び出します。  なおViewイベントに関しては、イベントの送信だけではなくアプリ上で画面遷移が発生したことを認識するためのものとしても利用されます。 具体的には、Viewイベントを発火させたタイミングで、既にアプリ内メッセージが表示されている場合は、自動でアプリ内メッセージを非表示にします。 また <a href="https://support.karte.io/post/3JaA3BlXQea59AaPGxD3bb">ネイティブアプリにおける接客表示制限</a> オプションを有効にした場合にも、ここで設定した認識結果が利用されます。</div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-1707850620%2FClasslikes%2F197447377" anchor-label="TrackerDelegate" id="-1707850620%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-tracker-delegate/index.html"><span>Tracker</span><wbr></wbr><span><span>Delegate</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1707850620%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-tracker-delegate/index.html">TrackerDelegate</a></div><div class="brief "><p class="paragraph">トラッキング処理過程の一部を委譲するためのタイプ。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-1088062455%2FClasslikes%2F197447377" anchor-label="Trigger" id="-1088062455%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-trigger/index.html"><span><span>Trigger</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1088062455%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-trigger/index.html">Trigger</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">var </span>eventHashes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="-d-t-o/index.html">DTO</a><span class="token operator">&lt;</span><a href="-trigger/index.html">Trigger</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">アクションのトリガー情報を保持するデータクラスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-4361025%2FClasslikes%2F197447377" anchor-label="Values" id="-4361025%2FClasslikes%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="-values/index.html"><span><span>Values</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-4361025%2FClasslikes%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="-values/index.html">Values</a><span class="token operator"> = </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">イベントに追加できるカスタムオブジェクトの型を示すエイリアスです。</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+    <link href="../../styles/style.css" rel="Stylesheet">
+    <link href="../../styles/logo-styles.css" rel="Stylesheet">
+    <link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+    <link href="../../styles/main.css" rel="Stylesheet">
+    <script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+    <script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+    <script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+    <script type="text/javascript" src="../../scripts/main.js" async="async"></script>
+    <link href="../../images/logo-icon.svg">
+    <link href="../../styles/logo-styles.css" rel="Stylesheet">
+    <link href="../../styles/custom-style-to-add.css" rel="Stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="logo"></div>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
       </div>
-      <div data-togglable="FUNCTION">
-        <h2 class="">Functions</h2>
-        <div class="table"><a data-name="1199848196%2FFunctions%2F197447377" anchor-label="valuesOf" id="1199848196%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="values-of.html"><span>values</span><wbr></wbr><span><span>Of</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1199848196%2FFunctions%2F197447377"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="values-of.html"><span class="token function">valuesOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">string<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-values/index.html">Values</a></div><div class="brief "><p class="paragraph">JSON文字列をValuesオブジェクトに変換します。</p></div></div></div>
-                </div>
-              </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+        <script type="text/javascript" src="../../scripts/pages.js"></script>
+        <script type="text/javascript" src="../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="io.karte.android.tracking////PointingToDeclaration//-1562247104">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../index.html">core</a>/<a href="index.html">io.karte.android.tracking</a></div>
+            <div class="pull-right d-flex">
+              <div class="filter-section" id="filter-section"><button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":core:dokkaHtml/release">androidJvm</button></div>
+              <div id="searchBar"></div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Package io.</span><wbr></wbr><span>karte.</span><wbr></wbr><span>android.</span><wbr></wbr><span>tracking</span></h1>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Action" id="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-action/index.html">Action</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">data class <a href="-action/index.html">Action</a>&lt;<a href="-action/index.html">T</a> : <a href="-d-t-o/index.html">DTO</a>&lt;<a href="-action/index.html">T</a>&gt;&gt;(shortenId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, type: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, content: <a href="-action/index.html">T</a>?, noAction: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a>?, reason: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, responseTimestamp: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-d-t-o/index.html">DTO</a>&lt;<a href="-action/index.html">Action</a>&lt;<a href="-action/index.html">T</a>&gt;&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
+<a data-name="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Action" id="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Action" id="%5Bio.karte.android.tracking%2FAction%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>アクション情報を保持するデータクラスです。</div></div>
 </div>
-      <div class="footer">
-        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
-                class="pull-right"><span>Generated by </span><a
-                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
-      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="AppInfo" id="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-app-info/index.html">AppInfo</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">class <a href="-app-info/index.html">AppInfo</a>(context: <a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a>, repository: <a href="../io.karte.android.core.repository/-repository/index.html">Repository</a>, config: <a href="../io.karte.android.core.config/-config/index.html">Config</a>) : <a href="https://plaidev.github.io/karte-sdk-docs/android/core/latest/core/io.karte.android.tracking/-serializable/index.html">Serializable</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="AppInfo" id="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="AppInfo" id="%5Bio.karte.android.tracking%2FAppInfo%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>アプリケーション情報を保持するクラスです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Campaign" id="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-campaign/index.html">Campaign</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">data class <a href="-campaign/index.html">Campaign</a>(campaignId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?, serviceActionType: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-d-t-o/index.html">DTO</a>&lt;<a href="-campaign/index.html">Campaign</a>&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Campaign" id="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Campaign" id="%5Bio.karte.android.tracking%2FCampaign%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>キャンペーン情報を保持するデータクラスです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="CustomEventName" id="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-custom-event-name/index.html">CustomEventName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">class <a href="-custom-event-name/index.html">CustomEventName</a>(value: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>) : <a href="-event-name/index.html">EventName</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="CustomEventName" id="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="CustomEventName" id="%5Bio.karte.android.tracking%2FCustomEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>カスタムイベント名を保持するクラスです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="DTO" id="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-d-t-o/index.html">DTO</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">interface <a href="-d-t-o/index.html">DTO</a>&lt;<a href="-d-t-o/index.html">T</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="DTO" id="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="DTO" id="%5Bio.karte.android.tracking%2FDTO%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>Data Transfer Object from JSON</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Event" id="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-event/index.html">Event</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">open class <a href="-event/index.html">Event</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Event" id="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Event" id="%5Bio.karte.android.tracking%2FEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>イベントを表現するクラスです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="EventName" id="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-event-name/index.html">EventName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">interface <a href="-event-name/index.html">EventName</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="EventName" id="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="EventName" id="%5Bio.karte.android.tracking%2FEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>各イベント名を示すインターフェースです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEvent" id="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-message-event/index.html">MessageEvent</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">class <a href="-message-event/index.html">MessageEvent</a>(type: <a href="-message-event-type/index.html">MessageEventType</a>, campaignId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, shortenId: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, values: <a href="index.html#%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104">Values</a>?, libraryName: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-event/index.html">Event</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEvent" id="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEvent" id="%5Bio.karte.android.tracking%2FMessageEvent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><code>message_xxx</code> イベント</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEventName" id="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-message-event-name/index.html">MessageEventName</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">enum <a href="-message-event-name/index.html">MessageEventName</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a>&lt;<a href="-message-event-name/index.html">MessageEventName</a>&gt; , <a href="-event-name/index.html">EventName</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEventName" id="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEventName" id="%5Bio.karte.android.tracking%2FMessageEventName%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>message_xxx イベント名を定義した列挙型です。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEventType" id="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-message-event-type/index.html">MessageEventType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">enum <a href="-message-event-type/index.html">MessageEventType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a>&lt;<a href="-message-event-type/index.html">MessageEventType</a>&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEventType" id="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="MessageEventType" id="%5Bio.karte.android.tracking%2FMessageEventType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>message_xxx イベントのタイプを定義した列挙型です。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="TrackCompletion" id="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-track-completion/index.html">TrackCompletion</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">interface <a href="-track-completion/index.html">TrackCompletion</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="TrackCompletion" id="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="TrackCompletion" id="%5Bio.karte.android.tracking%2FTrackCompletion%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>設定値の取得完了をハンドルするためのInterfaceです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Tracker" id="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-tracker/index.html">Tracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">class <a href="-tracker/index.html">Tracker</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Tracker" id="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Tracker" id="%5Bio.karte.android.tracking%2FTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>イベントトラッキングを行うためのクラスです。 送信するイベントの種類に応じて、複数のメソッドが用意されております。 track任意の名前のイベントを送る場合に利用します。 identifyユーザーに関する情報（ユーザーIDや名前、メールアドレス等）を送る場合に利用します。 view画面表示に関する情報を送る場合に利用します。通常は <a href="https://developer.android.com/reference/kotlin/android/app/Activity.html#oncreate">onCreate</a> 等で呼び出します。 なおViewイベントに関しては、イベントの送信だけではなくアプリ上で画面遷移が発生したことを認識するためのものとしても利用されます。具体的には、Viewイベントを発火させたタイミングで、既にアプリ内メッセージが表示されている場合は、自動でアプリ内メッセージを非表示にします。また <a href="https://support.karte.io/post/3JaA3BlXQea59AaPGxD3bb">ネイティブアプリにおける接客表示制限</a> オプションを有効にした場合にも、ここで設定した認識結果が利用されます。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="TrackerDelegate" id="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-tracker-delegate/index.html">TrackerDelegate</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">interface <a href="-tracker-delegate/index.html">TrackerDelegate</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="TrackerDelegate" id="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="TrackerDelegate" id="%5Bio.karte.android.tracking%2FTrackerDelegate%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>トラッキング処理過程の一部を委譲するためのタイプ。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Trigger" id="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-trigger/index.html">Trigger</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">data class <a href="-trigger/index.html">Trigger</a>(eventHashes: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?) : <a href="-d-t-o/index.html">DTO</a>&lt;<a href="-trigger/index.html">Trigger</a>&gt; <span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Trigger" id="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Trigger" id="%5Bio.karte.android.tracking%2FTrigger%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>アクションのトリガー情報を保持するデータクラスです。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Values" id="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104">Values</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">typealias <a href="index.html#%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104">Values</a> = <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a>&lt;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a>&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Values" id="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" anchor-label="Values" id="%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><p class="paragraph">イベントに追加できるカスタムオブジェクトの型を示すエイリアスです。</p></div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104" anchor-label="valuesOf" id="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="values-of.html">valuesOf</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="platform-tags ">
+                        <div class="platform-tag jvm-like">androidJvm</div>
+                      </div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace">fun <a href="values-of.html">valuesOf</a>(string: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>?): <a href="index.html#%5Bio.karte.android.tracking%2FValues%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1562247104">Values</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104" anchor-label="valuesOf" id="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a><div class="brief "><a data-name="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104" anchor-label="valuesOf" id="%5Bio.karte.android.tracking%2F%2FvaluesOf%2F%23kotlin.String%3F%2FPointingToDeclaration%2F%5D%2FFunctions%2F-1562247104" data-filterable-set=":core:dokkaHtml/release"></a>JSON文字列をValuesオブジェクトに変換します。</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
+

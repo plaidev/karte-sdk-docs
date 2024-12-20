@@ -1,50 +1,5 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:io.karte.android.notifications////PointingToDeclaration/notifications/io.karte.android.notifications/index.html
-$dokka.location:io.karte.android.notifications//registerFCMToken/io.karte.android.KarteApp.Companion#kotlin.String/PointingToDeclaration/notifications/io.karte.android.notifications/register-f-c-m-token.html
-$dokka.location:io.karte.android.notifications/KarteAttributes///PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/index.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/KarteAttributes/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/-karte-attributes.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/body/#/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/body.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/channel/#/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/channel.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/fileUrl/#/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/file-url.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/link/#/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/link.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/load/#org.json.JSONObject?/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/load.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/sound/#/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/sound.html
-$dokka.location:io.karte.android.notifications/KarteAttributes/title/#/PointingToDeclaration/notifications/io.karte.android.notifications/-karte-attributes/title.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion///PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/index.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/canHandleMessage/#com.google.firebase.messaging.RemoteMessage/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/can-handle-message.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/canHandleMessage/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/can-handle-message.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/copyInfoToIntent/#kotlin.collections.Map[kotlin.String,kotlin.String]?#android.content.Intent/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/copy-info-to-intent.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/extractKarteAttributes/#com.google.firebase.messaging.RemoteMessage/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/extract-karte-attributes.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/extractKarteAttributes/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/extract-karte-attributes.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/handleMessage/#android.content.Context#com.google.firebase.messaging.RemoteMessage#android.app.Notification?#android.content.Intent?/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/handle-message.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/handleMessage/#android.content.Context#com.google.firebase.messaging.RemoteMessage#android.content.Intent?/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/handle-message.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/handleMessage/#android.content.Context#kotlin.collections.Map[kotlin.String,kotlin.String]#android.app.Notification?#android.content.Intent?/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/handle-message.html
-$dokka.location:io.karte.android.notifications/MessageHandler.Companion/handleMessage/#android.content.Context#kotlin.collections.Map[kotlin.String,kotlin.String]#android.content.Intent?/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/-companion/handle-message.html
-$dokka.location:io.karte.android.notifications/MessageHandler///PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/index.html
-$dokka.location:io.karte.android.notifications/MessageHandler/context/#/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/context.html
-$dokka.location:io.karte.android.notifications/MessageHandler/data/#/PointingToDeclaration/notifications/io.karte.android.notifications/-message-handler/data.html
-$dokka.location:io.karte.android.notifications/Notifications.Companion///PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/-companion/index.html
-$dokka.location:io.karte.android.notifications/Notifications.Companion/registerFCMToken/#kotlin.String/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/-companion/register-f-c-m-token.html
-$dokka.location:io.karte.android.notifications/Notifications.Config///PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/-config/index.html
-$dokka.location:io.karte.android.notifications/Notifications.Config/enabledFCMTokenResend/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/-config/enabled-f-c-m-token-resend.html
-$dokka.location:io.karte.android.notifications/Notifications///PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/index.html
-$dokka.location:io.karte.android.notifications/Notifications/Notifications/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/-notifications.html
-$dokka.location:io.karte.android.notifications/Notifications/configure/#io.karte.android.KarteApp/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/configure.html
-$dokka.location:io.karte.android.notifications/Notifications/isPublic/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/is-public.html
-$dokka.location:io.karte.android.notifications/Notifications/name/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/name.html
-$dokka.location:io.karte.android.notifications/Notifications/onActivityPaused/#android.app.Activity/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/on-activity-paused.html
-$dokka.location:io.karte.android.notifications/Notifications/onActivityResumed/#android.app.Activity/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/on-activity-resumed.html
-$dokka.location:io.karte.android.notifications/Notifications/unconfigure/#io.karte.android.KarteApp/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/unconfigure.html
-$dokka.location:io.karte.android.notifications/Notifications/version/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications/version.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Builder///PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-builder/index.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Builder/Builder/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-builder/-builder.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Builder/build/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-builder/build.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Builder/enabledFCMTokenResend/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-builder/enabled-f-c-m-token-resend.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Builder/enabledFCMTokenResend/#kotlin.Boolean/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-builder/enabled-f-c-m-token-resend.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Companion///PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-companion/index.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig.Companion/build/#kotlin.Function1[io.karte.android.notifications.NotificationsConfig.Builder,kotlin.Unit]?/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/-companion/build.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig///PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/index.html
-$dokka.location:io.karte.android.notifications/NotificationsConfig/enabledFCMTokenResend/#/PointingToDeclaration/notifications/io.karte.android.notifications/-notifications-config/enabled-f-c-m-token-resend.html
+
 io.karte.android.notifications
 
