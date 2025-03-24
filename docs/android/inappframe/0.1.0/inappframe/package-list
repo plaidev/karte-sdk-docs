@@ -1,0 +1,13 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.karte.android.inappframe////PointingToDeclaration/inappframe/io.karte.android.inappframe/index.html
+$dokka.location:io.karte.android.inappframe//IN_APP_FRAME_ROOT_LOG/#/PointingToDeclaration/inappframe/io.karte.android.inappframe/-i-n_-a-p-p_-f-r-a-m-e_-r-o-o-t_-l-o-g.html
+$dokka.location:io.karte.android.inappframe//InAppFrameCompose/#kotlin.String#androidx.compose.ui.Modifier/PointingToDeclaration/inappframe/io.karte.android.inappframe/-in-app-frame-compose.html
+$dokka.location:io.karte.android.inappframe//PREFIX/#/PointingToDeclaration/inappframe/io.karte.android.inappframe/-p-r-e-f-i-x.html
+$dokka.location:io.karte.android.inappframe//loadComposeContent/io.karte.android.inappframe.InAppFrame.Companion#kotlin.String/PointingToDeclaration/inappframe/io.karte.android.inappframe/load-compose-content.html
+$dokka.location:io.karte.android.inappframe/InAppFrame.Companion///PointingToDeclaration/inappframe/io.karte.android.inappframe/-in-app-frame/-companion/index.html
+$dokka.location:io.karte.android.inappframe/InAppFrame///PointingToDeclaration/inappframe/io.karte.android.inappframe/-in-app-frame/index.html
+$dokka.location:io.karte.android.inappframe/InAppFrame/InAppFrame/#android.content.Context#android.util.AttributeSet/PointingToDeclaration/inappframe/io.karte.android.inappframe/-in-app-frame/-in-app-frame.html
+$dokka.location:io.karte.android.inappframe/InAppFrame/InAppFrame/#android.content.Context#kotlin.String/PointingToDeclaration/inappframe/io.karte.android.inappframe/-in-app-frame/-in-app-frame.html
+io.karte.android.inappframe
+
