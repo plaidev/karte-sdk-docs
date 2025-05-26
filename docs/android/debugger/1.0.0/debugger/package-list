@@ -1,0 +1,14 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.karte.android.debugger////PointingToDeclaration/debugger/io.karte.android.debugger/index.html
+$dokka.location:io.karte.android.debugger/Debugger///PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/index.html
+$dokka.location:io.karte.android.debugger/Debugger/Debugger/#/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/-debugger.html
+$dokka.location:io.karte.android.debugger/Debugger/configure/#io.karte.android.KarteApp/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/configure.html
+$dokka.location:io.karte.android.debugger/Debugger/handle/#android.content.Intent?/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/handle.html
+$dokka.location:io.karte.android.debugger/Debugger/intercept/#io.karte.android.tracking.client.TrackRequest/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/intercept.html
+$dokka.location:io.karte.android.debugger/Debugger/isPublic/#/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/is-public.html
+$dokka.location:io.karte.android.debugger/Debugger/name/#/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/name.html
+$dokka.location:io.karte.android.debugger/Debugger/unconfigure/#io.karte.android.KarteApp/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/unconfigure.html
+$dokka.location:io.karte.android.debugger/Debugger/version/#/PointingToDeclaration/debugger/io.karte.android.debugger/-debugger/version.html
+io.karte.android.debugger
+
