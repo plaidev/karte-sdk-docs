@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/KarteRemoteNotification/FCMTokenRegistrar.swift",
+      "line": 88,
+      "symbol": "FCMTokenRegistrar",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteRemoteNotification/NotificationCommandHandler.swift",
+      "line": 30,
+      "symbol": "NotificationCommandHandler",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteRemoteNotification/ObjcCompatibleScope.swift",
+      "line": 24,
+      "symbol": "ObjcCompatibleScopeForNotification.registerFCMToken(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteRemoteNotification/ObjcCompatibleScope.swift",
+      "line": 29,
+      "symbol": "ObjcCompatibleScopeForNotification.trackClick(userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteRemoteNotification/RemoteNotificationProxy.swift",
+      "line": 332,
+      "symbol": "RemoteNotificationProxy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/scripts"
+}
