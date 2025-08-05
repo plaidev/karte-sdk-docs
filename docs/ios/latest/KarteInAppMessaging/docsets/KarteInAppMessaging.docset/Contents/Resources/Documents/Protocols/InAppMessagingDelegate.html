@@ -17,9 +17,9 @@
     <a title="InAppMessagingDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteInAppMessaging 2.19.0 Docs</a></p>
+        <p><a href="../index.html">KarteInAppMessaging 2.20.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.19.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.20.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -101,6 +101,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">)</span></code></pre>
 
                         </div>
@@ -149,6 +150,7 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
 <span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -210,6 +212,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">)</span></code></pre>
 
                         </div>
@@ -258,6 +261,7 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
 <span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -319,6 +323,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -391,6 +396,7 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
 <span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -476,6 +482,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -548,6 +555,7 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
 <span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -633,6 +641,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessaging</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">shouldOpenURL</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
@@ -697,6 +706,7 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
 <span class="kd">@objc</span>
+<span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessaging</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">shouldOpenURL</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span> <span class="n">onScene</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt">UIScene</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
@@ -756,7 +766,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2024 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2024-12-06)</p>
+          <p>&copy; 2025 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2025-08-05)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
