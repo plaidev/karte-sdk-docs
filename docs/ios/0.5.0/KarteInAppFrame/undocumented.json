@@ -1,0 +1,61 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/API/LoadingDelegate.swift",
+      "line": 20,
+      "symbol": "LoadingDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/API/LoadingDelegate.swift",
+      "line": 24,
+      "symbol": "LoadingState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/InAppFrame.swift",
+      "line": 24,
+      "symbol": "InAppFrame",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/InAppFrame.swift",
+      "line": 70,
+      "symbol": "InAppFrame",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/InAppFrameDelegate.swift",
+      "line": 20,
+      "symbol": "InAppFrameDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/Views/IAFCarousel.swift",
+      "line": 19,
+      "symbol": "IAFCarousel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/Views/InAppFrameView.swift",
+      "line": 21,
+      "symbol": "InAppFrameView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/KarteInAppFrame/Views/KRTInAppCarousel.swift",
+      "line": 342,
+      "symbol": "KRTInAppCarousel",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/distiller/project/scripts"
+}
