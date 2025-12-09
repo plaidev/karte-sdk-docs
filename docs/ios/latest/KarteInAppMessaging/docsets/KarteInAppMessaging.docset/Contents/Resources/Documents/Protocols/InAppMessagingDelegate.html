@@ -17,9 +17,9 @@
     <a title="InAppMessagingDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteInAppMessaging 2.24.0 Docs</a></p>
+        <p><a href="../index.html">KarteInAppMessaging 2.25.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.24.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.25.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -93,14 +93,16 @@
                       <div class="abstract">
                         <p>アプリ内メッセージ用のWindowが表示されたことを通知します。</p>
 
-<p>なお iOS13 または iPadOS で実行されている場合かつ <code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:onScene:">inAppMessagingWindowIsPresented(_:onScene:)</a></code> が実装されている場合は、本メソッドは呼び出されません。</p>
+<p>このメソッドは非推奨です。<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:onScene:">inAppMessagingWindowIsPresented(_:onScene:)</a></code> を使用してください。
+<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsPresented:onScene:">inAppMessagingWindowIsPresented(_:onScene:)</a></code> が実装されている場合にはそちらのメソッドが呼ばれ、このメソッドは呼ばれません。</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use inAppMessagingWindowIsPresented(_:onScene:﹚ instead.")</span>
+<span class="kd">@objc</span>
 <span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">)</span></code></pre>
 
@@ -203,14 +205,16 @@
                       <div class="abstract">
                         <p>アプリ内メッセージ用のWindowが非表示になったことを通知します。</p>
 
-<p>なお iOS13 または iPadOS で実行されている場合かつ <code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:onScene:">inAppMessagingWindowIsDismissed(_:onScene:)</a></code> が実装されている場合は、本メソッドは呼び出されません。</p>
+<p>このメソッドは非推奨です。<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:onScene:">inAppMessagingWindowIsDismissed(_:onScene:)</a></code> を使用してください。
+<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingWindowIsDismissed:onScene:">inAppMessagingWindowIsDismissed(_:onScene:)</a></code> が実装されている場合にはそちらのメソッドが呼ばれ、このメソッドは呼ばれません。</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use inAppMessagingWindowIsDismissed(_:onScene:﹚ instead.")</span>
+<span class="kd">@objc</span>
 <span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingWindowIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">)</span></code></pre>
 
@@ -313,14 +317,16 @@
                       <div class="abstract">
                         <p>接客サービスアクションが表示されたことを通知します。</p>
 
-<p>なお iOS13 または iPadOS で実行されている場合かつ <code>inAppMessagingIsPresented(_:onScene:campaignId:shortenId)</code> が実装されている場合は、本メソッドは呼び出されません。</p>
+<p>このメソッドは非推奨です。<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsPresented:campaignId:shortenId:onScene:">inAppMessagingIsPresented(_:campaignId:shortenId:onScene:)</a></code> を使用してください。
+<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsPresented:campaignId:shortenId:onScene:">inAppMessagingIsPresented(_:campaignId:shortenId:onScene:)</a></code> が実装されている場合にはそちらのメソッドが呼ばれ、このメソッドは呼ばれません。</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use inAppMessagingIsPresented(_:campaignId:shortenId:onScene:﹚ instead.")</span>
+<span class="kd">@objc</span>
 <span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsPresented</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
@@ -471,14 +477,16 @@
                       <div class="abstract">
                         <p>接客サービスアクションが非表示になったことを通知します。</p>
 
-<p>なお iOS13 または iPadOS で実行されている場合かつ <code>inAppMessagingIsDismissed(_:onScene:campaignId:shortenId)</code> が実装されている場合は、本メソッドは呼び出されません。</p>
+<p>このメソッドは非推奨です。<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsDismissed:campaignId:shortenId:onScene:">inAppMessagingIsDismissed(_:campaignId:shortenId:onScene:)</a></code> を使用してください。
+<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessagingIsDismissed:campaignId:shortenId:onScene:">inAppMessagingIsDismissed(_:campaignId:shortenId:onScene:)</a></code> が実装されている場合にはそちらのメソッドが呼ばれ、このメソッドは呼ばれません。</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use inAppMessagingIsDismissed(_:campaignId:shortenId:onScene:﹚ instead.")</span>
+<span class="kd">@objc</span>
 <span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessagingIsDismissed</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="nv">campaignId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shortenId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
@@ -629,14 +637,16 @@
                       <div class="abstract">
                         <p>接客サービスアクション中のボタンがクリックされた際に、リンクをSDK側で自動的に処理するかどうか問い合わせます。</p>
 
-<p>なお iOS13 または iPadOS で実行されている場合かつ <code>inAppMessaging(_:onScene:shouldOpenURL:campaignId:shortenId)</code> が実装されている場合は、本メソッドは呼び出されません。</p>
+<p>このメソッドは非推奨です。<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessaging:shouldOpenURL:onScene:">inAppMessaging(_:shouldOpenURL:onScene:)</a></code> を使用してください。
+<code><a href="../Protocols/InAppMessagingDelegate.html#/c:@M@KarteInAppMessaging@objc(pl)KRTInAppMessagingDelegate(im)inAppMessaging:shouldOpenURL:onScene:">inAppMessaging(_:shouldOpenURL:onScene:)</a></code> が実装されている場合にはそちらのメソッドが呼ばれ、このメソッドは呼ばれません。</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "Use inAppMessaging(_:shouldOpenURL:onScene:﹚ instead.")</span>
+<span class="kd">@objc</span>
 <span class="kd">@MainActor</span>
 <span class="kd">optional</span> <span class="kd">func</span> <span class="nf">inAppMessaging</span><span class="p">(</span><span class="n">_</span> <span class="nv">inAppMessaging</span><span class="p">:</span> <span class="kt"><a href="../Classes/InAppMessaging.html">InAppMessaging</a></span><span class="p">,</span> <span class="n">shouldOpenURL</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
@@ -761,7 +771,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2025-10-28)</p>
+          <p>&copy; 2025 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2025-12-09)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
