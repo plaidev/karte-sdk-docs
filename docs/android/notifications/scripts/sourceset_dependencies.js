@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":notifications:dokkaHtmlPartial/release":[]}'
