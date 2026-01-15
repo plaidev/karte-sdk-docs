@@ -1,0 +1,502 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>KarteApp</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script>
+<link href="../../../images/logo-icon.svg">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/custom-style-to-add.css" rel="Stylesheet"></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            Core
+                    </a>            </div>
+            <div class="library-version">
+            2.33.0
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":core:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="core::io.karte.android/KarteApp///PointingToDeclaration//-27209644">
+  <div class="breadcrumbs"><a href="../../index.html">core</a><span class="delimiter">/</span><a href="../index.html">io.karte.android</a><span class="delimiter">/</span><span class="current">KarteApp</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Karte</span><wbr><span><span>App</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">KarteApp</a> : <a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html">ActivityLifecycleCallback</a></div><p class="paragraph">KARTE SDKのエントリポイントであると共に、SDKの構成および依存ライブラリ等の管理を行うクラスです。</p><p class="paragraph">SDKを利用するには、<a href="-companion/setup.html">KarteApp.setup</a>を呼び出し初期化を行う必要があります。</p><p class="paragraph">初期化が行われていない状態では、イベントのトラッキングを始め、SDKの機能が利用できません。</p><p class="paragraph">なおアプリ内メッセージ等のサブモジュールについても同様です。</p><p class="paragraph">SDKの設定については、初期化時に一部変更することが可能です。 設定を変更して初期化を行う場合は、<a href="../../io.karte.android.core.config/-config/index.html">Config</a>を指定して<a href="-companion/setup.html">KarteApp.setup</a>を呼び出してください。</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-397635914%2FClasslikes%2F-27209644" anchor-label="Companion" id="-397635914%2FClasslikes%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-397635914%2FClasslikes%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-2099613088%2FProperties%2F-27209644" anchor-label="appInfo" id="-2099613088%2FProperties%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="app-info.html"><span>app</span><wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2099613088%2FProperties%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="app-info.html">appInfo</a><span class="token operator">: </span><a href="../../io.karte.android.tracking/-app-info/index.html">AppInfo</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">アプリケーション情報を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1840723085%2FProperties%2F-27209644" anchor-label="appKey" id="1840723085%2FProperties%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="app-key.html"><span>app</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1840723085%2FProperties%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="app-key.html">appKey</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph"><a href="-companion/setup.html">KarteApp.setup</a> 呼び出し時に指定したアプリケーションキーを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-124408417%2FProperties%2F-27209644" anchor-label="application" id="-124408417%2FProperties%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="application.html"><span><span>application</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-124408417%2FProperties%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">lateinit </span><span class="token keyword">var </span><a href="application.html">application</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a></div><div class="brief "><p class="paragraph"><a href="-companion/setup.html">KarteApp.setup</a> 呼び出し時に指定した<a href="https://developer.android.com/reference/kotlin/android/app/Application.html">Application</a>インスタンスを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1849983561%2FProperties%2F-27209644" anchor-label="config" id="1849983561%2FProperties%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="config.html"><span><span>config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1849983561%2FProperties%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="config.html">config</a><span class="token operator">: </span><a href="../../io.karte.android.core.config/-config/index.html">Config</a></div><div class="brief "><p class="paragraph"><a href="-companion/setup.html">KarteApp.setup</a> 呼び出し時に指定した設定情報を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1858016729%2FProperties%2F-27209644" anchor-label="originalPvId" id="1858016729%2FProperties%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="original-pv-id.html"><span>original</span><wbr><span>Pv</span><wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1858016729%2FProperties%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="original-pv-id.html">originalPvId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">現在のオリジナルページビューIDを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1118724138%2FProperties%2F-27209644" anchor-label="pvId" id="1118724138%2FProperties%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="pv-id.html"><span>pv</span><wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1118724138%2FProperties%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="pv-id.html">pvId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">現在のページビューIDを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1066145843%2FFunctions%2F-27209644" anchor-label="executeCommand" id="1066145843%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="execute-command.html"><span>execute</span><wbr><span><span>Command</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1066145843%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword">fun </span><a href="execute-command.html"><span class="token function">executeCommand</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">uri<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/net/Uri.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">isDelay<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">コマンドスキームを処理し、結果を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1087251195%2FFunctions%2F-27209644" anchor-label="libraryConfig" id="-1087251195%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="library-config.html"><span>library</span><wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1087251195%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="library-config.html">R</a><span class="token operator"> : </span><a href="../../io.karte.android.core.library/-library-config/index.html">LibraryConfig</a><span class="token operator">&gt; </span><a href="library-config.html"><span class="token function">libraryConfig</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">clazz<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><a href="library-config.html">R</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="library-config.html">R</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">指定したクラスのライブラリ設定を返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="207581428%2FFunctions%2F-27209644" anchor-label="onActivityPostCreated" id="207581428%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#207581428%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="207581428%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#207581428%2FFunctions%2F-27209644"><span class="token function">onActivityPostCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-889937112%2FFunctions%2F-27209644" anchor-label="onActivityPostDestroyed" id="-889937112%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-889937112%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span><span>Destroyed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-889937112%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-889937112%2FFunctions%2F-27209644"><span class="token function">onActivityPostDestroyed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="45748501%2FFunctions%2F-27209644" anchor-label="onActivityPostPaused" id="45748501%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#45748501%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span><span>Paused</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="45748501%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#45748501%2FFunctions%2F-27209644"><span class="token function">onActivityPostPaused</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1071244310%2FFunctions%2F-27209644" anchor-label="onActivityPostResumed" id="-1071244310%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-1071244310%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span><span>Resumed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1071244310%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-1071244310%2FFunctions%2F-27209644"><span class="token function">onActivityPostResumed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2121633432%2FFunctions%2F-27209644" anchor-label="onActivityPostSaveInstanceState" id="2121633432%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#2121633432%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span>Save</span><wbr><span>Instance</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2121633432%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#2121633432%2FFunctions%2F-27209644"><span class="token function">onActivityPostSaveInstanceState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2066048384%2FFunctions%2F-27209644" anchor-label="onActivityPostStarted" id="2066048384%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#2066048384%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span><span>Started</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2066048384%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#2066048384%2FFunctions%2F-27209644"><span class="token function">onActivityPostStarted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-869351500%2FFunctions%2F-27209644" anchor-label="onActivityPostStopped" id="-869351500%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-869351500%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Post</span><wbr><span><span>Stopped</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-869351500%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-869351500%2FFunctions%2F-27209644"><span class="token function">onActivityPostStopped</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-232817233%2FFunctions%2F-27209644" anchor-label="onActivityPreCreated" id="-232817233%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-232817233%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-232817233%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-232817233%2FFunctions%2F-27209644"><span class="token function">onActivityPreCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="651230477%2FFunctions%2F-27209644" anchor-label="onActivityPreDestroyed" id="651230477%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#651230477%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span><span>Destroyed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="651230477%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#651230477%2FFunctions%2F-27209644"><span class="token function">onActivityPreDestroyed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-240809648%2FFunctions%2F-27209644" anchor-label="onActivityPrePaused" id="-240809648%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-240809648%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span><span>Paused</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-240809648%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-240809648%2FFunctions%2F-27209644"><span class="token function">onActivityPrePaused</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1364612337%2FFunctions%2F-27209644" anchor-label="onActivityPreResumed" id="-1364612337%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-1364612337%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span><span>Resumed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1364612337%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-1364612337%2FFunctions%2F-27209644"><span class="token function">onActivityPreResumed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-207051715%2FFunctions%2F-27209644" anchor-label="onActivityPreSaveInstanceState" id="-207051715%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-207051715%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span>Save</span><wbr><span>Instance</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-207051715%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-207051715%2FFunctions%2F-27209644"><span class="token function">onActivityPreSaveInstanceState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1772680357%2FFunctions%2F-27209644" anchor-label="onActivityPreStarted" id="1772680357%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#1772680357%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span><span>Started</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1772680357%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#1772680357%2FFunctions%2F-27209644"><span class="token function">onActivityPreStarted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1162719527%2FFunctions%2F-27209644" anchor-label="onActivityPreStopped" id="-1162719527%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-1162719527%2FFunctions%2F-27209644"><span>on</span><wbr><span>Activity</span><wbr><span>Pre</span><wbr><span><span>Stopped</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1162719527%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../io.karte.android.utilities/-activity-lifecycle-callback/index.html#-1162719527%2FFunctions%2F-27209644"><span class="token function">onActivityPreStopped</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-247229988%2FFunctions%2F-27209644" anchor-label="optOutTemporarily" id="-247229988%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="opt-out-temporarily.html"><span>opt</span><wbr><span>Out</span><wbr><span><span>Temporarily</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-247229988%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="opt-out-temporarily.html"><span class="token function">optOutTemporarily</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">一時的（アプリの次回起動時まで）にオプトアウトします。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1702909154%2FFunctions%2F-27209644" anchor-label="register" id="1702909154%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="register.html"><span><span>register</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1702909154%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="register.html"><span class="token function">register</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../io.karte.android.core.library/-module/index.html">Module</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">モジュールを登録します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="876443235%2FFunctions%2F-27209644" anchor-label="repository" id="876443235%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="repository.html"><span><span>repository</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="876443235%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="repository.html"><span class="token function">repository</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">namespace<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span><span class="token string">""</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.karte.android.core.repository/-repository/index.html">Repository</a></div><div class="brief "><p class="paragraph">永続化等に使用する <a href="../../io.karte.android.core.repository/-repository/index.html">Repository</a> インスタンスを返します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1020741015%2FFunctions%2F-27209644" anchor-label="unregister" id="-1020741015%2FFunctions%2F-27209644" data-filterable-set=":core:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtmlPartial/release" data-filterable-set=":core:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="unregister.html"><span><span>unregister</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1020741015%2FFunctions%2F-27209644"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="unregister.html"><span class="token function">unregister</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">module<span class="token operator">: </span><a href="../../io.karte.android.core.library/-module/index.html">Module</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">モジュールの登録を解除します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
