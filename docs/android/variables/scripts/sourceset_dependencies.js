@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":variables:dokkaHtmlPartial/release":[]}'
