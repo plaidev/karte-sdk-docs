@@ -17,9 +17,9 @@
     <a title="UserSync Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteCore 2.35.0 Docs</a></p>
+        <p><a href="../index.html">KarteCore 2.36.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.35.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.36.0%2FKarteCore%2Fdocsets%2FKarteCore.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -223,7 +223,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">@objc(KRTUserSync)</span>
+                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">KRTUserSync</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">UserSync</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
@@ -257,8 +257,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "User sync function using query parameters is deprecated. It will be removed in the future. Use setUserSyncSript.")</span>
-<span class="kd">@objc(appendingQueryParameterWithURLString:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"User sync function using query parameters is deprecated. It will be removed in the future. Use setUserSyncSript."</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="nv">appendingQueryParameterWithURLString</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">appendingQueryParameter</span><span class="p">(</span><span class="n">_</span> <span class="nv">urlString</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
@@ -309,8 +309,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, message: "User sync function using query parameters is deprecated. It will be removed in the future. Use setUserSyncSript.")</span>
-<span class="kd">@objc(appendingQueryParameterWithURL:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"User sync function using query parameters is deprecated. It will be removed in the future. Use setUserSyncSript."</span><span class="p">)</span>
+<span class="kd">@objc</span><span class="p">(</span><span class="nv">appendingQueryParameterWithURL</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">appendingQueryParameter</span><span class="p">(</span><span class="n">_</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URL</span></code></pre>
 
                         </div>
@@ -364,7 +364,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(setUserSyncScriptWithWebView:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">setUserSyncScriptWithWebView</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUserSyncScript</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">)</span></code></pre>
 
                         </div>
@@ -414,7 +414,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(getUserSyncScript)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="n">getUserSyncScript</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getUserSyncScript</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
@@ -431,7 +431,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2026 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2026-01-13)</p>
+          <p>&copy; 2026 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2026-06-09)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
