@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteRemoteNotification/FCMTokenRegistrar.swift",
+      "line": 97,
+      "symbol": "FCMTokenRegistrar",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteRemoteNotification/NotificationCommandHandler.swift",
+      "line": 30,
+      "symbol": "NotificationCommandHandler",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteRemoteNotification/ObjcCompatibleScope.swift",
+      "line": 24,
+      "symbol": "ObjcCompatibleScopeForNotification.registerFCMToken(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteRemoteNotification/ObjcCompatibleScope.swift",
+      "line": 29,
+      "symbol": "ObjcCompatibleScopeForNotification.trackClick(userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteRemoteNotification/RemoteNotificationProxy.swift",
+      "line": 332,
+      "symbol": "RemoteNotificationProxy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/karte-ios-dev/karte-ios-dev/scripts"
+}
