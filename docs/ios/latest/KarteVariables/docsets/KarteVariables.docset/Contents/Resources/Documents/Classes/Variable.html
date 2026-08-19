@@ -17,9 +17,9 @@
     <a title="Variable Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteVariables 2.13.0 Docs</a></p>
+        <p><a href="../index.html">KarteVariables 2.14.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.13.0%2FKarteVariables%2Fdocsets%2FKarteVariables.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.14.0%2FKarteVariables%2Fdocsets%2FKarteVariables.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -84,7 +84,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">@objc(KRTVariable)</span>
+                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">KRTVariable</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">Variable</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
@@ -376,7 +376,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(stringWithDefaultValue:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">stringWithDefaultValue</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">string</span><span class="p">(</span><span class="k">default</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
@@ -428,7 +428,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(integerWithDefaultValue:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">integerWithDefaultValue</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">integer</span><span class="p">(</span><span class="k">default</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -480,7 +480,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(doubleWithDefaultValue:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">doubleWithDefaultValue</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">double</span><span class="p">(</span><span class="k">default</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
 
                         </div>
@@ -534,7 +534,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(boolWithDefaultValue:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">boolWithDefaultValue</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">bool</span><span class="p">(</span><span class="k">default</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
@@ -591,7 +591,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(arrayWithDefaultValue:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">arrayWithDefaultValue</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">array</span><span class="p">(</span><span class="k">default</span> <span class="nv">value</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span></code></pre>
 
                         </div>
@@ -648,7 +648,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(dictionaryWithDefaultValue:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">dictionaryWithDefaultValue</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">dictionary</span><span class="p">(</span><span class="k">default</span> <span class="nv">value</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span></code></pre>
 
                         </div>
@@ -684,7 +684,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2025 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2025-09-12)</p>
+          <p>&copy; 2026 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2026-08-19)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
