@@ -1,0 +1,61 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/API/LoadingDelegate.swift",
+      "line": 20,
+      "symbol": "LoadingDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/API/LoadingDelegate.swift",
+      "line": 24,
+      "symbol": "LoadingState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/InAppFrame.swift",
+      "line": 23,
+      "symbol": "InAppFrame",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/InAppFrame.swift",
+      "line": 68,
+      "symbol": "InAppFrame",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/InAppFrameDelegate.swift",
+      "line": 20,
+      "symbol": "InAppFrameDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/Views/IAFCarousel.swift",
+      "line": 19,
+      "symbol": "IAFCarousel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/Views/InAppFrameView.swift",
+      "line": 21,
+      "symbol": "InAppFrameView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteInAppFrame/Views/KRTInAppCarousel.swift",
+      "line": 215,
+      "symbol": "KRTInAppCarousel",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/karte-ios-dev/karte-ios-dev/scripts"
+}
