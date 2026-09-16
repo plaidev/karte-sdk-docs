@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteDebugger/KarteDebugger.swift",
+      "line": 23,
+      "symbol": "KarteDebugger",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteDebugger/KarteDebugger.swift",
+      "line": 41,
+      "symbol": "KarteDebugger",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteDebugger/KarteDebugger.swift",
+      "line": 68,
+      "symbol": "KarteDebugger",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteDebugger/KarteDebugger.swift",
+      "line": 108,
+      "symbol": "KarteDebugger",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/karte-ios-dev/karte-ios-dev/scripts"
+}
