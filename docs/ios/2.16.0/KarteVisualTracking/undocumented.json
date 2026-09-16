@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteVisualTracking/Pairing/PairingClient.swift",
+      "line": 122,
+      "symbol": "PairingClient",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteVisualTracking/Tracing/ActionTracer.swift",
+      "line": 70,
+      "symbol": "ActionTracer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteVisualTracking/Tracking/ActionTracker.swift",
+      "line": 105,
+      "symbol": "ActionTracker",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteVisualTracking/UIKitAction.swift",
+      "line": 226,
+      "symbol": "UIKitAction",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/karte-ios-dev/karte-ios-dev/KarteVisualTracking/VisualTrackingManager.swift",
+      "line": 91,
+      "symbol": "VisualTrackingManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/karte-ios-dev/karte-ios-dev/scripts"
+}
