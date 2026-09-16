@@ -17,9 +17,9 @@
     <a title="InAppMessagingConfiguration Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">KarteInAppMessaging 2.28.0 Docs</a></p>
+        <p><a href="../index.html">KarteInAppMessaging 2.29.0 Docs</a></p>
         <p class="header-right"><a href="https://github.com/plaidev/karte-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
-        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.28.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fplaidev.github.io%2Fkarte-sdk-docs%2Fios%2F2.29.0%2FKarteInAppMessaging%2Fdocsets%2FKarteInAppMessaging.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -89,8 +89,9 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>WKWebView配下のRemoteView検出をスキップするためのフラグです。<br>
-フラグを <code>true</code> にした場合は、RemoteView検出がスキップされます。<br>
+                        <p>本SDKでは、iOS 26未満で、View階層に<code>_UIRemoteView</code>が含まれる場合に、アプリ内メッセージと干渉しうるシステムUIが存在するとみなし、アプリ内メッセージを非表示にする仕組みがあります。<br>
+WKWebViewの配下に<code>_UIRemoteView</code>が含まれる場合に限り、この仕組みを無効化するためのフラグです。<br>
+なお、本オプションが<code>true</code>の場合、iOS 26以上では、<code>isSkipSystemUIDetectionInWebView</code>を<code>true</code>にした場合と同じ動作になります。<br>
 デフォルトは <code>false</code> です。</p>
 
                       </div>
@@ -98,7 +99,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">26.0</span><span class="p">,</span> <span class="nv">renamed</span><span class="p">:</span> <span class="s">"isSkipSystemUIDetectionInWebView"</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"Use isSkipSystemUIDetectionInWebView instead."</span><span class="p">)</span>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">26.0</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"This option should not be used on iOS 26 or later."</span><span class="p">)</span>
 <span class="kd">@objc</span>
 <span class="kd">public</span> <span class="k">var</span> <span class="nv">isSkipRemoteViewDetectionInWebView</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
@@ -120,8 +121,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>WKWebView配下のシステムUI検出をスキップするためのフラグです。<br>
-フラグを <code>true</code> にした場合は、システムUI検出がスキップされます。<br>
+                        <p><strong>非推奨</strong>: 基本的に本オプションを使用すべき場面はありません。将来のバージョンで削除する予定です。<br>
+本SDKでは、iOS 26以降で、所定のViewControllerが表示されている場合に、アプリ内メッセージと干渉しうるシステムUIが存在するとみなし、アプリ内メッセージを非表示にする仕組みがあります。<br>
+この仕組みを無効化するためのフラグです。<br>
+なお、本オプションが<code>true</code>の場合、iOS 26未満では、<code>isSkipRemoteViewDetectionInWebView</code>を<code>true</code>にした場合と同じ動作になります。<br>
 デフォルトは <code>false</code> です。</p>
 
                       </div>
@@ -129,7 +132,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"This option should generally not be used. It will be removed in a future version."</span><span class="p">)</span>
+<span class="kd">@objc</span>
 <span class="kd">public</span> <span class="k">var</span> <span class="nv">isSkipSystemUIDetectionInWebView</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
@@ -174,7 +178,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2026 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2026-08-19)</p>
+          <p>&copy; 2026 <a class="link" href="https://karte.io" target="_blank" rel="external noopener">PLAID, inc.</a>. All rights reserved. (Last updated: 2026-09-16)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
